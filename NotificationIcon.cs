@@ -232,9 +232,14 @@ namespace AC_Telefonbuch
 			}
 		}
 		
+		/// <summary>
+		/// Rechtsklick auf das Traysymbol
+		/// Festlegen ob das Hauptfenster angezeigt werden oder ausgeblendet kann 
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void menuPopup(object sender, EventArgs e)
 		{
-			//Hauptfenster der Anwendung anzeigen
 			if (mf.IsDisposed || mf == null) {
 				mf = new MainForm();
 			}
@@ -251,6 +256,7 @@ namespace AC_Telefonbuch
 					}
 					cms.Items[1].Text = (bool)cms.Items[1].Tag == true ? "Ausblenden" : "Anzeigen";
 				}
+				//TODO: Eintrag zum anzeigen des Ergebnisfensters hinzufügen 
 				
 			}
 		}
