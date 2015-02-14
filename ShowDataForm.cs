@@ -112,7 +112,7 @@ namespace AC_Telefonbuch
 			mailBodys = new List<string>() 
 				{
 				"Kein Text",
-				"Herr/Frau xy hat im IT-SD angerufen und bittet um Rückruf\nDwSys: \nJobNr.: \nTel: ",
+				"Herr/Frau xy hat im IT-SD angerufen und bittet um Rückruf%0A%0dDwSys: %0A%0dJobNr.: %0A%0dTel: ",
 				"Kein Text",
 				"Kein Text"
 				};
@@ -331,11 +331,9 @@ namespace AC_Telefonbuch
 			if((tsmi = sender as ToolStripMenuItem) != null)
 			{
 				parent = ((ToolStripMenuItem)tsmi).GetCurrentParent(); //.Parent;
-				((ContextMenuStrip)parent).SourceControl.Text;
-				parent = ((Control)parent).GetContainerControl();
-//				((ToolStripMenuItem)tsmi).GetCurrentParent().GetContainerControl();
+				iMailIndex = Convert.ToInt32(((ToolStripMenuItem)tsmi).Tag);
+				parent = ((ContextMenuStrip)parent).SourceControl ?? parent;
 				recipient = ((LinkLabel)parent).Text ?? string.Empty;;
-				iMailIndex = Convert.ToInt32(((LinkLabel)parent).Tag);
 			}
 	
 			if((tsmi = sender as LinkLabel) != null)
