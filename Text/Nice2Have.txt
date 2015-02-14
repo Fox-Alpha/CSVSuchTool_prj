@@ -44,6 +44,9 @@ Hauptansicht
 Allgemein
 - Umbenennen in einem nicht AC relevanten Namen
 -- CSV - SuchTool
+- Speichern der gefundenen Datensätze nicht als List<String> sondern als Dictionary<string><string> (Key=Value)
+-- Einfachere Erstellung der Labels
 
 Kontextmenü
 DONE: - Eintrag um das Ergebnisfenster wieder in den Vordergrund zu bringen.
+Punkt zum anzeigen eines Info Dialog
