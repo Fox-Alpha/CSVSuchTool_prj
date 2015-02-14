@@ -310,7 +310,13 @@ namespace AC_Telefonbuch
 					string strFileName = Properties.Application.Default.sourceFile;
 					
 					this.Show();	
-					this.ReadCsv(miTB.Text, strFileName);
+					
+					if (!ReadCsv(miTB.Text, strFileName))
+					{
+						MessageBox.Show("Es wurden keine Ergebnisse mit der Suche gefunden");
+						return;
+					}
+
 					this.Location =  new Point(Screen.PrimaryScreen.WorkingArea.Width - this.Width-5, Screen.PrimaryScreen.WorkingArea.Height - this.Height-5);
 					this.Focus();
 					#endregion
