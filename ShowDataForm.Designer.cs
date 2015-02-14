@@ -35,6 +35,7 @@ namespace AC_Telefonbuch
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowDataForm));
 			this.tsNavigation = new System.Windows.Forms.ToolStrip();
 			this.tsButtFirstSet = new System.Windows.Forms.ToolStripButton();
@@ -49,8 +50,12 @@ namespace AC_Telefonbuch
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
 			this.tsMainView = new System.Windows.Forms.ToolStripButton();
 			this.tsTextSearch = new System.Windows.Forms.ToolStripTextBox();
+			this.ctxMailOptions = new System.Windows.Forms.ContextMenuStrip(this.components);
+			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
 			this.tsNavigation.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
+			this.ctxMailOptions.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tsNavigation
@@ -173,6 +178,26 @@ namespace AC_Telefonbuch
 			this.tsTextSearch.ToolTipText = "Neue Suche";
 			this.tsTextSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tsTextSearch_KeyUp);
 			// 
+			// ctxMailOptions
+			// 
+			this.ctxMailOptions.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.toolStripMenuItem1,
+			this.toolStripMenuItem2});
+			this.ctxMailOptions.Name = "ctxMailOptions";
+			this.ctxMailOptions.Size = new System.Drawing.Size(202, 70);
+			// 
+			// toolStripMenuItem1
+			// 
+			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+			this.toolStripMenuItem1.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem1.Text = "Mail an ....";
+			// 
+			// toolStripMenuItem2
+			// 
+			this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+			this.toolStripMenuItem2.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem2.Text = "Anruf beanchrichtigung";
+			// 
 			// ShowDataForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,10 +218,14 @@ namespace AC_Telefonbuch
 			this.tsNavigation.PerformLayout();
 			this.toolStrip1.ResumeLayout(false);
 			this.toolStrip1.PerformLayout();
+			this.ctxMailOptions.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+		private System.Windows.Forms.ContextMenuStrip ctxMailOptions;
 		private System.Windows.Forms.ToolStrip toolStrip1;
 		private System.Windows.Forms.ToolStripButton tsMainView;
 		private System.Windows.Forms.ToolStripTextBox tsTextSearch;
