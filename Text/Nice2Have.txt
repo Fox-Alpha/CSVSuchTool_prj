@@ -1,0 +1,38 @@
+﻿Zuletzt verwendete Dateien als Auswahl in der Task-Jumpliste anzeigen
+- Klick auf "gepinnte" Datei, Öffnet Suchdialog mit dieser Datei
+
+Schnellsuche
+- "Gepinnte" Dateien aus der Task-Jumpliste als Suchziel-Untermenü auflisten.
+
+DONE:Jumlist
+DONE:- Siehe Routine Helper
+
+Bearbeiten
+- Öffnen der Datei im Editor
+- Schnell Editieren der angezeigten Ergebnisse
+
+Suche im "kleinen" Ergebnisfenster
+DONE: - Weiteres Schnellsuche Feld einfügen
+DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
+DONE: - Fix, Höhe des Label für EMail Adresse anpassen
+
+Email Link mit Funktion verknüpfen
+- Bei Klick auf einen EMail Link, Auswahl mit möglichen Betreffs anzeigen
+-- Wurde durch Anrufer nicht erreicht
+-- Betrifft offenen Incident
+-- Neuen Incident (an servicedesk@...)
+- Kopieren der Mail Adresse
+
+Notiz Funktion im "kleinen" Ergebnisfenster einfügen
+
+Hauptansicht
+- Statuszeile
+-- Anzahl Zeilen/Spalten/Suchergebnisse
+- Sortierung
+-- Fix, Spaltensortierung erfolgt nach kompletten Zelleninhalt. Hier sollte nur eine Teil Sortierung erfolgen
+-- Zusätzliche Auswahl der Spalte die Sortiert werden soll.
+-- Hervorhebung der sortierten Spalte
+- Dateiauswahl
+-- Dateiname und Pfad im Auswahl Dialog übernehmen
+-- Anzeige des Dateipfad/Namen im Fenster optimieren
+--- Eventuell im Fenstertitel einfügen

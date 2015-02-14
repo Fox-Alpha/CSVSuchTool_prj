@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="AC_Telefonbuch.Properties" GeneratedClassName="Application" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings>
+    <Setting Name="SearchFormPosition" Type="System.Drawing.Point" Scope="User" Description="Position des Hauptfensters" Roaming="false">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="SearchFormSize" Type="System.Drawing.Size" Scope="User" Description="Größe des Hauptfensters" Roaming="false">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="sourceFile" Type="System.String" Scope="User" Description="Quelldatei für Anzeige und Suche" Roaming="false">
+      <Value Profile="(Default)">Data\AC-Kontakte Gesamt.csv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

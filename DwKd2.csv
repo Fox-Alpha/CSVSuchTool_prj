@@ -1,0 +1,188 @@
+Status;Vertragsart;Ablauf-Datum;Vertrags-Nummer;Firma1;DwSystem-Nummer;Firma 2;Verkäufer-Code;Vertrags-Gruppen-Code;Debitor-Nummer;LiefAn-Code;Startdatum;Anmerkung;Kontakt1;Telefon1;Vorname1;Nachname1;Kontakt2;Telefon2;Vorname2;Nachname2;Kontakt3;Telefon3;Vorname3;Nachname3;DW-Server;JobNr;Produkt;ClientAnz
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Vertrag;01.09.2015;SV01-0177;BPS EDV-Service GmbH;151212;;CB;DW;111962;;30.09.2014;;;'+49-40-306892-0;Marc;Bleckmann;;;;;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0147;Airbus Operations GmbH;8361;;JT;DW;110677;;04.11.2009;;Thomas.Lienig@airbus.com;'+49-4141-603689;Thomas;Lienig;;;;;;;;;;019566001-006;DocuWare ENTERPRISE Server;4
+ ;Vertrag;31.08.2014;SV01-0006;office depot;117333;;JT;DW;111378;;04.11.2009;;ingolf.brauer@airbus.com;;Ingolf;Brauer;;;;;;;;;;013286001-025;DocuWare PROFESSIONAL Server;7
+ ;Vertrag;;SV01-0145;Airbus Operations GmbH;119246;;OO;DW;250103;;30.11.2003;;michael.cohrs@airbus.com;'+49-40-743-72414;Michael;Cohrs;;;;;;;;;;022006002-102;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0109;ALBA Wertstoffmanagement GmbH;135585;;HK;DW;330281;;01.04.2012;;katharina.gutzke@alba.info;'+49-30-35182-9686;Katharina;Gutzke;;;;;;;;;;032816001-009;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0107;ALBIS Finance AG;132792;;JT;DW;111971;;31.12.2008;;paulsen@menteny.de;'+49-40-808100-127;Inka;Paulsen;;;;;;;;;;;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0007;Allianz Beratungs- und Vertriebs- AG;129619;;JT;DW;111850;;30.09.2007;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;10
+ ;Vertrag;;SV01-0036;Almirall Hermal GmbH;129209;;CB;DW;110509;;31.05.2007;;im.onsite.reinbek@almirall.com;'+49-40-72704464 ;Rafal;Lorens;;;;;;;;;;016096001-006;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0119;ALPHA COM Deutschland GmbH;5500;;INTERN;DW;199001;;31.12.1995;;;;;;;;;;;;;;;;;
+Gekündigt;Vertrag;;SV01-0008;Amt Itzehoe-Land;126562;;JT;DW;111810;;04.11.2009;gekündigt??;;;;;;;;;;;;;;;?;?
+Gekündigt;Vertrag;;SV01-0009;AREVA NP GmbH Abt. K2-G;120808;;JT;DW;111812;;04.11.2009;gekündigt??;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0110;ARS VITALIS Fitnessclub GmbH;140129;;HK;DW;330305;;01.08.2012;;mschuetz@ars-vitalis.de;'+49-30-31165-9470;Martin;Schütz;;;;;;;;;;;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0161;Ärztekammer Bremen;132339;;MOH;DW;250713;;30.09.2008;;ines.felten@aekhb.de;'+49-421-3404-226;Ines;Felten;;;;;;;;;;021746001;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0010;Autoliv B.V. & Co. KG;8308;;JT;DW;110806;;31.08.1998;;larisa.oanea@autoliv.com;;Larisa;Oanea;zsolt.friedrich@autoliv.com;;Zsolt;Friedrich;Janos.Szentpali@autoliv.com;;Janos;Szentpali;;011906001-002;DocuWare PROFESSIONAL Server;22
+ ;Vertrag;;SV01-0105;Bäckerei Bahde GmbH;139120;;JT;DW;111926;;31.12.2010;;wilkenshoff@it-s-me.com;'+49-5401-88087-1;Tobias;Wilkenshoff;asche@bahde.de;'+40-040-7426579;Peter;Asche;;;;;;;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0122;BakeMark Deutschland GmbH;7199;CSM Deutschland GmbH;CB;DW;110178;;31.12.1999;;Thomas.Reiter@csmbaking.com;'+49-421-3502-627;Thomas;Reiter;kai.waldmann@csmbaking.com;'+49-421-3502-230;Kai;Waldmann;;;;;;;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0011;Bank Companie Nord AG;8398;;CB;DW;111510;;31.01.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;31
+ ;Vertrag;;SV01-0106;Bank Companie Nord AG;8398;;CB;DW;111510;;31.01.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;31
+ ;Vertrag;;SV01-0040;Bankhaus HESSE NEWMAN & Co.;117727;;JT;DW;111610;;28.02.2003;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;31
+Gekündigt;Vertrag;;SV01-0012;Bartels-Langness Handelsgesellschaft mbH & Co.  KG;124802;;CB;DW;111778;;04.11.2009;gekündigt??;;;;;;;;;;;;;;013556001;?;?
+ ;Vertrag;;SV01-0158;BauBeCon Sanierungsträger GmbH;126583;;OO;DW;250121;;28.02.2007;;;;;;;;;;;;;;;02NHE6001;DocuWare BUSINESS Server;2
+ ;Vertrag;;SV01-0013;Bauordnungsamt der Stadt Lübeck;8452;;CB;DW;111454;;29.02.2000;;christian.bergmann@luebeck.de;'+49-451-122-6350;Christian;Bergmann;;;;;;;;;;012736001;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0015;Blohm + Voss Shipyards GmbH;8210;;JT;DW;110215;;29.02.2000;;nicolas.reimers@blohmvoss.com;'+49-40-3119-1421;Nicolas;Reimers;;;;;;;;;;015286001-410;DocuWare PROFESSIONAL Server;1
+Gekündigt;Vertrag;;SV01-0016;Bode GmbH;124711;;JT;DW;111770;;04.11.2009;gekündigt??;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0017;Boie GmbH & Co. KG;121004;;CB;DW;111491;;30.04.2004;;R.Meyer@Boie.com;'+49-451-1503-851;Ralf;Meyer;;;;;;;;;;;DocuWare PROFESSIONAL Server;14
+ ;Vertrag;;SV01-0114;BusinessValues IT-Services GmbH;129551;SNT Deutschland AG;HK;DW;330253;;01.12.2012;;Gernot.Meyer@bvalues.de;'+49-30-3100788-0;Gernot;Meyer;;;;;;;;;;;DocuWare PROFESSIONAL Server;1S
+ ;Vertrag;;SV01-0157;Carl Büttner  GmbH & Co. KG;126314;;MOH;DW;250670;;31.12.2006;;d.hall@carlbuettner.de;'+49-421-69165-44;Doris;Jonus-Hall;sys@carlbuettner.de;'+49-421-69165-72;Dietmar;Schaal;m.jahn@carlbuettner.de;;M.;Jahn;;;DocuWare PROFESSIONAL Server;14
+ ;Vertrag;;SV01-0155;CARO  Autovermietung GmbH;126023;;MOH;DW;250667;;31.10.2006;;DMittmann@caro-mail.de;'+49-421-3385-100;Daniel;Mittmann;;;;;;;;;;026676001-007;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0138;Conditess Feine Kuchen GmbH;114801;;MOH;DW;250559;;31.10.2001;;;'+49-5961-940543;;Rickermann-Bley;;;;;;;;;;;DocuWare PROFESSIONAL Server 5.0;2
+ ;Vertrag;;SV01-0018;CONLINK Leasing GmbH & Co. KG;118757;;JT;DW;111682;;31.08.2003;;m.pluemer@hit-ug.de;'+49-4106-124862;Mike;Plümer;Boris-Fromheim@conlink.de;'+49-4105-502-44;Boris;Fromheim;;;;;;;DocuWare PROFESSIONAL Server;41
+ ;Vertrag;;SV01-0142;DEUTSCHE ROCKWOOL Mineralwoll GmbH & Co. OHG;118171;;MM;DW;6565016;;30.04.2003;;;;;;;;;;;;;;;65XDR6001-004;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0111;DGZFP Ausbildungs- und Training GmbH;119426;;MS;DW;330205;;01.01.2012;;cu@dgzfp.de;'+49-30-67807-152;Stefan;Cullmann;;;;;;;;;;032056001-002;DocuWare PROFESSIONAL Server;12
+Gekündigt;Vertrag;;SV01-0019;DHT Speditionsgesellschaft mbH;119035;;CB;DW;111685;;04.11.2009;gekündigt??;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0166;die mit-arbeiter Personal-Management GmbH;136836;;OO;DW;250741;;31.10.2010;;r.wendt@die-mit-arbeiter.de;'+49-0511-5428186-0;R.;Wendt;f.nierentz@die-mit-arbeiter.de;'0511-542818625;Florian;Nierentz;;;;;;022036001;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0154;DKA Dresdner Kühlanlagenbau GmbH;125891;;EB;DW;2136133;;31.08.2006;;M.Engler@dka-dd.de;'+49-351-4081200;Marco;Engler;;;;;;;;;;;DocuWare PROFESSIONAL Server;169
+ ;Vertrag;;SV01-0104;DKSH Operations Services GmbH;136274;;CB;DW;111933;;30.06.2010;;benjamin.hinrichs@dksh.com;'+49-40-37473436;Benjamin;Hinrichs;;;;;;;;;;;DocuWare PROFESSIONAL Server;23
+Gekündigt;Vertrag;;SV01-0020;Draabe Industrietechnik GmbH;114062;;CB;DW;111595;;04.11.2009;gekündigt?;;;;;;;;;;;;;;;;
+ ;Vertrag;;SV01-0169;DSK Deutsche Stadt- und Grundstücksentwicklungsges. mbH & Co. KG;142942;;OO;DW;250780;;31.08.2012;;;;;;;;;;;;;;;;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0021;DWI Grundbesitz GmbH;129924;ccontor;JT;DW;111845;;31.12.2007;;martin.fahs@ccontor.de;'+49-40-4109600;Martin;Fahs;Nicole.Tuncer@dwi-grundbesitz.de;'+49-40-386097-0;Nicole;Tuncer;C.Contor@dwi-grundbesitz.de;;Oliver;Hansen;;013886001;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0022;E.ON Hanse AG;8296;;JT;DW;110011;;31.12.1999;;;;;;;;;;;;;;;012006001-012;DocuWare PROFESSIONAL Server;6
+ ;Vertrag;;SV01-0023;EMI Music Publishing Germany GmbH & Co. KG;7828;;CB;DW;110658;;29.02.2000;;;;;;;;;;;;;;;019546001-003;DocuWare PROFESSIONAL Server;12
+ ;Vertrag;;SV01-0150;Erzbischöfliches Generalvikariat;120721;;MM;DW;6565253;;31.03.2004;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0115;First Service GmbH;130081;Weidemann-Gruppe;HK;DW;330263;;01.02.2012;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0127;Frerichs Glas GmbH;8371;;MOH;DW;250057;;31.12.1999;;butt@frerichs-glas.de;'+49-4231-10232;Torsten;Butt;;;;;;;;;;027166001;DocuWare PROFESSIONAL Server;18
+ ;Vertrag;;SV01-0024;Friesenkrone Feinkost Heinrich Schwarz & Sohn GmbH & Co. KG;4218;;JT;DW;111557;;30.11.2000;;jan.voss@friesenkrone.de;'+49-4851-803-964;Jan;Voß;;;;;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0025;Gebr. Heinemann KG;6963;;CB;DW;111323;;29.02.2000;;M_Fricke@gebr-heinemann.de;'+49-40-30102516;Marcel;Fricke;V_Woebke@gebr-heinemann.de;'+49 (40) 30 10 24 64;Wöbke;Volker;D_Junge@gebr-heinemann.de;'+49-40-30102496;Dag;Junge;HH-VS-KD-002;012876001-007;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0128;Gelderland;8391;;MM;DW;6565797;;31.12.1998;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;11
+ ;Vertrag;;SV01-0147;Gemeinde Ganderkesee Die Bürgermeisterin;119428;;MOH;DW;250583;;31.12.2003;;C.Badberg@ganderkesee.de;'+49-4222-44-105;Christian;Badberg;;;;;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0112;Gesellschaft zur Verwertung von Leistungsschutzrechten mbH (GVL);129045;;HK;DW;330215;;01.06.2012;;;;;;;;;;;;;;;032156001-015;DocuWare PROFESSIONAL Server;1S
+Gekündigt;Vertrag;;SV01-0026;Gleich GmbH Metallplatten Service;114239;;CB;DW;110149;;30.06.2001;gekündigt??;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;12
+ ;Vertrag;;SV01-0027;Gornig GmbH;6986;;JT;DW;111460;;31.01.1999;;ebelling@gornig.de;'+49-3901-842-119;Ernst;Belling;;;;;;;;;;;DocuWare PROFESSIONAL Server;6
+Gekündigt;Vertrag;;SV01-0028;gotec GmbH;128909;;CB;DW;111769;;04.11.2009;gekündigt??;;;;;;;;;;;;;;013816001;?;?
+ ;Vertrag;;SV01-0102;Graf von Westphalen;139378;;CB;DW;111930;;28.02.2011;;;;;;;;;;;;;;;014916001;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0148;Haftpflichtgemeinschaft Deutscher  Nahverkehrs- und Versorgungsunternehmen;119527;;MM;DW;6566136;;31.12.2003;;t.lichtinghagen@hdn-online.de;'+49-234-3243-391;Thomas;Lichtinghagen;;;;;;;;;;65HDN6001-002;DocuWare PROFESSIONAL Server;5
+Gekündigt;Vertrag;;SV01-0046;Hagenah GmbH &  Co. KG;128896;;CB;DW;111827;;31.03.2007;;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0029;Hamburg Trust Grundvermögen und Anlage GmbH;129812;;JT;DW;111840;;30.11.2007;;moritz.rock@hamburgtrust.de;'+49-40-280952-164;Moritz;Rock;;;;;;;;;;;DocuWare PROFESSIONAL Server;10
+ ;Vertrag;;SV01-0030;Hamburgische Wohnungsbaukreditanstalt;113864;;JT;DW;110013;;31.05.2001;;;;;;;;;;;;;;;014286001-002;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0031;Hansa Maritime Consult GmbH & Co. KG;119172;;JT;DW;111882;;31.10.2003;;jwunderwaldt@hansatreuhand.de;'+49-40-3095-9132;Jörn;Wunderwaldt;;;;;;;;;;;DocuWare PROFESSIONAL Server;17
+ ;Vertrag;;SV01-0032;Hanseatic Bank GmbH & Co KG;126338;;JT;DW;110053;;31.12.2006;;;;;;;;;;;;;;;018116001-007;?;?
+ ;Vertrag;;SV01-0033;Haus der Lebenshilfe gemeinnützige GmbH Uelzen;114236;;JT;DW;111596;;04.11.2009;;jan.emke@hdl-uelzen.de;'+49-581-8854-258;Jan;Emke;;;;;;;;;;;DocuWare PROFESSIONAL Server;17
+ ;Vertrag;;SV01-0078;Haus der Lebenshilfe gemeinnützige GmbH Uelzen;114236;;JT;DW;111596;;30.06.2001;;lukas.hoffmann@hdl-uelzen.de;'+49-581-8854-156;Lukas;Hoffmann;;;;;;;;;;;DocuWare PROFESSIONAL Server;17
+Gekündigt;Vertrag;30.11.2012;SV01-0152;Hauskrankenpflege Eckert;124643;;HK;DW;330309;;30.11.2005;;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0034;Heinrich Schütt KG;113773;;JT;DW;111593;;31.05.2001;;jebert@heinrich-schuett.de;'+49-40-25796-412;Jörg;Ebert;;;;;;;;;;014166001;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0035;Herbert Kluth GmbH & Co. KG;115697;;JT;DW;111641;;30.04.2002;;tamas.gyulay@kluth.com;'+49-4193-9662-28;Tamas Zoltan;Gyulay;marcel.tobler@kluth.com;'+49-4193-966228;Marcel;Tobler;;;;;;;DocuWare PROFESSIONAL Server;12
+ ;Vertrag;;SV01-0118;Herdecker Gemeinnützige Wohnungs- gesellschaft mbH;4356;;MM;DW;6566017;;31.03.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;1
+Gekündigt;Vertrag;;SV01-0037;HKL Baumaschinen GmbH;114085;;CB;DW;110829;;04.11.2009;gekündigt??;;;;;;;;;;;;;;019926001;;
+ ;Vertrag;;SV01-0165;HSG Zander Nord GmbH;136701;;OO;DW;250588;;30.09.2010;;;;;;;;;;;;;;;025886001-002;?;?
+ ;Vertrag;;SV01-0103;Hüpeden & Co. (GmbH & Co.) KG;135443;;JT;DW;111896;;31.12.2009;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;20
+ ;Vertrag;;SV01-0116;ICT Internationale Container;4086;;VN;DW;4242205;;01.01.2001;;k.strunk@ict-germany.de;'+49-2131-9249-431;Kläre;Strunk-Lingscheidt;m.wohlgemuth@ict-germany.de;'+49-2131-9249-431;Marcus;Wohlgemuth;;;;;;;DocuWare PROFESSIONAL Server;51
+Gekündigt;Vertrag;30.10.2012;SV00-0000;IMP GmbH & Co. KG;125642;;;DW;;;31.05.2006;30.10.2012;;;;;;;;;;;;;;;;
+ ;Vertrag;;SV01-0041;implantcast GmbH;126479;;JT;DW;111816;;31.01.2007;;t.hirth@implantcast.de;'+49-4161-744175;Timon;Hirth;;;;;;;;;;013646001;DocuWare PROFESSIONAL Server;7
+ ;Vertrag;;SV01-0042;Import Partner GmbH;139481;Avanade Deutschland GmbH;CB;DW;111931;;31.03.2011;;grischa.horst@avanade.com;'+49-431-59369-45;Grischa;Horst;Olaf.Schirmer@import-partner.de;'+49-4541-8640-38;Olaf;Schirmer;martin.marx@anmatho.de;'+49-40-2274836-2;Martin;Marx;;;DocuWare PROFESSIONAL Server;26
+ ;Vertrag;;SV01-0162;InfoConsult;132583;;MOH;DW;250597;;30.11.2008;;;;;;;;;;;;;;;;DocuWare BUSINESS Server;2
+ ;Vertrag;;SV01-0043;Initiative Group GmbH;132679;Mediabrands Services GmbH;CB;DW;111397;;30.11.2008;;Sebastian.Anton@mbww.com;'+49-40-43196444;Sebastian;Anton;Sebastian.Gerard-Hernandez@mbww.com;'+49-40-431 96-444;Sebastian;Gerard-Hernandez;;;;;;015206001-002;DocuWare PROFESSIONAL Server;1S
+ ;Vertrag;;SV01-0153;Jellice Pioneer Europe BV;125046;;MOH;DW;250739;;31.03.2006;;;;;;;;;;;;;;;;DocuWare BUSINESS Server;3
+ ;Vertrag;;SV01-0065;Jonni und Edmund Hinrich Plambeck Grundstücksverwaltungsgesellschaft mbH;119376;;JT;DW;111271;;31.12.2003;;Hinrich.Koester@plambeck.com;'+49-40-52302-452;Hinrich;Köster;;;;;;;;;;013086001;DocuWare PROFESSIONAL Server;32
+ ;Vertrag;;SV01-0168;KAEFER Aerospace GmbH;140360;Hutchinson Aerospace GmbH;MOH;DW;250764;;31.08.2011;;tanja.dinger@kaefer.com;'+49-421-3055-286;Tanja;Dinger;Dieter.Moeller@kaefer.com;'+49-421-3055-188;Dieter;Möller;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0164;Kaefer Isoliertechnik;136014;Kaefer Isoliertechnik GmbH & Co. KG;MOH;DW;250090;;31.07.2010;;;;;;;;;;;;;;;022706001-002;DocuWare PROFESSIONAL Server;7
+ ;Vertrag;;SV01-0130;Kao Chemicals GmbH;8423;;MM;DW;6566021;;31.03.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0045;Karl Meyer AG;114170;;JT;DW;111523;;30.06.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0047;Katzer GmbH;119244;;CB;DW;110526;;31.03.2003;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0143;KELLOGG;118364;;MOH;DW;250596;;31.05.2003;;;;;;;;;;;;;;;025966001-003;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0125;Kempchen Dichtungstechnik GmbH;8230;;MM;DW;6565227;;31.03.2000;;stefan.rueweller@kempchen.de;'+49-208-8482-265;Stefan;Rüweller;sven.wiesner@kempchen.de;'+49-208-8482-360;Sven;Wiesner;;;;;;65KEM6001-007;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0048;Kernkraftwerk Brunsbüttel GmbH & Co. oHG;132790;;JT;DW;110116;;31.12.2008;;;;;;;;;;;;;;;016246001-013;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0044;Kommunit IT-Zweckverband Schleswig-Holstein;116604;;JT;DW;111875;;31.08.2003;;s.degen@kommunit.de;'+49-4121-2919835;Sven;Degen;b.heimann@kreis-pinneberg.de;'+49-4121-4502-4462;Bernahrd;Heimann;;;;;;;DocuWare PROFESSIONAL Server;12
+ ;Vertrag;;SV01-0123;KONSUM DRESDEN eG;7499;;EB;DW;2113000;;31.03.2000;;;;;;;;;;;;;;;21KOD6001-003;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0091;Krones AG Werk Flensburg;6659;;JT;DW;111537;;29.02.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;7
+ ;Vertrag;;SV01-0049;Krones AG Werk Flensburg;6778;;JT;DW;111537;;29.02.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;12
+ ;Vertrag;;SV01-0131;Landkreis Aurich Amt für Kreisstraßen, Wasserwirtschaft;112034;;MOH;DW;250765;;30.04.2002;;;;;;;;;;;;;;;022356001-004;DocuWare ENTERPRISE Server;999
+ ;Vertrag;;SV01-0121;Landkreis Oldenburg Hauptamt;6343;;OO;DW;250474;;31.03.2000;;;;;;;;;;;;;;;02LKO6000-045;DocuWare ENTERPRISE Server;1
+ ;Vertrag;;SV01-0050;Lebenshilfe Nienburg gemeinnützige GmbH;124304;;JT;DW;111753;;31.08.2005;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0097;Lebenshilfewerk Krs. Hzgt. Lbg. gGmbH Schwarzenbeker Werkstätten;115766;;JT;DW;111644;;30.04.2002;;rrebhan@lhw-verbund.de;'+49-4151-8895-17;;Rebhan;;;;;;;;;;;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0136;LINEG Linksniederrheinische Entwässerungs-Genossenschaft;114354;;MM;DW;6565172;;31.07.2001;;;;;;;;;;;;;;;65XLG6001;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0051;Lux (Deutschland) GmbH;118789;;CB;DW;110398;;31.07.2003;;thorsten.sell@lux.ag;'+49-661-90212-226;Thorsten;Sell;;;;;;;;;HH-SV-KD-007;014106001-941;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0052;Maack Feuerschutz GmbH & Co. KG;124798;;JT;DW;111771;;31.12.2005;;Dummschat@zoechling.com;'+49-40-79013191;Christian;Dummschat;;;;;;;;;;;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0135;Madaus GmbH;114234;Rottapharm Madaus;VN;DW;4242020;;30.06.2001;;R.Schneider@rottapharm-madaus.de;'+49-221-8998-3124;Rainer;Schneider;;;;;;;;;;42MAD6001;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0054;Maske Fleet GmbH;132034;;CB;DW;111352;;31.07.2008;;bneukaemper@maske.de;'+49-4285-9260-412;Brigitte;Neukämper;rbeyer@maske.de;'+49-4285-9260 -272;Rene;Beyer;mlaurus@maske.de;'+49-4285-9260-271;Manfred;Laurus;;014136001-003;DocuWare PROFESSIONAL Server;30
+ ;Vertrag;;SV01-0055;Mathy & Co;120937;;CB;DW;111702;;30.04.2004;;support@pleach.de;'+49-40-25470070;Dirk;Steinfeld;;;;;;;;;;;DocuWare PROFESSIONAL Server;6
+Gekündigt;Vertrag;;SV01-0056;Maurice Lacroix Uhren und Schmuck GmbH;115767;;CB;DW;111953;;31.05.2002;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0057;medac Gesellschaft für klinische;8175;;CB;DW;110518;;30.04.1998;;c.harnisch@medac.de;'+49-4103-8006-217;Christian;Harnisch;;;;;;;;;;016556001-002;DocuWare PROFESSIONAL Server;14
+Gekündigt;Vertrag;;SV01-0139;MEYER WERFT GmbH;115460;;MOH;DW;250416;;31.03.2002;;;;;;;;;;;;;;;02MEW6001-008;DocuWare PROFESSIONAL Server;6
+ ;Vertrag;;SV01-0126;Moderne Bauelemente Detlef Knechtel (GmbH & Co. KG);8365;MoBau;MOH;DW;250112;;31.12.1999;;;;;;;;;;;;;;HH-SV-KD-002;022206003-017;?;15
+ ;Vertrag;;SV01-0058;Mohr GmbH & Co. KG;121953;;JT;DW;111715;;31.12.2004;;jpleines@mohr-dollern.de;'+49 4163 806 473;Jürgen;Pleines;;;;;;;;;;;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0167;Momentive Performance Materials GmbH;139484;;JL;DW;4242317;;28.02.2011;;daniel.ochean@momentive.com;;Daniel;Ochean;;;;;;;;;HH-SV-KD-002;42MLK6001-006;DocuWare PROFESSIONAL Server;20
+Gekündigt;Vertrag;31.08.2012;SV01-0059;Mundt GmbH;132264;;CB;DW;111864;;31.08.2008;;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0060;Nilfisk-Advance AG;4219;;JT;DW;111561;;30.09.2003;;;'+49-4101-399-160;;Kiecksee;;;;;;;;;;014718001;DocuWare PROFESSIONAL Server;65
+ ;Vertrag;;SV01-0061;Nilfisk-Advance AG;122468;;JT;DW;111561;;31.03.2005;;Roland.Bauer@nilfisk-advance.com;'+49-7306-72-244;Roland;Bauer;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0117;Nils Bogdol GmbH;4188;;MOH;DW;250484;;31.12.2000;;d.horstmann@ray.de;'+49-5494-987544;Daniel;Horstmann;;;;;;;;;;;DocuWare PROFESSIONAL Server;33
+ ;Vertrag;29.04.2013;SV01-014;Nordmann, Rassmann GmbH;118225;;NO;DW;999999;;30.04.2003;;Mike.Bluhm@nrc.de;'+49-40-3687244;Mike;Bluhm;;;;;;;;;;;DocuWare PROFESSIONAL Server;1S
+ ;Vertrag;;SV01-0062;numiga gmbh Hamburg;114163;;CB;DW;111326;;31.07.2001;;wolfgang.nikschat@numiga.de;'+49-40-853131-37;Wolfgang;Nikschat;JunkS@numiga.de;'+49-40-85313139;Stefanie;Junk;;;;;HB-SV-KD-001;013376001-219;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0159;numiga gmbh Bremen;129513;;OO;DW;250511;;30.09.2007;;;;;;;;;;;;;;;025116000-35;DocuWare 5 Basic Licenses;1
+ ;Vertrag;;SV01-0063;Oldie Car Cover;124862;;CB;DW;111782;;31.01.2006;;jens.henk@occ.eu;'+49-451-8718423;Jens;Henk;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0144;Ospig GmbH & Co. KG;119081;;MOH;DW;250317;;30.09.2003;;arlt@ospig.de;'+49-421-8401-129;Günter;Arlt;;;;;;;;;;022106001-103;DocuWare PROFESSIONAL Server;46
+ ;Vertrag;30.11.2012;SV01-0101;Papier Union GmbH;117106;;CB;DW;110378;;30.11.2002;;;;;;;;;;;;;;;018266001-004;?;?
+ ;Vertrag;;SV01-0133;Peine GmbH;114015;;MOH;DW;250382;;30.06.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;6
+ ;Vertrag;;SV01-0129;Pensionskasse für die Deutsche Wirtschaft;8418;;MM;DW;6565714;;31.03.1999;;daniel.mundt@pkdw.de;'+49-203-99219-16;Daniel;Mundt;;;;;;;;;;65PCI6001-007;DocuWare PROFESSIONAL Server;14
+ ;Vertrag;;SV01-0064;PERMACON GmbH;129195;;CB;DW;111950;;30.06.2007;;edgar.kroeger@permacon.de;'+49-40-309977711;Edgar;Kröger;;;;;;;;;;;DocuWare PROFESSIONAL Server;10
+ ;Vertrag;;SV01-0140;PHOENIX Pharmahandel Aktiengesellschaft & Co KG;117531;;OO;DW;250594;;31.01.2003;;;;;;;;;;;;;;;025946001;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0120;RETECO Datentechnik GmbH;6055;;CB;DW;111528;;29.02.2000;; j.scholz@reteco.de;'+49-451-89956-20;Jörg;Scholz;;;;;;;;;;;;
+ ;Vertrag;;SV01-0100;RISA Sicherheitsanalysen GmbH;124017;;JT;DW;111750;;30.06.2005;;;;;;;;;;;;;;;;?;?
+ ;Vertrag;;SV01-0099;RMV Rhein-Mosel;126365;ptrm transport revenue management;DH;DW;656045;;31.12.2006;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0163;RMV Rhein-Mosel;134009;ptrm transport revenue management;DH;DW;656045;;31.01.2009;;dvaupel@rmv-bus.de;'+49-261-100010;Dennis;Vaupel;;;;;;;;;;;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0132;Rotes Kreuz Krankenhaus gGmbH;113872;;MOH;DW;250127;;31.05.2001;;;;;;;;;;;;;;;022506001-002;DocuWare PROFESSIONAL Server;6
+;Vertrag;29.11.2013;SV01-0066;SAM Electronis GmbH;114920;;CB;DW;110003;;30.11.2001;;Guido.Hasche@sam-electronics.de;'+49-40-8825-2009;Guido;Hasche;Martin.Dittmer@sam-electronics.de;'+49-40-8825-3507;Martin;Dittmer;;;;;;;DocuWare PROFESSIONAL Server;22
+ ;Vertrag;;SV01-0067;SAT Sonderabfall und Transport;119425;;JT;DW;111696;;31.03.2003;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;7
+ ;Vertrag;;SV01-0068;Saturn Electro Handelsges. mbH;130649;;JT;DW;111856;;31.05.2008;;goehlerf@saturn.de;'+49-40-30958273;Frank;Göhler;;;;;;;;;HH-VS-KD-001;014036001;?;?
+ ;Vertrag;;SV01-0098;ScanHaus Media-Dienste GmbH;4013;;JT;DW;111934;;31.03.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;4
+ ;Vertrag;;SV01-0069;Schill + Seilacher -Struktol- GmbH;115486;;JT;DW;111636;;31.03.2002;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;22
+ ;Vertrag;;SV01-0072;Schleswiger Versicherungskontor GmbH;113695;;JT;DW;111913;;30.04.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;13
+ ;Vertrag;;SV01-0071;Schleswiger VVaG Gildehaus;8428;;JT;DW;111518;;29.02.2000;;s.bauch@schleswiger.de;'+49-4665-940460;;Bauch;;;;;;;;;;;DocuWare PROFESSIONAL Server;15
+ ;Vertrag;;SV01-0073;Schneider Versand GmbH;113641;;JT;DW;110137;;31.05.2001;;;;;;;;;;;;;;;018586001-049;DocuWare PROFESSIONAL Server;54
+ ;Vertrag;;SV01-0074;SOCAR Energy Switzerland GmbH;142603;;CB;DW;111951;;30.06.2012;;thomas.burst@socarenergy.com;'+41-44-2144246;Thomas;Burst;claudia.woolfson@socarenergy.com;'+41-44-2144490;Claudia;Woolfson;DUehlinger@up-great.ch;'+41-449565114;Dominik;Uehlinger;HH-SV-KD-010;015176001;?;?
+ ;Vertrag;;SV01-0160;Söffge Büro-, Gebäude- und;130334;;MOH;DW;250565;;31.03.2008;;;'+49-421-48580-38;;Osmers;;;;;;;;;;025656001-014;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0075;Stader Glas GmbH & Co KG;114329;;JT;DW;111409;;31.07.2001;;k.heinsohn@staderglas.de;'+49-4141-491117;Karin;Heinsohn;jk@wizard.de;'+49-160-6161-215;Jan;Kulow;;;;;;;DocuWare PROFESSIONAL Server;12
+ ;Vertrag;;SV01-0124;Stadt Bochum;8050;;MM;DW;6565320;;31.01.2000;;Toepper@bochum.de;;Ralf;Töpper;FVollmann@bochum.de;'+49-234-910-1367;Felix;Vollmann;;;;;;65SBO6001;DocuWare PROFESSIONAL Server;10
+ ;Vertrag;;SV01-0151;Stadt Delmenhorst Ordnungsamt-Verkehrsabteilung;124471;;MOH;DW;250637;;30.09.2005;;hansjuergen.langner@delmenhorst.de;'+49-4221-99-2057;Hans-Jürgen;Langner;;;;;;;;;;026376001;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0076;Stadt Itzehoe;115707;;JT;DW;111364;;30.04.2002;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;7
+ ;Vertrag;;SV01-0134;Stadtverwaltung Warburg;114177;;MM;DW;6565759;;31.07.2001;;;;;;;;;;;;;;;65WAR6001-002;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0141;Stadtwerke Döbeln GmbH;117719;;EB;DW;2136288;;31.03.2003;;;;;;;;;;;;;;;;DocuWare BUSINESS Server;1
+ ;Vertrag;;SV01-0077;Stadtwerke Stade;114121;;JT;DW;111240;;30.06.2001;;;;;;;;;;;;;;;012186001-036;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0137;Stollwerck GmbH;114661;;JL;DW;4242217;;31.10.2001;;boehme.l@stollwerck.de;'+49-2203-43438;Lothar;Böhme;;;;;;;;;;42STO6001;DocuWare PROFESSIONAL Server;27
+ ;Vertrag;;SV01-0080;Straßenverkehrsbehörde Kreis Steinburg;116238;;JT;DW;111657;;31.08.2002;;;;;;;;;;;;;;;014426001-002;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0156;SWP Stadtwerke Pirna GmbH;126279;;EB;DW;2136610;;31.12.2006;;Andreas.Matthes@stadtwerke-pirna.com;'+49-160-8811734;Andreas;Matthes;ina.schur@stadtwerke-pirna.de;'+49-35-01764-103;Ina;Schur;Linda-Maria.Diessner@Stadtwerke-Pirna.de;'+49-3501-764-532;Linda-Maria;Dießner;;21SWP6001-021;DocuWare PROFESSIONAL Server;28
+ ;Vertrag;;SV01-0095;Technische Universität Hamburg-Harburg;140842;;JT;DW;111004;;31.12.2011;;holger.krogemann@tu-harburg.hamburg.de;'+49-40-42878-3495;Holger;Krogemann;;;;;;;;;;;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0014;Theodor-Schäfer-Berufsbildungswerk;114900;;JT;DW;135048;;30.11.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0039;Theodor-Schäfer-Berufsbildungswerk;114905;;JT;DW;135048;;30.11.2001;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;41
+ ;Vertrag;;SV01-0113;Thesaurus GmbH  & Co. Vierzehnte Immobilien KG;129024;;HK;DW;330245;;01.06.2012;;;;;;;;;;;;;;;032456001-003;DocuWare BUSINESS Server;2
+ ;Vertrag;;SV01-0081;TOM TAILOR GmbH;142224;;CB;DW;111943;;29.02.2012;;shw@tom-tailor.com;'+49-40-58956340;Tammo;Schwebke;Kai.Puck@tom-tailor.com;'+49-40-58956-350;Kai;Puck;;;;;HH-SV-KD-003;015096001-005;DocuWare PROFESSIONAL Server;5
+ ;Vertrag;;SV01-0149;TUI Wolters GmbH;119607;;MOH;DW;250160;;29.02.2004;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;2
+ ;Vertrag;;SV01-0082;Unilever Deutschland Holding GmbH Pensionsreferat;134146;;CB;DW;110089;;31.03.2009;;beate.stattkus@unilever.com;'+49(0)40-3493-3169;Beate;Stattkus;Torben.Kasch@unilever.com;'+49-40-3493-3385;Torben;Kasch;;;;;HH-SV-KD-001;010956003-114;DocuWare PROFESSIONAL Server;20
+ ;Vertrag;;SV01-0083;Vattenfall Europe Business Services GmbH;4236;;JT;DW;110439;;30.09.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;6
+ ;Vertrag;;SV01-0096;Vattenfall Europe Business Services GmbH;4236;;JT;DW;110439;;30.09.2000;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;6
+ ;Vertrag;;SV01-0084;Vestas Deutschland GmbH;136787;;JT;DW;111917;;30.09.2010;;sjoe@vestas.com;'+49-4841-971131;Söhnke;Jöns;TIBEN@vestas.com;'+49-4841-971511;Timo;Berner;bnjen@vestas.com;'+49-4841-971-616 ;Bente;Jensen;HH-VS-KD-003;014796001;?;?
+ ;Vertrag;;SV01-0085;VIRBAC Tierarzneimittel-Handel GmbH & Co;129159;;CB;DW;110428;;30.06.2007;;katja.breyer@virbac.de;'+49-4531-805134;Katja;Breyer;;;;;;;;;;;DocuWare PROFESSIONAL Server;10
+ ;Vertrag;;SV01-0086;Vivanco GmbH;114378;;CB;DW;110466;;31.08.2001;;;;;;;;;;;;;;HH-SV-KD-005;018026001-002;DocuWare PROFESSIONAL Server;1
+ ;Vertrag;;SV01-0093;WAK - Wirtschaftsakademie;114038;;JT;DW;111799;;31.03.2001;;Christine.Castroverde@wak-sh.de;'+49-431-3016-126;Christine;Castroverde;Martin.Staender@wak-sh.de;'+49-431-3016151;Martin;Ständer;Karsten.Schlimme@wak-sh.de;'+49-431-3016-151;Karsten;Schlimme;;013456001-002;DocuWare PROFESSIONAL Server;11
+ ;Vertrag;;SV01-0087;Waldemar Link GmbH & Co. KG;119145;;CB;DW;110529;;31.10.2003;;J.Akolk@linkhh.de;'+49-40-53995-0;Jürgen;Akolk;a.raschke@linkhh.de;'+49-40-53995322;Andre;Raschke;w.wriedt@linkhh.de;'+49-40-53995-465;Werner;Wriedt;;017396001-005;DocuWare PROFESSIONAL Server;18
+ ;Vertrag;;SV01-0088;Wasserbeschaffungsverband Harburg;118521;Wasserbeschaffungsverband Seevetal;JT;DW;111570;;31.05.2003;;;'+49-4105-5004430;;Martini;UWenk@WBV-Harburg.de;'+49-4105-5004468;Uwe;Wenk;;;;;;016006001;DocuWare PROFESSIONAL Server;10
+ ;Vertrag;;SV01-0089;Werkstätten für Behinderte Menschen gGmbH;118303;;JT;DW;111675;;30.04.2003;;Hans.Kernast@hollaenderhof.de;'+49-461-676163;Hans;Kernast;;;;;;;;;;;DocuWare PROFESSIONAL Server;13
+ ;Vertrag;;SV01-0090;Werkstätten Materialhof;114947;;JT;DW;111516;;30.11.2001;;Dietmar.Reichelt@materialhof.de;'+49-4331-143321;Dietmar;Reichelt;;;;;;;;;;;DocuWare PROFESSIONAL Server;3
+ ;Vertrag;;SV01-0092;WESTFALIA intralog GmbH;114054;;CB;DW;111703;;31.05.2001;;J.Westerholt@westfalia-Spedition.de;'+49-5221-598708;Jens;Westerholt;;;;;;;;;;;DocuWare PROFESSIONAL Server;11
+ ;Vertrag;;SV01-0094;ZMBR Zentrum zur med. u. berufliche;135233;;MOH;DW;250735;;30.11.2009;;julian.krieter@rehaverbundol.de;;Julian;Krieter;;;;;;;;;;;DocuWare PROFESSIONAL Server;5
+Gekündigt;?;;SV01-9999;;4013;Orbis-Umwelt;;DW;;;;;buber@orbis-umwelt.de;;Erik;Buber;;;;;;;;;;;;
+;Vertrag;28.02.2015;SV01-9999;DeutschlandCard GmbH;149213;Arvato Services;;DW;;;01.03.2014;;Daniel.Lauber@Bertelsmann.de;'+49-89-4136-7821;Daniel;Lauber;Marius.Milutin@datagroup.ro;;Marius;Milutin;jessica-vanessa.kroll@bertelsmann.de;;Jessica-Vanessa;Kroll;;084616001-004;DocuWare 5 Basic Licenses;15
+NONE;?;;SV01-0146;;119296;AC-TOBDAS;;DW;;;30.11.2003;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;16
+NONE;?;;SV01-0053;;125451;;;DW;;;07.08.2012;;;;;;;;;;;;;;;;DocuWare BUSINESS Server;2
+Gekündigt;?;;SV01-0070;;130413;Schill + Seilacher GmbH Böblingen;;DW;;;07.08.2012;;;;;;;;;;;;;;;;DocuWare PROFESSIONAL Server;1
+Gekündigt;?;;SV01-0079;;135725;Haus der Lebenshilfe;;DW;;;07.08.2012;;;;;;;;;;;;;;;;DocuWare BUSINESS Server;6
+Gekündigt;?;;SV01-0108;;;Förderwerkstatt Forsthaus gGmbH;;DW;;;08.08.2012;;;;;;;;;;;;;;;;;
+Gekündigt;?;;SV01-9999;;;vedisys AG;;DW;;;;;m.hill@vedisys.de;'+49-6155-89811-43;Marko;Hill;;;;;;;;;;065636001;;
+Gekündigt;?;;SV01-9999;;;CTH Dresden GmbH ;;DW;;;;;hoehne@cth-dresden.de;'+49-351-2054386-2 ;Jens;Höhne;;;;;;;;;;;;
+;?;27.02.2015;SV01-9999;Hesse Newman Capital AG;117727;;;DW;;;;;winfried.kuschel@hesse-newman.de;'+49-40-33962-333;Winfried;Kuschel;;;;;;;;;;013126001-004;DocuWare Professional Server;31
+Gekündigt;?;;SV01-9999;;;BFI Hanseatische Service + Consulting GmbH;;DW;;;;;sk@bfi-group.de;'+49-40-809064-369;;Krawitowski;sa@bfi-group.de;'+49-40-809064222;Sven;Andersen;;;;;;026156000-008;;
+Gekündigt;?;;SV01-9999;;;Berufsbildungswerk Bremen GmbH;;DW;;;;;u.doescher@bbw-bremen.de;'+49-421-2383216;Uwe;Döscher;h.groninger@bbw-bremen.de;'+49-421-2383-372;H.;Groninger;;;;;;;nur DocuWare-Request (keine Lizenz erforderlich);
+;Vertrag;;SV01-9999;ALPHA COM;5500;ServiceDesk Alpha Com;;DW;;;;;hans-werner.mueller@alpha-com.de;'+49-40-51302-502;Hans-Werner;Müller;dirk.buck@alpha-com.de;'+49-40-51302-504;Dirk;Buck;jan.weinhold@alpha-com.de;'+49-40-51302-501;Jan;Weinhold;HH-WS-SD-002;;DocuWare Professional Server;1
+;Vertrag;;SV01-0030;Hamburgische Investitions- und Förderbank;113864;;;DW;;;;;v.pahnke@ifbhh.de;'+49-40-24846-454;Valve;Pahnke;;;;;;;;;;;;
+;Vertrag;31.01.2015;SV01-9999;Peter Mathy;147942;;;DW;;;;;;'+49-40-60992-0;Peter;Mathy;;;;;;;;;;;DocuWare Basic Lizenz;1
+;Vertrag;;SV01-9999;TOYOTA Kreditbank GmbH;119296;TOBDAS;;DW;;;;;Klaus.Niemann@toyota-fs.com;'+49-2234-102-1942;Klaus;Niemann;Hemant.Sohoni@toyota-fs.com;'+44-1737-365455;Hemant;Sohoni;;;;;;;;
+;Vertrag;28.02.2015;SV01-0002;Abfall-Service Osterholz GmbH;6878;;;DW;0111488;;;;cvs@abfall-service-osterholz.de;'+49-4791-9644-120;;von Schroetter;;;;;;;;;;;;
+NEUKUNDE;Vertrag;30.04.2015;SV01-9999;Landesamt für Gesundheit und Soziales MV;149722;;;DW;0111989;;;;;;;;;;;;;;;;;;DocuWare Business Server;1
+;Vertrag;01.08.2015;SV01-0175;Lear Corporation GmbH;151127;;;DW;0205509;;31.07.2014;;sronge@lear.com;'+49-421-4578396;Stefan;Ronge;avoelkel@lear.com;'+49-421-4578395;Völkel;Andreas;;;;;;;DocuWare Business Server;3
+NEUKUNDE;Vertrag;01.12.2015;SV01-0178;Volksbank Rhein-Ruhr eG;151771;;;DW;6565998;;24.10.2014;;;'+49-203-45670;;unbekannt;;'+49-203-4567-2270;Armin;Gayk;;;;;;;DocuWare PROFESSIONAL Server;5
+NEUKUNDE;Vertrag;01.12.2015;SV01-0179;WEX Europe Services GmbH;151759;;;DW;999999;;03.11.2014;;;'+49-40-63932620;;unbekannt;;;;;;;;;;;DocuWare Basic Lizenz;5
+;Vertrag;27.02.2015;SV01-0003;ABZ Aggregate-Bau GmbH & Co. KG;6964;;;DW;111475;;04.11.2009;;;;;;;;;;;;;;;;;
+NEUKUNDE;Vertrag;26.11.2014;SV01-0180;SOVAG;333333;;;DW;999999;;01.12.2015;;D.Scheffschick@sovag.de;'+49-40-227128-460;Doreen;Scheffschick;;;;;;;;;;;Test-Lizenz für Herrn Eggers;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;

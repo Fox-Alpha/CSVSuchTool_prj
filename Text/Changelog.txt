@@ -1,0 +1,24 @@
+﻿12.02.2015
+==========
+Fix: Button zum öffnen der Hauptansicht aus dem Ergebnisfenster funktioniert jetzt
+
+26.01.2015
+==========
+Fix: Verschobene Labels im Ergebnisfenster (Horizontal)
+
+24.01.2015
+==========
+FixIT: Jumpliste für Taskleiste hinzugefügt
+===: Standarttools Eingefügt
+===: Wenn installiert erscheint auch der Total Commander in der Liste
+Add: Suchfunktion für weiteres Suchfeld im Ergebnisfenster 
+
+23.01.2015
+==========
+Fix: Label für EMail Adressen Position und Größe
+Chg: Textdateien (Readme etc.) in einen eigenen Extra Ordner verschoben
+Chg: Beispiel Quelldateien in einen eigenen Unterordner verschoben
+Chg: Default Quelldatei geändert
+Add: Button zum öffnen der Hauptanischt
+Add: Suchfeld im "kleinen" Ergebnisfenster hinzugefügt
+Add: Menüpunkt zum anzeigen des Changelogs eingefügt (ohne Funktion)
