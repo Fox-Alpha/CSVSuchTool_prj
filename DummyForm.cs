@@ -79,7 +79,7 @@ namespace AC_Telefonbuch
 			//	Funktionen der Win7 Taskbar nutzen
 			//
 			tm = TaskbarManager.Instance;
-			tm.ApplicationId = "AC-RoutineHelper";
+			tm.ApplicationId = "CSV - SuchTool";
 		}
 
 		/// <summary>
