@@ -161,7 +161,7 @@ namespace AC_Telefonbuch
 		{
 			if (dataList.Count == 0){
 
-				MessageBox.Show("Es wurde Ergebnisse mit der Suche gefunden");
+				MessageBox.Show("Es wurden keine Ergebnisse mit der Suche gefunden");
 				return;
 			}
 			//	Arrays für Labels der Ergebnisanzeige

@@ -44,6 +44,7 @@ namespace AC_Telefonbuch
 			//notifyIcon.ContextMenu = notificationMenu;
 			notificationMenu.Name = "iconContextMenu";
 			notifyIcon.ContextMenuStrip = notificationMenu;
+			notifyIcon.Text = "CSV - Suchtool für die Tray Anzeige";
 			
 			notificationMenu.Items.AddRange(InitializeMenu());
 			notificationMenu.Opening += menuPopup;
