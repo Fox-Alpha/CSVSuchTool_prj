@@ -189,6 +189,7 @@ namespace AC_Telefonbuch
 				            {
 		   		            	strLine.Add(csv[i]);
 				            }
+		   		            //Merken der Suchergebnisse
 		   		            dataList.Add(new List<string>(strLine));
 						}
 					}
@@ -330,9 +331,13 @@ namespace AC_Telefonbuch
 			
 			if((tsmi = sender as ToolStripMenuItem) != null)
 			{
-				parent = ((ToolStripMenuItem)tsmi).GetCurrentParent(); //.Parent;
+				//Merken des Menüindex, um die Zuweisung zum Vorbelegen der EMail zu generieren
 				iMailIndex = Convert.ToInt32(((ToolStripMenuItem)tsmi).Tag);
+				
+				//Ermitteln des übergeordeten LinkLabel, um den Empfänger zu bekommen
+				parent = ((ToolStripMenuItem)tsmi).GetCurrentParent();
 				parent = ((ContextMenuStrip)parent).SourceControl ?? parent;
+				
 				recipient = ((LinkLabel)parent).Text ?? string.Empty;;
 			}
 	
@@ -340,7 +345,7 @@ namespace AC_Telefonbuch
 			{
 				parent = ((LinkLabel)sender);
 				recipient = ((LinkLabel)parent).Text;
-				iMailIndex = 0; //Convert.ToInt32(((LinkLabel)parent).Tag);
+				iMailIndex = 0; 
 			}
 			
 			if(!string.IsNullOrWhiteSpace(recipient))
@@ -355,18 +360,12 @@ namespace AC_Telefonbuch
 							recipient = Regex.Replace(recipient, pattern[r], replace[r]);
 						}
 					}
-//					ProcessStartInfo psi = new ProcessStartInfo();
-//					psi.FileName = "";
-//					psi.Verb = "Open";
-//					psi.UseShellExecute = false;
-//					psi.Arguments = "mailto:" + string.Format("{0}?cc={1}&subject={2}&body={3}",recipient, mailITSD, mailSubjects[iMailIndex] ?? "", mailBodys[iMailIndex] ?? "");
+					
+					//Ersetzen von Leerzeichen in HTML Komforme %20
 					string tmp = string.Format("mailto:{0}?cc={1}&subject={2}&body={3}",recipient, mailITSD, mailSubjects[iMailIndex] ?? "''", mailBodys[iMailIndex] ?? "''");
-					
 					tmp = Regex.Replace(tmp, " ", "%20");
-//					Process.Start(string.Format("mailto:{0}?subject={2}&cc={1}&body={3}",recipient, mailITSD, mailSubjects[iMailIndex] ?? "", mailBodys[iMailIndex] ?? ""));
-					Process.Start(tmp);
 					
-//					Process.Start(string.Format("mailto:someone@example.com?subject=This%20is%20the%20subject&cc=someone_else@example.com&body=This%20is%20the%20body"));
+					Process.Start(tmp);
 				}
 			}
 		}
@@ -414,31 +413,39 @@ namespace AC_Telefonbuch
 
 					this.Location =  new Point(Screen.PrimaryScreen.WorkingArea.Width - this.Width-5, Screen.PrimaryScreen.WorkingArea.Height - this.Height-5);
 					this.Focus();
-					#endregion
+					#endregion ToolWindow
 				}
 			}
 		}
+		
+		/// <summary>
+		/// Anzeigen des Hauptfensters aus dem TrayIconContexMenü
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tsMainView_Click(object sender, EventArgs e)
 		{
 			if(NotificationIcon.notificationMenu != null)
-			//Hauptfenster der Anwendung anzeigen
-			if (NotificationIcon.mf.IsDisposed || NotificationIcon.mf == null) {
-				NotificationIcon.mf = new MainForm();
-			}
-			
-			ToolStripItem mI = sender as ToolStripItem;
-			
-			if (mI != null && NotificationIcon.mf != null) {
-				//if (!(bool)mI.Tag) {
-					NotificationIcon.mf.ShowInTaskbar = true;
-					mI.Tag = true;
-					NotificationIcon.mf.Show();
-					//mI.Tag = false;
-//				} else {
-//					NotificationIcon.mf.Hide();
-//					NotificationIcon.mf.ShowInTaskbar = false;
-//					mI.Tag = false;
-//				}
+			{
+				if (NotificationIcon.mf.IsDisposed || NotificationIcon.mf == null) {
+					NotificationIcon.mf = new MainForm();
+				}
+				
+				ToolStripItem mI = sender as ToolStripItem;
+				
+				if (mI != null && NotificationIcon.mf != null) 
+				{
+					if (!(bool)mI.Tag) {
+						NotificationIcon.mf.ShowInTaskbar = true;
+						mI.Tag = true;
+						NotificationIcon.mf.Show();
+						mI.Tag = false;
+					} else {
+						NotificationIcon.mf.Hide();
+						NotificationIcon.mf.ShowInTaskbar = false;
+						mI.Tag = false;
+					}
+				}
 			}
 		}
 	}
