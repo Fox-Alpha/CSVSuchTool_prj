@@ -8,7 +8,7 @@
 using System;
 using System.IO;
 using System.Drawing;
-using System.Diagnostics; 
+using System.Diagnostics;
 using System.Windows.Forms;
 using Microsoft.WindowsAPICodePack.Taskbar;
 using Microsoft.WindowsAPICodePack.Shell;
@@ -29,7 +29,7 @@ namespace AC_Telefonbuch
 		/// <summary>
 		/// Installierte Version des Total Commanders
 		/// </summary>
-		string _strTCmdVersion;		
+		string _strTCmdVersion;
 		public string strTCmdVersion {
 			get { return _strTCmdVersion; }
 			set { _strTCmdVersion = value; }
@@ -38,7 +38,7 @@ namespace AC_Telefonbuch
 		/// <summary>
 		/// Installations Pfad des Total Commanders
 		/// </summary>
-		string _strTCmdPath;		
+		string _strTCmdPath;
 		public string strTCmdPath {
 			get { return _strTCmdPath; }
 			set { _strTCmdPath = value; }
@@ -91,25 +91,19 @@ namespace AC_Telefonbuch
 		public static string ParseCmdLineParam(string key, string cmdline)
 		{
 			string res = "";
-			try
-			{
+			try {
 				int start = cmdline.IndexOf(key);
-				start += key.Length+1;
+				start += key.Length + 1;
 				int end = cmdline.IndexOf(" -", start);
 				//end = end-2;
 				int length = 0;
-				if (end > 0)
-				{
-					length = end-start;
-				} 
-				else 
-				{
-					length = cmdline.Length-start;
+				if (end > 0) {
+					length = end - start;
+				} else {
+					length = cmdline.Length - start;
 				}
 				res = cmdline.Substring(start, length);
-			} 
-			catch (System.Exception ex)
-			{
+			} catch (System.Exception ex) {
 				Debug.WriteLine(ex.Message);
 			}
 			return res;
@@ -134,28 +128,28 @@ namespace AC_Telefonbuch
 			CustomJumpList.ClearAllUserTasks();
 			
 			JumpListLink EntryNote = new JumpListLink(@"%windir%\system32\StikyNot.exe", "Notizen");
-            EntryNote.IconReference = new IconReference(@"%windir%\system32\StikyNot.exe", 0);
-            CustomJumpList.AddUserTasks(EntryNote);
+			EntryNote.IconReference = new IconReference(@"%windir%\system32\StikyNot.exe", 0);
+			CustomJumpList.AddUserTasks(EntryNote);
 
 			JumpListLink EntrySnipp = new JumpListLink(@"%windir%\system32\SnippingTool.exe", "Snipping");
-            EntrySnipp.IconReference = new IconReference(@"%windir%\system32\SnippingTool.exe", 0);
-            CustomJumpList.AddUserTasks(EntrySnipp);
+			EntrySnipp.IconReference = new IconReference(@"%windir%\system32\SnippingTool.exe", 0);
+			CustomJumpList.AddUserTasks(EntrySnipp);
 
 			JumpListLink EntryNotepad = new JumpListLink(@"%windir%\system32\Notepad.exe", "Notepad");
-            EntryNotepad.IconReference = new IconReference(@"%windir%\system32\Notepad.exe", 0);
-            CustomJumpList.AddUserTasks(EntryNotepad);
+			EntryNotepad.IconReference = new IconReference(@"%windir%\system32\Notepad.exe", 0);
+			CustomJumpList.AddUserTasks(EntryNotepad);
 			
 			JumpListLink EntryCmd = new JumpListLink(@"%windir%\system32\cmd.exe", "Eingabeaufforderung");
-            EntryCmd.IconReference = new IconReference(@"%windir%\system32\cmd.exe", 0);
-            CustomJumpList.AddUserTasks(EntryCmd);
+			EntryCmd.IconReference = new IconReference(@"%windir%\system32\cmd.exe", 0);
+			CustomJumpList.AddUserTasks(EntryCmd);
 
-            if (!string.IsNullOrWhiteSpace(strTCmdPath)) {
+			if (!string.IsNullOrWhiteSpace(strTCmdPath)) {
 				JumpListLink EntryTCM = new JumpListLink(strTCmdPath, "Total Commander - " + strTCmdVersion);
-	            EntryTCM.IconReference = new IconReference(strTCmdPath, 0);
-	            CustomJumpList.AddUserTasks(EntryTCM);
-            }
+				EntryTCM.IconReference = new IconReference(strTCmdPath, 0);
+				CustomJumpList.AddUserTasks(EntryTCM);
+			}
 
-        	CustomJumpList.Refresh();			
+			CustomJumpList.Refresh();			
 		}
 		
 		/// <summary>
@@ -165,19 +159,19 @@ namespace AC_Telefonbuch
 		/// </summary>
 		void addToJumpListRecent(string strSourceFile)
 		{
-            // eigene Kategorie anlegen
-            JumpListCustomCategory CustomCategory = new JumpListCustomCategory ("Suchdateien");
+			// eigene Kategorie anlegen
+			JumpListCustomCategory CustomCategory = new JumpListCustomCategory("Suchdateien");
 			
 			
-            // in diese Link zu einer Datei anlegen
-			string strDwTemp = "-sourcefile="+strSourceFile;
+			// in diese Link zu einer Datei anlegen
+			string strDwTemp = "-sourcefile=" + strSourceFile;
 			JumpListLink myJumpLinkA = new JumpListLink(Application.ExecutablePath, strSourceFile);
 			myJumpLinkA.Arguments = strDwTemp;
 			myJumpLinkA.IconReference =	new IconReference(Application.ExecutablePath, 0);
 				
-            CustomCategory.AddJumpListItems(myJumpLinkA);
+			CustomCategory.AddJumpListItems(myJumpLinkA);
 			
-            CustomJumpList.AddCustomCategories(CustomCategory);
+			CustomJumpList.AddCustomCategories(CustomCategory);
 			
 			CustomJumpList.Refresh();
 			
@@ -212,19 +206,16 @@ namespace AC_Telefonbuch
 				//	RegistryPfad zum Uninstall Schlüssel festlegen
 				//
 				tcpath = tcpath.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Uninstall");
-				if(!string.IsNullOrWhiteSpace(tcpath.Name))
-				{
+				if (!string.IsNullOrWhiteSpace(tcpath.Name)) {
 				
 					//	In den Uninstall Schlüsseln nach DameWare suchen
-					foreach (string strReg in tcpath.GetSubKeyNames())
-					{
-						if (Regex.IsMatch(strReg, "Total Commander", RegexOptions.IgnoreCase)) 
-						{
+					foreach (string strReg in tcpath.GetSubKeyNames()) {
+						if (Regex.IsMatch(strReg, "Total Commander", RegexOptions.IgnoreCase)) {
 							installLocation = tcpath.OpenSubKey(strReg).GetValue("installLocation").ToString();
 							displayVersion = tcpath.OpenSubKey(strReg).GetValue("DisplayVersion").ToString();
 
-							if (File.Exists(Path.Combine(installLocation+"TOTALCMD64.EXE"))) {
-								strTCmdPath = Path.Combine(installLocation+"TOTALCMD64.EXE");
+							if (File.Exists(Path.Combine(installLocation + "TOTALCMD64.EXE"))) {
+								strTCmdPath = Path.Combine(installLocation + "TOTALCMD64.EXE");
 								strTCmdVersion = displayVersion;
 								found = true;
 								break;
@@ -238,31 +229,26 @@ namespace AC_Telefonbuch
 					//	Bei 32 Bit Anwendung auf 64 Bit System explizit noch einmal 64Bit Registry durchsuchen
 					//	64 Bit Anwendung auf 64 Bit System durchsucht nochmals 32 Bit Bereich der Registry
 					//
-					if (!found && Environment.Is64BitOperatingSystem) 
-					{
-						if (!Environment.Is64BitProcess) 
+					if (!found && Environment.Is64BitOperatingSystem) {
+						if (!Environment.Is64BitProcess)
 							tcpath = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64);
 						else
 							tcpath = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32);
 						
 						tcpath = tcpath.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Uninstall");
 						
-						if(!string.IsNullOrWhiteSpace(tcpath.Name))
-						{
+						if (!string.IsNullOrWhiteSpace(tcpath.Name)) {
 							installLocation = "";
 							displayVersion = "";
 						
 							//	In den Uninstall Schlüsseln nach DameWare suchen
-							foreach (string strReg in tcpath.GetSubKeyNames())
-							{
-								if (Regex.Match(strReg, "Total", RegexOptions.IgnoreCase).Success) 
-								{
+							foreach (string strReg in tcpath.GetSubKeyNames()) {
+								if (Regex.Match(strReg, "Total", RegexOptions.IgnoreCase).Success) {
 									installLocation = Path.GetDirectoryName(tcpath.OpenSubKey(strReg).GetValue("UninstallString").ToString());
 									displayVersion = tcpath.OpenSubKey(strReg).GetValue("DisplayVersion").ToString();
 		
-									if (File.Exists(Path.Combine(installLocation+"\\TOTALCMD64.EXE"))) 
-									{
-										strTCmdPath = Path.Combine(installLocation+"\\TOTALCMD64.EXE");
+									if (File.Exists(Path.Combine(installLocation + "\\TOTALCMD64.EXE"))) {
+										strTCmdPath = Path.Combine(installLocation + "\\TOTALCMD64.EXE");
 										strTCmdVersion = displayVersion;
 										found = true;
 										break;
