@@ -53,6 +53,8 @@ namespace AC_Telefonbuch
 			this.ctxMailOptions = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
 			this.tsNavigation.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
 			this.ctxMailOptions.SuspendLayout();
@@ -182,21 +184,43 @@ namespace AC_Telefonbuch
 			// 
 			this.ctxMailOptions.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 			this.toolStripMenuItem1,
-			this.toolStripMenuItem2});
+			this.toolStripMenuItem2,
+			this.toolStripMenuItem3,
+			this.toolStripMenuItem4});
 			this.ctxMailOptions.Name = "ctxMailOptions";
-			this.ctxMailOptions.Size = new System.Drawing.Size(202, 70);
+			this.ctxMailOptions.Size = new System.Drawing.Size(202, 114);
 			// 
 			// toolStripMenuItem1
 			// 
+			this.toolStripMenuItem1.Image = global::AC_Telefonbuch.Resource.mail_view;
 			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
 			this.toolStripMenuItem1.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem1.Tag = "0";
 			this.toolStripMenuItem1.Text = "Mail an ....";
 			// 
 			// toolStripMenuItem2
 			// 
+			this.toolStripMenuItem2.Image = global::AC_Telefonbuch.Resource.mail_view;
 			this.toolStripMenuItem2.Name = "toolStripMenuItem2";
 			this.toolStripMenuItem2.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem2.Tag = "1";
 			this.toolStripMenuItem2.Text = "Anruf beanchrichtigung";
+			// 
+			// toolStripMenuItem3
+			// 
+			this.toolStripMenuItem3.Image = global::AC_Telefonbuch.Resource.mail_view;
+			this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+			this.toolStripMenuItem3.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem3.Tag = "2";
+			this.toolStripMenuItem3.Text = "Mail, CC an IT-SD";
+			// 
+			// toolStripMenuItem4
+			// 
+			this.toolStripMenuItem4.Image = global::AC_Telefonbuch.Resource.mail_view;
+			this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+			this.toolStripMenuItem4.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem4.Tag = "3";
+			this.toolStripMenuItem4.Text = "Mail, CC an Incident";
 			// 
 			// ShowDataForm
 			// 
@@ -223,6 +247,8 @@ namespace AC_Telefonbuch
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
 		private System.Windows.Forms.ContextMenuStrip ctxMailOptions;
