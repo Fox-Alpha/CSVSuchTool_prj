@@ -16,6 +16,10 @@ DONE: - Weiteres Schnellsuche Feld einfügen
 DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
 DONE: - Fix, Höhe des Label für EMail Adresse anpassen
 
+Ergebnisfenster
+- Kopieren und Editieren Buttons neben dem Eintrag hinzufügen
+- Kontextmenü für Email Vorlagen erstellen
+
 Email Link mit Funktion verknüpfen
 - Bei Klick auf einen EMail Link, Auswahl mit möglichen Betreffs anzeigen
 -- Wurde durch Anrufer nicht erreicht
@@ -40,3 +44,6 @@ Hauptansicht
 Allgemein
 - Umbenennen in einem nicht AC relevanten Namen
 -- CSV - SuchTool
+
+Kontextmenü
+DONE: - Eintrag um das Ergebnisfenster wieder in den Vordergrund zu bringen.

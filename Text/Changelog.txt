@@ -1,6 +1,8 @@
 ﻿12.02.2015
 ==========
 Fix: Button zum öffnen der Hauptansicht aus dem Ergebnisfenster funktioniert jetzt
+Fix: Traymenü, Anzeigen und Ausblenden ds Hauptfensters wechseln korrigiert
+Add: Traymenü, Menüpunkt zum anzeigen der Ergebnisse. Nur wenn eine Suche mit Ergebnis vorliegt
 
 26.01.2015
 ==========
