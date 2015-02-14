@@ -36,3 +36,7 @@ Hauptansicht
 -- Dateiname und Pfad im Auswahl Dialog übernehmen
 -- Anzeige des Dateipfad/Namen im Fenster optimieren
 --- Eventuell im Fenstertitel einfügen
+
+Allgemein
+- Umbenennen in einem nicht AC relevanten Namen
+-- CSV - SuchTool
