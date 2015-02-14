@@ -66,12 +66,23 @@ namespace AC_Telefonbuch
 					
 					//break;
 				} else if (Equals(tsi.GetType(), new ToolStripMenuItem().GetType())) {
+					//
+					//	Anzeigen des Hauptfensters im Menü hervorheben
+					//
 					if (((ToolStripMenuItem)tsi).Name == "trayMenuOpenApp") {
 						System.Drawing.Font MyFont = new System.Drawing.Font(
 							                             ((ToolStripMenuItem)tsi).Font,
 							                             FontStyle.Bold);
+						((ToolStripMenuItem)tsi).Font = MyFont;
 						((ToolStripMenuItem)tsi).Tag = false;
 					}
+					//
+					//	Anzeigen des Ergebnisfenster Standard disablen
+					//
+					if (((ToolStripMenuItem)tsi).Name == "trayMenuOpenResult") {
+						((ToolStripMenuItem)tsi).Enabled = false;
+					}
+
 				}
 				//Debug.WriteLine("TextBox im Menu nicht gefunden " + tsi.GetType().ToString());
 			}
@@ -86,7 +97,9 @@ namespace AC_Telefonbuch
 //			};
 			ToolStripItem[] menu = new ToolStripItem[] {
 				new ToolStripTextBox("Suche"),
+				new ToolStripSeparator(), 
 				new ToolStripMenuItem("Anzeigen", null, menuOpenClick, "trayMenuOpenApp"),
+				new ToolStripMenuItem("Ergebnisse", null, menuOpenResultClick, "trayMenuOpenResult"),
 				new ToolStripSeparator(), 
 				new ToolStripMenuItem("Changelog", null, menuShowChangelogClick, "trayMenuShowChangelog"),
 				new ToolStripSeparator(), 
@@ -173,6 +186,26 @@ namespace AC_Telefonbuch
 			}
 			
 		}
+		
+		/// <summary>
+		/// Öffnen des Ergebnisfensters, falls dieses im Hintergrund gerutscht ist
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void menuOpenResultClick(object sender, EventArgs e)
+		{
+			//Ergebnisfenster der Anwendung anzeigen
+			ToolStripMenuItem mI = sender as ToolStripMenuItem;
+
+			if (mI != null && sdf != null) 
+			{
+				if(sdf.CanFocus)
+				{
+					sdf.Show();
+					sdf.Focus();
+				}
+			}
+		}
 
 		private void IconDoubleClick(object sender, EventArgs e)
 		{
@@ -240,24 +273,32 @@ namespace AC_Telefonbuch
 		/// <param name="e"></param>
 		private void menuPopup(object sender, EventArgs e)
 		{
-			if (mf.IsDisposed || mf == null) {
-				mf = new MainForm();
-			}
-			
 			ContextMenuStrip cms = null;
-			if ((cms = sender as ContextMenuStrip) != null) {
-				ToolStripItem[] mI = cms.Items.Find("Anzeigen", true);
+			if ((cms = sender as ContextMenuStrip) != null) 
+			{
+				//####
+				//#	Anzeigen des Hauptfensters möglich ?
+				//####
+				ToolStripItem[] mI = cms.Items.Find("trayMenuOpenApp", true);
 				
-				if ((cms.Items[1] as ToolStripMenuItem != null) && mf != null) {
-					if (mf.CanFocus) {
-						cms.Items[1].Tag = true;
-					} else {
-						cms.Items[1].Tag = false;
-					}
-					cms.Items[1].Text = (bool)cms.Items[1].Tag == true ? "Ausblenden" : "Anzeigen";
+				
+				if ((mI[0] as ToolStripMenuItem != null) && mf != null) {
+						((ToolStripMenuItem)mI[0]).Tag = mf.CanFocus;
+
+					((ToolStripMenuItem)mI[0]).Text = (bool)mI[0].Tag == true ? "Ausblenden" : "Anzeigen";
 				}
-				//TODO: Eintrag zum anzeigen des Ergebnisfensters hinzufügen 
+				//####
 				
+				//####
+				//#	Anzeigen des Ergebnisfensters
+				//####
+				mI = null;
+				mI = cms.Items.Find("trayMenuOpenResult", true);
+				if (mI[0] as ToolStripMenuItem != null)
+				{
+					((ToolStripMenuItem)mI[0]).Enabled = sdf.CanFocus;
+				}
+				//####
 			}
 		}
 		
