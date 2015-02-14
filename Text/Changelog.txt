@@ -1,4 +1,11 @@
-﻿12.02.2015
+﻿13.02.2015
+==========
+Add: Kontextmenü beim Email Link
+- Aufruf für generierten Betreff und Text
+- Aufruf einer Standardmail, wenn der Link mit LinksClick geöffnet wird.
+
+
+12.02.2015
 ==========
 Fix: Button zum öffnen der Hauptansicht aus dem Ergebnisfenster funktioniert jetzt
 Fix: Traymenü, Anzeigen und Ausblenden ds Hauptfensters wechseln korrigiert
