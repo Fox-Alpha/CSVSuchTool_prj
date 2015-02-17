@@ -15,7 +15,7 @@ using System.Diagnostics;
 using LumenWorks.Framework.IO.Csv;
 using System.Text.RegularExpressions; 
 
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	/// <summary>
 	/// Description of ShowDataForm.

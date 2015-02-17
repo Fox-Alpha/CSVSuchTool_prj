@@ -5,7 +5,7 @@
  * Zeit: 14:37
  * 
  */
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	partial class FrmLogView
 	{

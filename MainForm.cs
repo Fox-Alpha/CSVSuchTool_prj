@@ -18,7 +18,7 @@ using System.Runtime.Serialization;
 using LumenWorks.Framework.IO.Csv;
 using ExtendedForms;
 
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	/// <summary>
 	/// Description of MainForm.
@@ -67,7 +67,7 @@ namespace AC_Telefonbuch
 			//
 			//	Quelldatei aus Settingsladen
 			//
-			strFileName = AC_Telefonbuch.Properties.Application.Default.sourceFile;
+			strFileName = CSVSuchTool.Properties.Application.Default.sourceFile;
 			//
 			//	####
 			//
@@ -341,15 +341,15 @@ namespace AC_Telefonbuch
 					comboBox1.SelectedIndex = 0;
 				}
 			}
-			strFileName = AC_Telefonbuch.Properties.Application.Default.sourceFile;
-			Location = AC_Telefonbuch.Properties.Application.Default.SearchFormPosition;
-			Size = AC_Telefonbuch.Properties.Application.Default.SearchFormSize;
+			strFileName = CSVSuchTool.Properties.Application.Default.sourceFile;
+			Location = CSVSuchTool.Properties.Application.Default.SearchFormPosition;
+			Size = CSVSuchTool.Properties.Application.Default.SearchFormSize;
 		}
 		void MainForm_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			AC_Telefonbuch.Properties.Application.Default.SearchFormPosition = Location;
-			AC_Telefonbuch.Properties.Application.Default.SearchFormSize = Size;
-			AC_Telefonbuch.Properties.Application.Default.Save();
+			CSVSuchTool.Properties.Application.Default.SearchFormPosition = Location;
+			CSVSuchTool.Properties.Application.Default.SearchFormSize = Size;
+			CSVSuchTool.Properties.Application.Default.Save();
 		}
 		void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
 		{

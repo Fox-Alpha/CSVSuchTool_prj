@@ -15,7 +15,7 @@ using Microsoft.WindowsAPICodePack.Shell;
 using System.Text.RegularExpressions;
 using Microsoft.Win32;
 
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	/// <summary>
 	/// Description of DummyForm.

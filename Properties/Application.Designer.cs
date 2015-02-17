@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AC_Telefonbuch.Properties
+namespace CSVSuchTool.Properties
 {
 	
 	
