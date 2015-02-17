@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SharpDevelop 5.1
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-Telefonbuch", "AC-Telefonbuch.csproj", "{9FD2D129-1AAB-48DE-B6E0-88B5967055EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVSuchTool", "CSVSuchTool.csproj", "{9FD2D129-1AAB-48DE-B6E0-88B5967055EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LumenWorks.Framework.IO", "..\CsvReader_src\LumenWorks.Framework.IO\LumenWorks.Framework.IO.csproj", "{E3B83D68-C90C-4874-8E5F-DEC8D038BC7C}"
 EndProject

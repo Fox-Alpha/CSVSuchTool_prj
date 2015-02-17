@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	using System;
 	
@@ -45,7 +45,7 @@ namespace AC_Telefonbuch
 			{
 				if (object.ReferenceEquals(resourceMan, null))
 				{
-					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AC_Telefonbuch.Resource", typeof(Resource).Assembly);
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CSVSuchTool.Resource", typeof(Resource).Assembly);
 					resourceMan = temp;
 				}
 				return resourceMan;

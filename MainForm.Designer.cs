@@ -5,7 +5,7 @@
  * Zeit: 09:19
  * 
  */
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	partial class MainForm
 	{

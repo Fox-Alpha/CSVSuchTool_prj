@@ -12,7 +12,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Text;
 
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	/// <summary>
 	/// Description of FrmLogView.

@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using System.Windows;
 using System.IO;
 
-namespace AC_Telefonbuch
+namespace CSVSuchTool
 {
 	public sealed class NotificationIcon
 	{
@@ -49,11 +49,11 @@ namespace AC_Telefonbuch
 			notificationMenu.Items.AddRange(InitializeMenu());
 			notificationMenu.Opening += menuPopup;
 			
-			AC_Telefonbuch.Properties.Application.Default.Reload();
-			AC_Telefonbuch.Properties.Application.Default.Upgrade();
+			CSVSuchTool.Properties.Application.Default.Reload();
+			CSVSuchTool.Properties.Application.Default.Upgrade();
 			
-			if (!string.IsNullOrWhiteSpace(AC_Telefonbuch.Properties.Application.Default.sourceFile)) {
-				strFileName = AC_Telefonbuch.Properties.Application.Default.sourceFile;
+			if (!string.IsNullOrWhiteSpace(CSVSuchTool.Properties.Application.Default.sourceFile)) {
+				strFileName = CSVSuchTool.Properties.Application.Default.sourceFile;
 			}
 
 			foreach (ToolStripItem tsi in notificationMenu.Items) { //.Find("Suche", true);
