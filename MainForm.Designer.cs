@@ -198,6 +198,7 @@ namespace CSVSuchTool
 			this.ClientSize = new System.Drawing.Size(504, 466);
 			this.Controls.Add(this.panel2);
 			this.Controls.Add(this.panel1);
+			this.Icon = global::CSVSuchTool.Resource.DBSoft;
 			this.Name = "MainForm";
 			this.Text = "MainForm";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);

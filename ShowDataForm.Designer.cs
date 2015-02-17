@@ -188,7 +188,7 @@ namespace CSVSuchTool
 			this.toolStripMenuItem3,
 			this.toolStripMenuItem4});
 			this.ctxMailOptions.Name = "ctxMailOptions";
-			this.ctxMailOptions.Size = new System.Drawing.Size(202, 114);
+			this.ctxMailOptions.Size = new System.Drawing.Size(202, 92);
 			// 
 			// toolStripMenuItem1
 			// 
@@ -233,6 +233,7 @@ namespace CSVSuchTool
 			this.Controls.Add(this.toolStrip1);
 			this.Controls.Add(this.tsNavigation);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+			this.Icon = global::CSVSuchTool.Resource.DBSoft;
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.MinimumSize = new System.Drawing.Size(250, 200);

@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
-    <ApplicationIcon>DBSoft.ico</ApplicationIcon>
+    <ApplicationIcon>Images\DBSoft.ico</ApplicationIcon>
     <NoWin32Manifest>False</NoWin32Manifest>
     <SignAssembly>False</SignAssembly>
     <DelaySign>False</DelaySign>

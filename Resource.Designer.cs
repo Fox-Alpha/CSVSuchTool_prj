@@ -70,6 +70,78 @@ namespace CSVSuchTool
 		}
 		
 		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon ACiconL
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("ACiconL", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon brief2
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("brief2", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon DBSoft
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("DBSoft", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon Find_Search
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("Find_Search", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon first
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("first", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon last
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("last", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
 		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
 		/// </summary>
 		internal static System.Drawing.Bitmap mail_view
@@ -78,6 +150,54 @@ namespace CSVSuchTool
 			{
 				object obj = ResourceManager.GetObject("mail_view", resourceCulture);
 				return ((System.Drawing.Bitmap)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon nextArrow
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("nextArrow", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon prevArrow
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("prevArrow", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon refresh
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("refresh", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
+			}
+		}
+		
+		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+		/// </summary>
+		internal static System.Drawing.Icon Stopped
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("Stopped", resourceCulture);
+				return ((System.Drawing.Icon)(obj));
 			}
 		}
 	}
