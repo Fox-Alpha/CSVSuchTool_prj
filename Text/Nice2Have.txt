@@ -7,17 +7,13 @@ Zuletzt verwendete Dateien als Auswahl in der Task-Jumpliste anzeigen
 
 
 Bearbeiten
+------------
 - Öffnen der Datei im Editor
 - Schnell Editieren der angezeigten Ergebnisse
 
 
-Suche im "kleinen" Ergebnisfenster
-DONE: - Weiteres Schnellsuche Feld einfügen
-DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
-DONE: - Fix, Höhe des Label für EMail Adresse anpassen
-
-
-Ergebnisfenster
+Kleines Ergebnisfenster
+-----------------------
 - Kopieren und Editieren Buttons neben dem Eintrag hinzufügen
 - Kontextmenü für Email Vorlagen erstellen
 	Email Link mit Funktion verknüpfen
@@ -28,6 +24,11 @@ Ergebnisfenster
 	- Kopieren der Mail Adresse
 - Symbol zum öffnen eines Notizen Editors
 -- Versenden der Notiz als EMail
+DONE: - Weiteres Schnellsuche Feld einfügen
+DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
+DONE: - Fix, Höhe des Label für EMail Adresse anpassen
+- Speichern der gefundenen Datensätze nicht als List<String> sondern als Dictionary<string><string> (Key=Value)
+-- Einfachere Erstellung der Labels
 
 
 Hauptansicht
@@ -46,10 +47,8 @@ Hauptansicht
 
 Allgemein
 ---------
-- Umbenennen in einem nicht AC relevanten Namen
--- CSV - SuchTool
-- Speichern der gefundenen Datensätze nicht als List<String> sondern als Dictionary<string><string> (Key=Value)
--- Einfachere Erstellung der Labels
+DONE: - Umbenennen in einem nicht AC relevanten Namen 
+===: Neuer Projektname - CSVSuchTool
 
 
 Tray Kontextmenü
