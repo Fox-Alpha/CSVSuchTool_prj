@@ -1,35 +1,37 @@
-﻿Zuletzt verwendete Dateien als Auswahl in der Task-Jumpliste anzeigen
-- Klick auf "gepinnte" Datei, Öffnet Suchdialog mit dieser Datei
-
-Schnellsuche
-- "Gepinnte" Dateien aus der Task-Jumpliste als Suchziel-Untermenü auflisten.
-
+﻿Taskoptionen
+------------
 DONE:Jumlist
 DONE:- Siehe Routine Helper
+Zuletzt verwendete Dateien als Auswahl in der Task-Jumpliste anzeigen
+- Klick auf "gepinnte" Datei, Öffnet Suchdialog mit dieser Datei
+
 
 Bearbeiten
 - Öffnen der Datei im Editor
 - Schnell Editieren der angezeigten Ergebnisse
+
 
 Suche im "kleinen" Ergebnisfenster
 DONE: - Weiteres Schnellsuche Feld einfügen
 DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
 DONE: - Fix, Höhe des Label für EMail Adresse anpassen
 
+
 Ergebnisfenster
 - Kopieren und Editieren Buttons neben dem Eintrag hinzufügen
 - Kontextmenü für Email Vorlagen erstellen
+	Email Link mit Funktion verknüpfen
+	- Bei Klick auf einen EMail Link, Auswahl mit möglichen Betreffs anzeigen
+	-- Wurde durch Anrufer nicht erreicht
+	-- Betrifft offenen Incident
+	-- Neuen Incident (an servicedesk@...)
+	- Kopieren der Mail Adresse
+- Symbol zum öffnen eines Notizen Editors
+-- Versenden der Notiz als EMail
 
-Email Link mit Funktion verknüpfen
-- Bei Klick auf einen EMail Link, Auswahl mit möglichen Betreffs anzeigen
--- Wurde durch Anrufer nicht erreicht
--- Betrifft offenen Incident
--- Neuen Incident (an servicedesk@...)
-- Kopieren der Mail Adresse
-
-Notiz Funktion im "kleinen" Ergebnisfenster einfügen
 
 Hauptansicht
+------------
 - Statuszeile
 -- Anzahl Zeilen/Spalten/Suchergebnisse
 - Sortierung
@@ -41,12 +43,19 @@ Hauptansicht
 -- Anzeige des Dateipfad/Namen im Fenster optimieren
 --- Eventuell im Fenstertitel einfügen
 
+
 Allgemein
+---------
 - Umbenennen in einem nicht AC relevanten Namen
 -- CSV - SuchTool
 - Speichern der gefundenen Datensätze nicht als List<String> sondern als Dictionary<string><string> (Key=Value)
 -- Einfachere Erstellung der Labels
 
-Kontextmenü
+
+Tray Kontextmenü
+----------------
 DONE: - Eintrag um das Ergebnisfenster wieder in den Vordergrund zu bringen.
 Punkt zum anzeigen eines Info Dialog
+Punkt zum öffnen eines Notizen Editors
+Schnellsuche
+- "Gepinnte" Dateien aus der Task-Jumpliste als Suchziel-Untermenü auflisten.
