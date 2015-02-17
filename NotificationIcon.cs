@@ -33,18 +33,18 @@ namespace CSVSuchTool
 		#region Initialize icon and menu
 		public NotificationIcon()
 		{
+			
 			notifyIcon = new NotifyIcon();
 			
-			//notificationMenu = new ContextMenu(InitializeMenu());
 			notificationMenu = new ContextMenuStrip();
 			
 			notifyIcon.DoubleClick += IconDoubleClick;
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NotificationIcon));
 			notifyIcon.Icon = (Icon)resources.GetObject("$this.Icon");
-			//notifyIcon.ContextMenu = notificationMenu;
+
 			notificationMenu.Name = "iconContextMenu";
 			notifyIcon.ContextMenuStrip = notificationMenu;
-			notifyIcon.Text = "CSV - Suchtool für die Tray Anzeige";
+			notifyIcon.Text = "CSV - Suchtool für die toolTray Symbol";
 			
 			notificationMenu.Items.AddRange(InitializeMenu());
 			notificationMenu.Opening += menuPopup;
@@ -90,11 +90,6 @@ namespace CSVSuchTool
 		
 		private ToolStripItem[] InitializeMenu()
 		{
-//			MenuItem[] menu = new MenuItem[] {
-//				new MenuItem("About", menuAboutClick),
-//				new MenuItem("Exit", menuExitClick),
-//				
-//			};
 			ToolStripItem[] menu = new ToolStripItem[] {
 				new ToolStripTextBox("Suche"),
 				new ToolStripSeparator(), 
@@ -129,6 +124,7 @@ namespace CSVSuchTool
 
 			
 			//	Anhand einer eindeutig benannten Mutex, feststellen ob bereits eine Instanz der Anwendung läuft
+			//	TODO: Optionale Parameter zum Aufrufen der Anwendung erstellen
 			using (Mutex mtx = new Mutex(true, "AC_Telefonbuch", out isFirstInstance)) {
 				if (isFirstInstance) {
 					NotificationIcon notificationIcon = new NotificationIcon();
@@ -137,15 +133,13 @@ namespace CSVSuchTool
 					//TODO: Option für das Anzeigen des Hauptfensters beim start erstellen
 					// - Beim Schließen des Hauptfensters wird die Anwendung geschlossen.
 					// - Keine neue Instanz des Hauptfensters erzeugen
-//					if(AC_Telefonbuch.Properties.Settings.Default.showMainFormOnStart)
-//						Application.Run(new MainForm());
-//					else
 					Application.Run(new DummyForm());
 					
 					notificationIcon.notifyIcon.Dispose();
 				} else {
 					// The application is already running
 					// TODO: Display message box or change focus to existing application instance
+					//	Übergeben optionaler Parameter an bestehenden Prozess (evtl. erst nachfragen)
 				}
 			} // releases the Mutex
 		}
@@ -177,7 +171,6 @@ namespace CSVSuchTool
 					mf.ShowInTaskbar = true;
 					mI.Tag = true;
 					mf.Show();
-					//mI.Tag = false;
 				} else {
 					mf.Hide();
 					mf.ShowInTaskbar = false;
@@ -243,7 +236,6 @@ namespace CSVSuchTool
 		{
 			if (e.KeyData == Keys.Enter) {
 				//Suche ausführen und Ergebnis anzeigen.
-				//Hauptfenster der Anwendung anzeigen
 				ToolStripTextBox miTB = null;
 
 				if ((miTB = sender as ToolStripTextBox) != null) {				

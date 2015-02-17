@@ -22,6 +22,8 @@ namespace CSVSuchTool
 	/// </summary>
 	public partial class ShowDataForm : Form
 	{
+		//	####
+		#region properties
 		List<List<string>> _dataList;
 		
 		public List<List<string>> dataList {
@@ -83,6 +85,14 @@ namespace CSVSuchTool
 		
 		Point labPos;
 		
+		#endregion properties
+		//	####
+		
+		//	####
+		#region Formular Funktionen
+		/// <summary>
+		/// Hauptfunktion der Form
+		/// </summary>
 		public ShowDataForm()
 		{
 			//
@@ -123,6 +133,28 @@ namespace CSVSuchTool
 				ctx.Click += linkLabelEMailTo_Click;
 			}
 		}
+
+		/// <summary>
+		/// schliessen der Form
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void closeDataForm_Click(object sender, EventArgs e)
+		{
+			Close();
+		}
+		
+		#endregion Formular Funktionen
+		//	####
+		
+		//	####
+		#region Funktionen
+		/// <summary>
+		/// Suche in der geladenen CSV Datei durchführen
+		/// </summary>
+		/// <param name="search"></param>
+		/// <param name="strFileName"></param>
+		/// <returns></returns>
 		public bool ReadCsv(string search, string strFileName)
 		{
 			//
@@ -133,7 +165,7 @@ namespace CSVSuchTool
 				MessageBox.Show("Es wurde keine Datei für die Suche angegeben");
 				return false;
 			}
-			//	Kein Text für Suche eingegegen
+			//	Kein Text für Suche eingegeben
 			if(string.IsNullOrWhiteSpace(search)) {
 				MessageBox.Show("Es wurde kein Suchbegriff angegeben");
 				return false;
@@ -181,8 +213,10 @@ namespace CSVSuchTool
 		        {
 					List<string> strLine = new List<string>();
 					
+					//	Suche nur in Spalten mit Text
 					if (!(string.IsNullOrWhiteSpace(search)))
    		            {
+						//	Suche in jeder Spalte per RegEx
    		            	if (Regex.IsMatch(csv[iSearchInColumn], strSearchTerm, RegexOptions.IgnoreCase))
 						{
 		   		            for (int i = 0; i < iFieldCount; i++)
@@ -193,9 +227,6 @@ namespace CSVSuchTool
 		   		            dataList.Add(new List<string>(strLine));
 						}
 					}
-   		            //else
-					//{
-					//}
    		            strLine.Clear();
 		        }
 		        //	####
@@ -206,6 +237,10 @@ namespace CSVSuchTool
 			return dataList.Count > 0;
 		}
 		
+		/// <summary>
+		/// Erstellen der Labels für die Anzeige eines Datensatzes
+		/// </summary>
+		/// <param name="Index"></param>
 		void displayResult(int Index = 0)
 		{
 			if (dataList.Count == 0){
@@ -224,8 +259,7 @@ namespace CSVSuchTool
 		    Control[] labControls = null;
 			for (int i = 0; i < iFieldCount; i++)
             {
-				
-				List<string> lData = dataList.Count > 0 ? dataList[Index] : null;	//TODO: Ausgewählten Index abrufen, bei Start immer Index 0 //TODO: Prüfen ob Daten "gefunden" wurden
+				List<string> lData = dataList.Count > 0 ? dataList[Index] : null;	
 
 				if ((labControls = Controls.Find("labData_"+i, true)).Length > 0) {
 					if (labControls[0] is Label) {
@@ -244,11 +278,17 @@ namespace CSVSuchTool
 				}
 				
 				labDataCaption[i].Name = "labData_" + i;
-					
+				
+				//
+				//	####
+				//
+				//	Prüfen ob der Text eine gültige eMail Adresse enthält (inkl. Umlaute)
+				//
 				if (Regex.IsMatch(lData.ToArray()[i], @"^[a-zäöüßA-ZÄÖÜ0-9_-]{1,}[a-zA-Z0-9_\-\.]*[a-zäöüßA-ZÄÖÜ0-9_-]{1,}@[a-zäöüA-ZÄÖÜ0-9_\-\.]{2,}\.[a-zäöü]{2,4}$")) {
 					string[] pattern = {"ä","ö","ü","ß"};
 					string[] replace = {"ae","oe","ue","ss"};
 					
+					//	Hier werden die Umlaute ausgetauscht
 					if (Regex.IsMatch(lData.ToArray()[i], @"[äöüßÄÖÜ]{1,}")) {
 						for (int r = 0; r < 4; r++) {
 							lData[i] = Regex.Replace(lData.ToArray()[i], pattern[r], replace[r]);
@@ -265,6 +305,7 @@ namespace CSVSuchTool
 						imgList.Images.Add(bmpMail);
 						imgList.ImageSize = new Size(16, 16);
 						//#####
+						
 					  	Controls.RemoveByKey("labData_"+i);
 						labDataCaption[i] = new LinkLabel();
 						labDataCaption[i].Name = "labData_" + i;
@@ -280,6 +321,9 @@ namespace CSVSuchTool
 						labDataCaption[i].Height = 18;
 					}
 				}
+				//
+				//	#### Ende eMail Prüfung ####
+				//
 				
 				labDataCaption[i].Text = lData != null ? lData.ToArray()[i] : "Keine Daten gefunden";
 				
@@ -290,7 +334,7 @@ namespace CSVSuchTool
 			
 			int c = 0;
 			//
-			//	MArgin, Padding und Position jedes Datenlabels anpassen
+			//	Margin, Padding und Position jedes Datenlabels anpassen
 			//
 			foreach (Label labTmp in labDataCaption) {
 				labTmp.Padding = labTmp.ImageIndex >= 0 ? new Padding(20,0,0,0) : new Padding(0);;
@@ -301,7 +345,7 @@ namespace CSVSuchTool
 			//	####
 			
 			//
-			//	Setzen der Indizes für die Steuerung der Anzeige
+			//	Setzen der Indizes für die Steuerung bei mehr als ein Ergebnis
 			//
 			maxDataSet = dataList.Count-1;
 			currDataSet = Index;
@@ -321,7 +365,18 @@ namespace CSVSuchTool
     		this.Controls.AddRange(labCaptionList);
     		this.Controls.AddRange(labDataCaption);
 		}
+		#endregion Funktionen
+		//	####
 		
+		//	####
+		#region Steuerlement Ereignisse
+
+		/// <summary>
+		/// Links- und Rechtclick auf ein eMaillabel
+		/// rechts, zeigt ein Kontextmenü mit vorgaben
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void linkLabelEMailTo_Click(object sender, EventArgs e)
 		{
 			object tsmi;
@@ -369,26 +424,61 @@ namespace CSVSuchTool
 				}
 			}
 		}
-		void closeDataForm_Click(object sender, EventArgs e)
-		{
-			Close();
-		}
+		
+		#endregion Steuerlement Ereignisse
+		//	####
+		
+		//	####
+		#region Datensatzanzeige steuern
+		/// <summary>
+		/// Zum ersten gefundenen Datensatz springen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tsButtFirstSet_Click(object sender, EventArgs e)
 		{
 			displayResult(0);
 		}
+		
+		/// <summary>
+		/// Aktueller Datensatz -1 anzeigen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tsButtPrevSet_Click(object sender, EventArgs e)
 		{
 			displayResult(currDataSet-1);
 		}
+		
+		/// <summary>
+		/// Aktueller Datensatz +1 anzeigen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tsButtNextSet_Click(object sender, EventArgs e)
 		{
 			displayResult(currDataSet+1);
 		}
+		
+		/// <summary>
+		/// Zum letzten gefundenen Datensatz springen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tsButtLastSet_Click(object sender, EventArgs e)
 		{
 			displayResult(maxDataSet);
 		}
+		#endregion Datensatzanzeige steuern
+		//	####
+		
+		//	####
+		#region Toolstrip Funktionen und Events
+		/// <summary>
+		/// Eingabe im Suchfeld auf "Entertaste" prüfen und Suche ausführen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tsTextSearch_KeyUp(object sender, KeyEventArgs e)
 		{
 			if(e.KeyData == Keys.Enter)
@@ -448,5 +538,8 @@ namespace CSVSuchTool
 				}
 			}
 		}
+		
+		#endregion Toolstrip Funktionen und Events
+		//	####
 	}
 }

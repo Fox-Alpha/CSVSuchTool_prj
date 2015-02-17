@@ -1,4 +1,16 @@
-﻿13.02.2015
+﻿17.02.2015
+==========
+Chg: Icon für ToolTray ersetzt
+Chg: Projekt umbenannt "AC-Telefonbuch" => "CSVSuchTool"
+Cln: Nicht mehr benötigte Dateien entfernt
+===: Icons und Grafik in den Ordner "images" verschoben
+===: Beispiel CSV Dateien in den Ordner "Data" verschoben
+===: Sourcecode von unnötigen Kommentierten Code befreit
+Add: Kommentare für Funktionen hinzugefügt
+Add: Source in Regions aufgeteilt
+
+
+13.02.2015
 ==========
 Add: Kontextmenü beim Email Link
 - Aufruf für generierten Betreff und Text
@@ -11,9 +23,11 @@ Fix: Button zum öffnen der Hauptansicht aus dem Ergebnisfenster funktioniert je
 Fix: Traymenü, Anzeigen und Ausblenden ds Hauptfensters wechseln korrigiert
 Add: Traymenü, Menüpunkt zum anzeigen der Ergebnisse. Nur wenn eine Suche mit Ergebnis vorliegt
 
+
 26.01.2015
 ==========
 Fix: Verschobene Labels im Ergebnisfenster (Horizontal)
+
 
 24.01.2015
 ==========
@@ -21,6 +35,7 @@ FixIT: Jumpliste für Taskleiste hinzugefügt
 ===: Standarttools Eingefügt
 ===: Wenn installiert erscheint auch der Total Commander in der Liste
 Add: Suchfunktion für weiteres Suchfeld im Ergebnisfenster 
+
 
 23.01.2015
 ==========

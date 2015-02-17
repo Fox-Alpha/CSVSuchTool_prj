@@ -25,8 +25,9 @@ namespace CSVSuchTool
 	/// </summary>
 	public partial class MainForm : Form
 	{
-		
+		//####
 		#region properties
+		
 		string _strFileName;
 		
 		public string strFileName {
@@ -52,7 +53,12 @@ namespace CSVSuchTool
 	    // Declare a variable to store the current grouping column.
 	    int groupColumn = 0;
 	    
-		#endregion
+		#endregion properties
+		//	####
+		
+		/// <summary>
+		/// Hauptfunktion der Form
+		/// </summary>
 		public MainForm()
 		{
 			//
@@ -90,6 +96,11 @@ namespace CSVSuchTool
 		{
 		}
 		
+		/// <summary>
+		/// Eingaben im Suchfeld auf "Eingabetaste" prüfen udn Suche durchführem
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void tbSearch_KeyUp(object sender, KeyEventArgs e)
 		{
 			if(e.KeyData == Keys.Enter)
@@ -98,6 +109,12 @@ namespace CSVSuchTool
 				ReadCsv(true);
 			}
 		}
+		
+		/// <summary>
+		/// Laden einer anderen CSV Datei
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void ButtSourceFileClick(object sender, System.EventArgs e)
 		{
 			string strTmp = "";
@@ -114,24 +131,13 @@ namespace CSVSuchTool
 				Properties.Application.Default.Save();
 				
 				ReadCsv();
-
-//				if (isRunningXPOrLater)
-//		        {
-//		            // Create the groupsTable array and populate it with one 
-//		            // hash table for each column.
-//		            groupTables = new Hashtable[listView1.Columns.Count];
-//		            for (int column = 0; column < listView1.Columns.Count; column++)
-//		            {
-//		                // Create a hash table containing all the groups 
-//		                // needed for a single column.
-//		                groupTables[column] = CreateGroupsTable(column);
-//		            }
-//		
-//		            // Start with the groups created for the Title column.
-//		            SetGroups(0);
-//		        }
 			}
 		}
+		
+		/// <summary>
+		/// Suche in CSV durchführen
+		/// </summary>
+		/// <param name="search"></param>
 		void ReadCsv(bool search = false)
 		{
 		    using (CsvReader csv =
@@ -206,6 +212,7 @@ namespace CSVSuchTool
 		        }
 		    }
 
+			//	Gruppen können nur ab Windows XP und aufwärts erstellt werden
 		    if (isRunningXPOrLater)
 	        {
 	            // Create the groupsTable array and populate it with one 
@@ -222,6 +229,12 @@ namespace CSVSuchTool
 	            SetGroups(0);
 	        }
 		}
+		
+		/// <summary>
+		/// Sortieren der Liste per Spaltenname
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void ListView1ColumnClick(object sender, System.Windows.Forms.ColumnClickEventArgs e)
 		{
 	        // Set the sort order to ascending when changing
@@ -245,6 +258,7 @@ namespace CSVSuchTool
 		}
 		
 	    // Sets myListView to the groups created for the specified column.
+	    //	TODO: Funktion erweitern das diese dynamisch mit jedem ListView verwendet werden kann
 	    private void SetGroups(int column)
 	    {
 	        // Remove the current groups.
@@ -318,6 +332,8 @@ namespace CSVSuchTool
 	        // Return the Hashtable object.
 	        return groups;
 	    }
+	    
+	    
 		void tbSearch_Enter(object sender, EventArgs e)
 		{
 			if (sender is TextBox) {
@@ -325,6 +341,8 @@ namespace CSVSuchTool
 				((TextBox)sender).SelectAll();
 			}
 		}
+		
+		
 		void MainForm_Shown(object sender, EventArgs e)
 		{
 			if (!string.IsNullOrWhiteSpace(strFileName)) {
@@ -345,6 +363,13 @@ namespace CSVSuchTool
 			Location = CSVSuchTool.Properties.Application.Default.SearchFormPosition;
 			Size = CSVSuchTool.Properties.Application.Default.SearchFormSize;
 		}
+		
+		/// <summary>
+		/// Beim schliessen der Form die Eigenschaften speichern
+		/// - Größe und Position der Form
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		void MainForm_FormClosing(object sender, FormClosingEventArgs e)
 		{
 			CSVSuchTool.Properties.Application.Default.SearchFormPosition = Location;
@@ -389,9 +414,12 @@ namespace CSVSuchTool
 	}
 	
     // Sorts ListViewGroup objects by header value.
+    /// <summary>
+    /// Klasse zum Festlegen der Sortierfolge und durchführen der Sortierung
+    /// </summary>
     class ListViewGroupSorter : IComparer
     {
-        private SortOrder order;
+        private SortOrder order;	//TODO: Als Propertie anlegen ?
 
         // Stores the sort order.
         public ListViewGroupSorter(SortOrder theOrder) 
