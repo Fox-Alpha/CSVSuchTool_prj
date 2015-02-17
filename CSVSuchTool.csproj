@@ -160,6 +160,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Text\Snippet.txt" />
+    <None Include="Text\AUTHORS" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data" />
