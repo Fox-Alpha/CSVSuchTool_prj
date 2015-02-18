@@ -166,6 +166,18 @@ namespace CSVSuchTool
 		}
 		
 		/// <summary>
+		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+		/// </summary>
+		internal static System.Drawing.Bitmap notizen
+		{
+			get
+			{
+				object obj = ResourceManager.GetObject("notizen", resourceCulture);
+				return ((System.Drawing.Bitmap)(obj));
+			}
+		}
+		
+		/// <summary>
 		///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
 		/// </summary>
 		internal static System.Drawing.Icon prevArrow
