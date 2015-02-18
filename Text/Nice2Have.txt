@@ -15,7 +15,8 @@ Bearbeiten
 Kleines Ergebnisfenster
 -----------------------
 - Kopieren und Editieren Buttons neben dem Eintrag hinzufügen
-- Kontextmenü für Email Vorlagen erstellen
+(Edit nur mit Klasse zum schreiben von CSV Daten möglich)
+DONE: - Kontextmenü für Email Vorlagen erstellen
 	Email Link mit Funktion verknüpfen
 	- Bei Klick auf einen EMail Link, Auswahl mit möglichen Betreffs anzeigen
 	-- Wurde durch Anrufer nicht erreicht
@@ -39,6 +40,7 @@ Hauptansicht
 -- Fix, Spaltensortierung erfolgt nach kompletten Zelleninhalt. Hier sollte nur eine Teil Sortierung erfolgen
 -- Zusätzliche Auswahl der Spalte die Sortiert werden soll.
 -- Hervorhebung der sortierten Spalte
+--- Aufsteigend: Kleinste zuerst; Absteigend: Größte zuerst; Ohne Sortierung: Wie in Datei gespeichert
 - Dateiauswahl
 -- Dateiname und Pfad im Auswahl Dialog übernehmen
 -- Anzeige des Dateipfad/Namen im Fenster optimieren
@@ -49,6 +51,7 @@ Allgemein
 ---------
 DONE: - Umbenennen in einem nicht AC relevanten Namen 
 ===: Neuer Projektname - CSVSuchTool
+- Globale Tastenkombination zum Öffnen des Suchdialogs
 
 
 Tray Kontextmenü

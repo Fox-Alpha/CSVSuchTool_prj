@@ -1,4 +1,9 @@
-﻿17.02.2015
+﻿18.02.2015
+==========
+Add: Funktion zum kopieren der eMail Adresse in die zwischenablage per Kontextmenü hinzugefügt
+
+
+17.02.2015
 ==========
 Chg: Icon für ToolTray ersetzt
 Chg: Projekt umbenannt "AC-Telefonbuch" => "CSVSuchTool"
