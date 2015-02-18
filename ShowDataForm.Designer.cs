@@ -55,6 +55,7 @@ namespace CSVSuchTool
 			this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
 			this.tsNavigation.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
 			this.ctxMailOptions.SuspendLayout();
@@ -186,9 +187,10 @@ namespace CSVSuchTool
 			this.toolStripMenuItem1,
 			this.toolStripMenuItem2,
 			this.toolStripMenuItem3,
-			this.toolStripMenuItem4});
+			this.toolStripMenuItem4,
+			this.toolStripMenuItem5});
 			this.ctxMailOptions.Name = "ctxMailOptions";
-			this.ctxMailOptions.Size = new System.Drawing.Size(202, 92);
+			this.ctxMailOptions.Size = new System.Drawing.Size(202, 136);
 			// 
 			// toolStripMenuItem1
 			// 
@@ -222,6 +224,13 @@ namespace CSVSuchTool
 			this.toolStripMenuItem4.Tag = "3";
 			this.toolStripMenuItem4.Text = "Mail, CC an Incident";
 			// 
+			// toolStripMenuItem5
+			// 
+			this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+			this.toolStripMenuItem5.Size = new System.Drawing.Size(201, 22);
+			this.toolStripMenuItem5.Tag = "99";
+			this.toolStripMenuItem5.Text = "Adresse kopieren";
+			// 
 			// ShowDataForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,6 +257,7 @@ namespace CSVSuchTool
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;

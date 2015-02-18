@@ -393,7 +393,12 @@ namespace CSVSuchTool
 				parent = ((ToolStripMenuItem)tsmi).GetCurrentParent();
 				parent = ((ContextMenuStrip)parent).SourceControl ?? parent;
 				
-				recipient = ((LinkLabel)parent).Text ?? string.Empty;;
+				recipient = ((LinkLabel)parent).Text ?? string.Empty;
+				
+				if (iMailIndex == 99) {
+					Clipboard.SetText(recipient ?? string.Empty);
+					return;
+				}
 			}
 	
 			if((tsmi = sender as LinkLabel) != null)
