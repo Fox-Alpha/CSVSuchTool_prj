@@ -544,6 +544,17 @@ namespace CSVSuchTool
 			}
 		}
 		
+		/// <summary>
+		/// Aufrufen eines Editors für kleine Notizen
+		/// Übergabe des Namen und der eMail an den Editor (evtl. auch ID des Datensatzes)
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void tsButtShortNotes_Click(object sender, EventArgs e)
+		{
+			
+		}
+		
 		#endregion Toolstrip Funktionen und Events
 		//	####
 	}
