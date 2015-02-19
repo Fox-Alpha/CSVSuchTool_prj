@@ -93,6 +93,7 @@ namespace CSVSuchTool
 			// 
 			// toolTipShortNotes
 			// 
+			this.toolTipShortNotes.IsBalloon = true;
 			this.toolTipShortNotes.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
 			this.toolTipShortNotes.ToolTipTitle = "Kurznotizen";
 			// 
@@ -287,7 +288,7 @@ namespace CSVSuchTool
 			// textEditorToolStripMenuItem
 			// 
 			this.textEditorToolStripMenuItem.Name = "textEditorToolStripMenuItem";
-			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
 			this.textEditorToolStripMenuItem.Text = "Text Editor";
 			this.textEditorToolStripMenuItem.ToolTipText = "Ein einfacher Text Editor";
 			this.textEditorToolStripMenuItem.Click += new System.EventHandler(this.textEditorToolStripMenuItem_Click);
@@ -301,9 +302,7 @@ namespace CSVSuchTool
 			this.Controls.Add(this.statusStripShortNotes);
 			this.Icon = global::CSVSuchTool.Resource.DBSoft;
 			this.Name = "ShortNotesForm";
-			this.Text = "Kutznotizen";
-			this.Shown += new System.EventHandler(this.ShortNotesForm_Shown);
-			this.ClientSizeChanged += new System.EventHandler(this.ShortNotesForm_ClientSizeChanged);
+			this.Text = "Kurznotizen";
 			this.statusStripShortNotes.ResumeLayout(false);
 			this.statusStripShortNotes.PerformLayout();
 			this.tsContainer.TopToolStripPanel.ResumeLayout(false);
