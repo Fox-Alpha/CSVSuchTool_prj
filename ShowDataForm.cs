@@ -554,7 +554,7 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void tsButtShortNotes_Click(object sender, EventArgs e)
 		{
-			if (shfNoteEditor == null)
+			if (shfNoteEditor == null || shfNoteEditor.IsDisposed)
 			{
 				shfNoteEditor = new ShortNotesForm();
 			}
