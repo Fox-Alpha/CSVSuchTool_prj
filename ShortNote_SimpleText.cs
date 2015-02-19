@@ -17,6 +17,15 @@ namespace CSVSuchTool
 	/// </summary>
 	public partial class cptShortNote_SimpleText : UserControl
 	{
+		//	####
+		#region Properties
+		
+		#endregion Properties
+		//	####
+		
+		//	####
+		#region Formular Funktionen
+		
 		public cptShortNote_SimpleText()
 		{
 			//
@@ -32,5 +41,34 @@ namespace CSVSuchTool
 		{
 			this.Dock = DockStyle.Fill;
 		}
+		
+		#endregion Formular Funktionen
+		//	####
+
+		//	####
+		#region Kontextmenu
+		void CtxMenuSimpleEditorSelectAllClick(object sender, EventArgs e)
+		{
+	
+		}
+		void CtxMenuSimpleEditorKopierenClick(object sender, EventArgs e)
+		{
+	
+		}
+		void CtxMenuSimpleEditorEinfügenClick(object sender, EventArgs e)
+		{
+	
+		}
+		void CtxMenuSimpleEditorAusschneidenClick(object sender, EventArgs e)
+		{
+	
+		}
+		void CtxMenuSimpleEditorlöschenClick(object sender, EventArgs e)
+		{
+	
+		}
+		
+		#endregion Kontextmenu
+		//	####
 	}
 }
