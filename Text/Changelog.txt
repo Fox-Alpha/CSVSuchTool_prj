@@ -1,5 +1,9 @@
 ﻿19.02.2015
 ==========
+Add: Template für einen simplen Texteditor als Custom Komponente erstellt.
+Upd: Button für Kurznotizen mit Formaufruf verknüpft
+Add: Laden des Simple Templates als Standard wenn noch kein template ausgewählt wurde.
+Add: Menu im ToolStrip für Template Auswahl erstellt
 
 
 
