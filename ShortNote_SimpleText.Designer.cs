@@ -43,7 +43,7 @@ namespace CSVSuchTool
 			this.rtbShortNoteText.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.rtbShortNoteText.Location = new System.Drawing.Point(0, 0);
 			this.rtbShortNoteText.Name = "rtbShortNoteText";
-			this.rtbShortNoteText.Size = new System.Drawing.Size(484, 388);
+			this.rtbShortNoteText.Size = new System.Drawing.Size(100, 68);
 			this.rtbShortNoteText.TabIndex = 0;
 			this.rtbShortNoteText.Text = "";
 			// 
@@ -53,8 +53,9 @@ namespace CSVSuchTool
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.rtbShortNoteText);
 			this.Name = "cptShortNote_SimpleText";
-			this.Size = new System.Drawing.Size(484, 388);
+			this.Size = new System.Drawing.Size(100, 68);
 			this.Tag = "cptShortNote_SimpleText|Simple Note";
+			this.Load += new System.EventHandler(this.CptShortNote_SimpleTextLoad);
 			this.ResumeLayout(false);
 
 		}
