@@ -83,6 +83,8 @@ namespace CSVSuchTool
 			set { _iFieldCount = value; }
 		}
 		
+		ShortNotesForm shfNoteEditor = null;
+		
 		Point labPos;
 		
 		#endregion properties
@@ -552,7 +554,20 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void tsButtShortNotes_Click(object sender, EventArgs e)
 		{
+			if (shfNoteEditor == null)
+			{
+				shfNoteEditor = new ShortNotesForm();
+			}
 			
+//			if (shfNoteEditor.Disposing) {
+//				
+//			}
+			
+			if (shfNoteEditor != null && !shfNoteEditor.IsDisposed)
+			{
+				shfNoteEditor.ShowDialog();
+				shfNoteEditor.Dispose();
+			}
 		}
 		
 		#endregion Toolstrip Funktionen und Events
