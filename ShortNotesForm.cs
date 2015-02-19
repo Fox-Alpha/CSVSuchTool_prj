@@ -65,10 +65,11 @@ namespace CSVSuchTool
 			if (ucEditor == null) 
 			{
 				ucEditor = new cptShortNote_SimpleText();
-				ucEditor.Dock = DockStyle.Fill;
 //				ucEditor.Parent = this;
 //				this.AddOwnedForm(ucEditor);
+				this.SuspendLayout();
 				this.Controls.Add(ucEditor);
+				ucEditor.Dock = DockStyle.Fill;
 				
 				if (ucEditor.Tag.ToString() != string.Empty) 
 				{
@@ -77,18 +78,20 @@ namespace CSVSuchTool
 				
 					templateLoaded = true;
 					
-					Rectangle clrec = this.ClientRectangle;
-					
-					ucEditor.SetBounds(clrec.X, clrec.Y, clrec.Width, clrec.Height);
+//					Rectangle clrec = this.ClientRectangle;
+//					
+//					ucEditor.SetBounds(clrec.X, clrec.Y, clrec.Width, clrec.Height);
 					
 //					ucEditor.Location.X = ;
 //					ucEditor.Location.Y = Y;
 //					ucEditor.Size.Width = ;
 //					ucEditor.Size.Height = ;
 				}
-					
-				}
+				
+				this.ResumeLayout(false);
+				this.PerformLayout();
 			}
+		}
 		
 		
 		#endregion Formular Funktionen und Events
@@ -112,31 +115,34 @@ namespace CSVSuchTool
 				templateLoaded = false;
 			}
 			ucEditor = new cptShortNote_SimpleText();
-//			ucEditor.Dock = DockStyle.Fill;
+			this.Controls.Add(ucEditor);
+			ucEditor.Dock = DockStyle.Fill;
 			templateLoaded = true;
 		}
 		void ShortNotesForm_ClientSizeChanged(object sender, EventArgs e)
 		{
-			if (ucEditor == null) 
+			if (ucEditor != null) 
 			{
-				ucEditor = new cptShortNote_SimpleText();
+//				ucEditor = new cptShortNote_SimpleText();
+//				this.Controls.Add(ucEditor);
 //				ucEditor.Dock = DockStyle.Fill;
-				this.Controls.Add(ucEditor);
-				
-				if (ucEditor.Tag.ToString() != string.Empty) 
-				{
-					templateLoaded = true;
+//				
+//				if (ucEditor.Tag.ToString() != string.Empty) 
+//				{
+//					templateLoaded = true;
 					
 					Rectangle clrec = this.ClientRectangle;
 					
-					ucEditor.SetBounds(clrec.X, clrec.Y, clrec.Width, clrec.Height);
+					ucEditor.SetBounds(clrec.X, 
+					                   clrec.Y - toolStripShortNotes.Height,	//ClientHeight - höhe der Toolbar
+					                   clrec.Width, 
+					                   clrec.Height - toolStripShortNotes.Height - statusStripShortNotes.Height);	//ClientHeight - höhe der Toolbar - höhe der Statuszeile
 					
 //					ucEditor.Location.X = ;
 //					ucEditor.Location.Y = Y;
 //					ucEditor.Size.Width = ;
 //					ucEditor.Size.Height = ;
-					
-				}
+//				}
 			}
 		}
 	
