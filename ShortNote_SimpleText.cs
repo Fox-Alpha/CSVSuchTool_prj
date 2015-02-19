@@ -28,5 +28,9 @@ namespace CSVSuchTool
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		void CptShortNote_SimpleTextLoad(object sender, EventArgs e)
+		{
+			this.Dock = DockStyle.Fill;
+		}
 	}
 }
