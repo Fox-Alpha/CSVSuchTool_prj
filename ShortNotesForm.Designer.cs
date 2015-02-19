@@ -35,12 +35,16 @@ namespace CSVSuchTool
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShortNotesForm));
-			this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+			this.statusStripShortNotes = new System.Windows.Forms.StatusStrip();
+			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripShortNotes = new System.Windows.Forms.ToolStrip();
 			this.neuToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.öffnenToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.speichernToolStripButton = new System.Windows.Forms.ToolStripButton();
+			this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
 			this.ausschneidenToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.kopierenToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -53,27 +57,40 @@ namespace CSVSuchTool
 			this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
 			this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-			this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-			this.statusStrip1.SuspendLayout();
-			this.toolStrip1.SuspendLayout();
+			this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+			this.textEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolTipShortNotes = new System.Windows.Forms.ToolTip(this.components);
+			this.statusStripShortNotes.SuspendLayout();
+			this.toolStripShortNotes.SuspendLayout();
 			this.SuspendLayout();
 			// 
-			// statusStrip1
+			// statusStripShortNotes
 			// 
-			this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.statusStripShortNotes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 			this.toolStripStatusLabel1,
 			this.toolStripStatusLabel2});
-			this.statusStrip1.Location = new System.Drawing.Point(0, 331);
-			this.statusStrip1.Name = "statusStrip1";
-			this.statusStrip1.Size = new System.Drawing.Size(430, 22);
-			this.statusStrip1.TabIndex = 0;
-			this.statusStrip1.Text = "statusStrip1";
+			this.statusStripShortNotes.Location = new System.Drawing.Point(0, 331);
+			this.statusStripShortNotes.Name = "statusStripShortNotes";
+			this.statusStripShortNotes.Size = new System.Drawing.Size(443, 22);
+			this.statusStripShortNotes.TabIndex = 0;
+			this.statusStripShortNotes.Text = "statusStrip1";
 			// 
-			// toolStrip1
+			// toolStripStatusLabel1
 			// 
-			this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.toolStripStatusLabel1.AutoSize = false;
+			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+			this.toolStripStatusLabel1.Size = new System.Drawing.Size(200, 17);
+			this.toolStripStatusLabel1.Text = "Notiz für: NAME";
+			// 
+			// toolStripStatusLabel2
+			// 
+			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+			this.toolStripStatusLabel2.Size = new System.Drawing.Size(109, 17);
+			this.toolStripStatusLabel2.Text = "TT.MM-JJJ HH:MM";
+			// 
+			// toolStripShortNotes
+			// 
+			this.toolStripShortNotes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
 			this.neuToolStripButton,
 			this.öffnenToolStripButton,
 			this.speichernToolStripButton,
@@ -89,12 +106,13 @@ namespace CSVSuchTool
 			this.toolStripButton3,
 			this.toolStripButton4,
 			this.toolStripSeparator2,
-			this.toolStripButton5});
-			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-			this.toolStrip1.Name = "toolStrip1";
-			this.toolStrip1.Size = new System.Drawing.Size(430, 25);
-			this.toolStrip1.TabIndex = 1;
-			this.toolStrip1.Text = "toolStrip1";
+			this.toolStripButton5,
+			this.toolStripDropDownButton1});
+			this.toolStripShortNotes.Location = new System.Drawing.Point(0, 0);
+			this.toolStripShortNotes.Name = "toolStripShortNotes";
+			this.toolStripShortNotes.Size = new System.Drawing.Size(443, 25);
+			this.toolStripShortNotes.TabIndex = 1;
+			this.toolStripShortNotes.Text = "toolStrip1";
 			// 
 			// neuToolStripButton
 			// 
@@ -122,6 +140,15 @@ namespace CSVSuchTool
 			this.speichernToolStripButton.Name = "speichernToolStripButton";
 			this.speichernToolStripButton.Size = new System.Drawing.Size(23, 22);
 			this.speichernToolStripButton.Text = "&Speichern";
+			// 
+			// toolStripButton6
+			// 
+			this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+			this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButton6.Name = "toolStripButton6";
+			this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
+			this.toolStripButton6.Text = "toolStripButton6";
 			// 
 			// toolStripSeparator
 			// 
@@ -217,53 +244,60 @@ namespace CSVSuchTool
 			this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton5.Text = "toolStripButton5";
 			// 
-			// toolStripStatusLabel1
+			// toolStripDropDownButton1
 			// 
-			this.toolStripStatusLabel1.AutoSize = false;
-			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-			this.toolStripStatusLabel1.Size = new System.Drawing.Size(200, 17);
-			this.toolStripStatusLabel1.Text = "Notiz für: NAME";
+			this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.textEditorToolStripMenuItem});
+			this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
+			this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+			this.toolStripDropDownButton1.Size = new System.Drawing.Size(29, 22);
+			this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
 			// 
-			// toolStripStatusLabel2
+			// textEditorToolStripMenuItem
 			// 
-			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-			this.toolStripStatusLabel2.Size = new System.Drawing.Size(109, 17);
-			this.toolStripStatusLabel2.Text = "TT.MM-JJJ HH:MM";
+			this.textEditorToolStripMenuItem.Name = "textEditorToolStripMenuItem";
+			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+			this.textEditorToolStripMenuItem.Text = "Text Editor";
+			this.textEditorToolStripMenuItem.ToolTipText = "Ein einfacher Text Editor";
+			this.textEditorToolStripMenuItem.Click += new System.EventHandler(this.textEditorToolStripMenuItem_Click);
 			// 
-			// toolStripButton6
+			// toolTipShortNotes
 			// 
-			this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-			this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButton6.Name = "toolStripButton6";
-			this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-			this.toolStripButton6.Text = "toolStripButton6";
+			this.toolTipShortNotes.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+			this.toolTipShortNotes.ToolTipTitle = "Kurznotizen";
 			// 
 			// ShortNotesForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(430, 353);
-			this.Controls.Add(this.toolStrip1);
-			this.Controls.Add(this.statusStrip1);
+			this.ClientSize = new System.Drawing.Size(443, 353);
+			this.Controls.Add(this.toolStripShortNotes);
+			this.Controls.Add(this.statusStripShortNotes);
 			this.Icon = global::CSVSuchTool.Resource.DBSoft;
 			this.Name = "ShortNotesForm";
 			this.Text = "Kutznotizen";
-			this.statusStrip1.ResumeLayout(false);
-			this.statusStrip1.PerformLayout();
-			this.toolStrip1.ResumeLayout(false);
-			this.toolStrip1.PerformLayout();
+			this.Shown += new System.EventHandler(this.ShortNotesForm_Shown);
+			this.ClientSizeChanged += new System.EventHandler(this.ShortNotesForm_ClientSizeChanged);
+			this.statusStripShortNotes.ResumeLayout(false);
+			this.statusStripShortNotes.PerformLayout();
+			this.toolStripShortNotes.ResumeLayout(false);
+			this.toolStripShortNotes.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
+		private System.Windows.Forms.ToolStripMenuItem textEditorToolStripMenuItem;
+		private System.Windows.Forms.ToolTip toolTipShortNotes;
 		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
 		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
 		private System.Windows.Forms.ToolStripButton toolStripButton6;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 		private System.Windows.Forms.ToolStripButton toolStripButton5;
-		private System.Windows.Forms.StatusStrip statusStrip1;
-		private System.Windows.Forms.ToolStrip toolStrip1;
+		private System.Windows.Forms.StatusStrip statusStripShortNotes;
+		private System.Windows.Forms.ToolStrip toolStripShortNotes;
 		private System.Windows.Forms.ToolStripButton neuToolStripButton;
 		private System.Windows.Forms.ToolStripButton öffnenToolStripButton;
 		private System.Windows.Forms.ToolStripButton speichernToolStripButton;
