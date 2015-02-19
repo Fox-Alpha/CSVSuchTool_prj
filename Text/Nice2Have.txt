@@ -12,6 +12,21 @@ Bearbeiten
 - Schnell Editieren der angezeigten Ergebnisse
 
 
+ShortNotesEditor
+----------------
+- Anlegen von Notizen
+-- Laden von (Text-)Vorlagen
+- Speichern von Notizen
+-- Eindeutig der verwendeten CSV Datei und den betreffenden Datensatz zuzuordnen
+--- Mehrere Notizen zu einem Datensatz
+--- Navigieren zwischen den einzelnen Notizen eines Datensatzes
+- Öffnen von Notizen zu weiteren Datensätzen
+- Notiz an EMail versenden
+- Übergabe des gesamten Datensatzes an den Editor
+-- Auswahl der zu übernehmenden Daten bei Datensatzübergabe
+
+
+
 Kleines Ergebnisfenster
 -----------------------
 - Kopieren und Editieren Buttons neben dem Eintrag hinzufügen
