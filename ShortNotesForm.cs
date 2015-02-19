@@ -68,8 +68,8 @@ namespace CSVSuchTool
 //				ucEditor.Parent = this;
 //				this.AddOwnedForm(ucEditor);
 				this.SuspendLayout();
-				this.Controls.Add(ucEditor);
-				ucEditor.Dock = DockStyle.Fill;
+				tsContainer.ContentPanel.Controls.Add(ucEditor);
+//				ucEditor.Dock = DockStyle.Fill;
 				
 				if (ucEditor.Tag.ToString() != string.Empty) 
 				{
@@ -110,13 +110,13 @@ namespace CSVSuchTool
 		void textEditorToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			if (ucEditor != null && (!ucEditor.IsDisposed || !ucEditor.Disposing)) {
-				this.Controls.Remove(ucEditor);
+				tsContainer.ContentPanel.Controls.Remove(ucEditor);
 				ucEditor.Dispose();
 				templateLoaded = false;
 			}
 			ucEditor = new cptShortNote_SimpleText();
 			this.Controls.Add(ucEditor);
-			ucEditor.Dock = DockStyle.Fill;
+//			ucEditor.Dock = DockStyle.Fill;
 			templateLoaded = true;
 		}
 		void ShortNotesForm_ClientSizeChanged(object sender, EventArgs e)
@@ -131,12 +131,12 @@ namespace CSVSuchTool
 //				{
 //					templateLoaded = true;
 					
-					Rectangle clrec = this.ClientRectangle;
+//					Rectangle clrec = this.ClientRectangle;
 					
-					ucEditor.SetBounds(clrec.X, 
-					                   clrec.Y - toolStripShortNotes.Height,	//ClientHeight - höhe der Toolbar
-					                   clrec.Width, 
-					                   clrec.Height - toolStripShortNotes.Height - statusStripShortNotes.Height);	//ClientHeight - höhe der Toolbar - höhe der Statuszeile
+//					ucEditor.SetBounds(clrec.X, 
+//					                   clrec.Y - toolStripShortNotes.Height,	//ClientHeight - höhe der Toolbar
+//					                   clrec.Width, 
+//					                   clrec.Height - toolStripShortNotes.Height - statusStripShortNotes.Height);	//ClientHeight - höhe der Toolbar - höhe der Statuszeile
 					
 //					ucEditor.Location.X = ;
 //					ucEditor.Location.Y = Y;
