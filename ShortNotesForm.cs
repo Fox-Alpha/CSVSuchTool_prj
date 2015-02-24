@@ -116,5 +116,130 @@ namespace CSVSuchTool
 	
 		#endregion Editortemplates
 		//	####
+		
+		//	####
+		#region	toolbar
+		
+		/// <summary>
+		/// Neue Notiz erzeugen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void neuToolStripButton_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Vorhandene Notiz öffnen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void öffnenToolStripButton_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Notiz speichern
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void speichernToolStripButton_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Notiz als eMail versenden
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void toolStripButton6_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Markierten Text ausschneiden
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void ausschneidenToolStripButton_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Text in Zwischenablage kopieren
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void kopierenToolStripButton_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Text aus Zwischenablage einfügen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void einfügenToolStripButton_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Kurznotizen Fenster schliessen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void tsShortNotesClose_Click(object sender, EventArgs e)
+		{
+			Close();
+		}
+		
+		/// <summary>
+		/// Zum ersten Datensatz von Notizen springen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void tsShortNotesFirstEntry_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// Zum vorherigen Datensatz von Notizen springen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void tsShortNotesPrevEntry_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// zum nächsten Datensatz von Notizen springen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void tsShortNotesNextEntry_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		
+		/// <summary>
+		/// zum letzten Datensatz von Notizen springen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void tsShortNotesLastEntry_Click(object sender, EventArgs e)
+		{
+			throw new NotImplementedException();
+		}
+		#endregion toolbar
+		//	####
 	}
 }
