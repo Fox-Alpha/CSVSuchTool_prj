@@ -83,6 +83,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShortNotes_EMailNote.cs" />
+    <Compile Include="ShortNotes_EMailNote.Designer.cs">
+      <DependentUpon>ShortNotes_EMailNote.cs</DependentUpon>
+    </Compile>
     <Compile Include="DummyForm.cs" />
     <Compile Include="DummyForm.Designer.cs">
       <DependentUpon>DummyForm.cs</DependentUpon>
@@ -120,6 +124,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ShortNotes_EMailNote.resx">
+      <DependentUpon>ShortNotes_EMailNote.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DummyForm.resx">
       <DependentUpon>DummyForm.cs</DependentUpon>
     </EmbeddedResource>
