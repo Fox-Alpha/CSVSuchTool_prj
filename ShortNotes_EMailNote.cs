@@ -9,6 +9,8 @@ using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using ExtendedForms;
 
 namespace CSVSuchTool
 {
@@ -24,6 +26,13 @@ namespace CSVSuchTool
 //			//set { _canSendMail = value; }
 //		}
 		
+		string _recipient;
+		
+		public string recipient {
+			get { return _recipient; }
+			set { _recipient = value; }
+		}
+		
 		public cptShortNotes_EMailNote()
 		{
 			//
@@ -34,6 +43,8 @@ namespace CSVSuchTool
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+			
+			recipient = "";
 		}
 		
 		/// <summary>
@@ -95,5 +106,53 @@ namespace CSVSuchTool
 			tbIncidentNo.Enabled = cbIncidentNo.Checked;
 		}
 		//	####
+		
+		List<string> getTextForMail()
+		{
+			string sendTo = ""; //TODO: Wenn kein Empfänger übergeben wurde, abfrage
+			string sendCC = "";
+			string sendSubject = "";
+			string sendBody = "";
+			string lf = "%0A%0D";
+			
+			if (!(rbFrau.Checked || rbMann.Checked) && string.IsNullOrWhiteSpace(tbAnrufer.Text)) {
+				MessageBox.Show("Bitte Anrede auswählen", "keine Anrede !");
+				return null;
+			}
+			
+			if(!string.IsNullOrWhiteSpace(recipient))
+				sendTo = recipient;
+			else
+			{
+				extForms exF = new extForms(extForms.exFormOptions.None);
+				exF.strTitel = "Bitte Empfänger eingeben";
+				exF.ShowInputDialog(ref sendTo);
+				
+				if (cbToServiceDesk.Checked) {
+					sendCC = "Servicedesk@alpha-com.de";
+				}
+				
+				sendSubject = string.Format("Anruf entgegengenommen: {0} {1}  {2}", rbFrau.Checked ? "Frau" : "Herr", tbAnrufer.Text, !string.IsNullOrWhiteSpace(tbFirma.Text) ? "/ " + tbFirma.Text: "");
+				
+				sendBody = string.Format("{0} {1} hat im IT-SD angerufen.{3}", rbFrau.Checked ? "Frau" : "Herr", tbAnrufer.Text,lf);
+				
+				if (!string.IsNullOrWhiteSpace(tbFirma.Text)) {
+					sendBody = string.Format("{0}Firma: {1}{2}", sendBody, tbFirma.Text, lf);
+				}
+				
+				if (!string.IsNullOrWhiteSpace(tbTelefonNo.Text)) {
+					sendBody = string.Format("{0}Telefon: {1}{2}", sendBody, tbTelefonNo.Text, lf);
+				}
+				
+				if (cbJobNo.Checked) {
+					sendBody = string.Format("{0}JobNo: {1}{2}", sendBody, tbJobNo.Text, lf);
+				}
+				if (cbDwSysNo.Checked) {
+					sendBody = string.Format("{0}DwSysNo: {1}{2}", sendBody, tbDwSysNo.Text, lf);
+				}
+			}
+			
+			return new List<string>(){sendTo, sendCC, sendSubject, sendBody};
+		}
 	}
 }
