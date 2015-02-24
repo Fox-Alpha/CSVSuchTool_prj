@@ -20,6 +20,13 @@ namespace CSVSuchTool
 		//	####
 		#region Properties
 		
+		public static bool canSendMail = true;
+		
+//		public bool canSendMail {
+//			get { return _canSendMail; }
+//			set { _canSendMail = value; }
+//		}
+		
 		#endregion Properties
 		//	####
 		
@@ -37,6 +44,7 @@ namespace CSVSuchTool
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
 		void CptShortNote_SimpleTextLoad(object sender, EventArgs e)
 		{
 			this.Dock = DockStyle.Fill;
@@ -45,7 +53,7 @@ namespace CSVSuchTool
 		/// <summary>
 		/// Zurücksetzen der Templatekomponente
 		/// </summary>
-		void CptShortNote_SimpleTextReset()
+		public void CptShortNote_SimpleTextReset()
 		{
 			rtbShortNoteText.Clear();
 		}
