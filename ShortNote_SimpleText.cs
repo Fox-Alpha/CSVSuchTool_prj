@@ -42,6 +42,14 @@ namespace CSVSuchTool
 			this.Dock = DockStyle.Fill;
 		}
 		
+		/// <summary>
+		/// Zurücksetzen der Templatekomponente
+		/// </summary>
+		void CptShortNote_SimpleTextReset()
+		{
+			rtbShortNoteText.Clear();
+		}
+		
 		#endregion Formular Funktionen
 		//	####
 
