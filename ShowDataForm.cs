@@ -34,6 +34,13 @@ namespace CSVSuchTool
 		static string mailITSD = "it-service-desk@alpha-com.de";
 		static string mailIncident = "servicedesk@alpha-com.de";
 
+		List<string> _mailCC;
+		
+		public List<string> mailCC {
+			get { return _mailCC; }
+			set { _mailCC = value; }
+		}
+
 		List<string> _mailSubjects;
 		
 		public List<string> mailSubjects {
@@ -114,6 +121,13 @@ namespace CSVSuchTool
 			// [1] EMail mit Anruf Notiz an Empfänger
 			// [2] Leere EMail an Empfänger mit CC IT-SD
 			// [3] EMail an Empfänger mit Info zu einem Incident
+			mailCC = new List<string>() 
+				{
+				"",
+				"",
+				mailITSD,
+				mailIncident
+				};
 			mailSubjects = new List<string>() 
 				{
 				"KEIN Betreff",
@@ -124,7 +138,7 @@ namespace CSVSuchTool
 			mailBodys = new List<string>() 
 				{
 				"Kein Text",
-				"Herr/Frau xy hat im IT-SD angerufen und bittet um Rückruf%0A%0dDwSys: %0A%0dJobNr.: %0A%0dTel: ",
+				"Herr/Frau xy hat im IT-SD angerufen und bittet um Rückruf%0A%0dDwSys: %0A%0dJobNr.: %0A%0dKunde: %0A%0DThema: %0A%0DTel: %0A%0DAnmerkung: ",
 				"Kein Text",
 				"Kein Text"
 				};
@@ -424,7 +438,7 @@ namespace CSVSuchTool
 					}
 					
 					//Ersetzen von Leerzeichen in HTML Komforme %20
-					string tmp = string.Format("mailto:{0}?cc={1}&subject={2}&body={3}",recipient, mailITSD, mailSubjects[iMailIndex] ?? "''", mailBodys[iMailIndex] ?? "''");
+					string tmp = string.Format("mailto:{0}?cc={1}&subject={2}&body={3}",recipient, mailCC[iMailIndex] ?? "''", mailSubjects[iMailIndex] ?? "''", mailBodys[iMailIndex] ?? "''");
 					tmp = Regex.Replace(tmp, " ", "%20");
 					
 					Process.Start(tmp);
