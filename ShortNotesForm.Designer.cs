@@ -168,6 +168,7 @@ namespace CSVSuchTool
 			// speichernToolStripButton
 			// 
 			this.speichernToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.speichernToolStripButton.Enabled = false;
 			this.speichernToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("speichernToolStripButton.Image")));
 			this.speichernToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.speichernToolStripButton.Name = "speichernToolStripButton";
@@ -229,6 +230,7 @@ namespace CSVSuchTool
 			// tsShortNotesFirstEntry
 			// 
 			this.tsShortNotesFirstEntry.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsShortNotesFirstEntry.Enabled = false;
 			this.tsShortNotesFirstEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsShortNotesFirstEntry.Image")));
 			this.tsShortNotesFirstEntry.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsShortNotesFirstEntry.Name = "tsShortNotesFirstEntry";
@@ -239,6 +241,7 @@ namespace CSVSuchTool
 			// tsShortNotesPrevEntry
 			// 
 			this.tsShortNotesPrevEntry.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsShortNotesPrevEntry.Enabled = false;
 			this.tsShortNotesPrevEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsShortNotesPrevEntry.Image")));
 			this.tsShortNotesPrevEntry.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsShortNotesPrevEntry.Name = "tsShortNotesPrevEntry";
@@ -256,6 +259,7 @@ namespace CSVSuchTool
 			// tsShortNotesNextEntry
 			// 
 			this.tsShortNotesNextEntry.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsShortNotesNextEntry.Enabled = false;
 			this.tsShortNotesNextEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsShortNotesNextEntry.Image")));
 			this.tsShortNotesNextEntry.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsShortNotesNextEntry.Name = "tsShortNotesNextEntry";
@@ -266,6 +270,7 @@ namespace CSVSuchTool
 			// tsShortNotesLastEntry
 			// 
 			this.tsShortNotesLastEntry.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsShortNotesLastEntry.Enabled = false;
 			this.tsShortNotesLastEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsShortNotesLastEntry.Image")));
 			this.tsShortNotesLastEntry.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsShortNotesLastEntry.Name = "tsShortNotesLastEntry";
