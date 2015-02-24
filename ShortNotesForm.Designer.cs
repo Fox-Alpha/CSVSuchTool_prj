@@ -61,6 +61,7 @@ namespace CSVSuchTool
 			this.tsShortNotesClose = new System.Windows.Forms.ToolStripButton();
 			this.tsShortNotesLoadTemplate = new System.Windows.Forms.ToolStripDropDownButton();
 			this.textEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.telefNotizToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.statusStripShortNotes.SuspendLayout();
 			this.tsContainer.TopToolStripPanel.SuspendLayout();
 			this.tsContainer.SuspendLayout();
@@ -297,7 +298,8 @@ namespace CSVSuchTool
 			// 
 			this.tsShortNotesLoadTemplate.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
 			this.tsShortNotesLoadTemplate.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-			this.textEditorToolStripMenuItem});
+			this.textEditorToolStripMenuItem,
+			this.telefNotizToolStripMenuItem});
 			this.tsShortNotesLoadTemplate.Image = ((System.Drawing.Image)(resources.GetObject("tsShortNotesLoadTemplate.Image")));
 			this.tsShortNotesLoadTemplate.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsShortNotesLoadTemplate.Name = "tsShortNotesLoadTemplate";
@@ -307,10 +309,18 @@ namespace CSVSuchTool
 			// textEditorToolStripMenuItem
 			// 
 			this.textEditorToolStripMenuItem.Name = "textEditorToolStripMenuItem";
-			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.textEditorToolStripMenuItem.Text = "Text Editor";
 			this.textEditorToolStripMenuItem.ToolTipText = "Ein einfacher Text Editor";
 			this.textEditorToolStripMenuItem.Click += new System.EventHandler(this.textEditorToolStripMenuItem_Click);
+			// 
+			// telefNotizToolStripMenuItem
+			// 
+			this.telefNotizToolStripMenuItem.Name = "telefNotizToolStripMenuItem";
+			this.telefNotizToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.telefNotizToolStripMenuItem.Text = "Telef. Notiz";
+			this.telefNotizToolStripMenuItem.ToolTipText = "Einfaches Formular für Telefon Nitizen";
+			this.telefNotizToolStripMenuItem.Click += new System.EventHandler(this.telefNotizToolStripMenuItem_Click);
 			// 
 			// ShortNotesForm
 			// 
@@ -335,6 +345,7 @@ namespace CSVSuchTool
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.ToolStripMenuItem telefNotizToolStripMenuItem;
 		private System.Windows.Forms.ToolStripDropDownButton tsShortNotesLoadTemplate;
 		private System.Windows.Forms.ToolStripMenuItem textEditorToolStripMenuItem;
 		private System.Windows.Forms.ToolTip toolTipShortNotes;

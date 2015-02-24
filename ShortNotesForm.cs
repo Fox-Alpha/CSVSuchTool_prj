@@ -114,6 +114,27 @@ namespace CSVSuchTool
 			this.Text = frmTitel + " " + ucEditor.Tag.ToString().Split('|')[1] ?? "";
 		}
 	
+		/// <summary>
+		/// Template für Telefon Notizen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void telefNotizToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			if (ucEditor != null && (!ucEditor.IsDisposed || !ucEditor.Disposing)) {
+				tsContainer.ContentPanel.Controls.Remove(ucEditor);
+				ucEditor.Dispose();
+				templateLoaded = false;
+			}
+			ucEditor = new cptShortNotes_EMailNote();
+			tsContainer.ContentPanel.Controls.Add(ucEditor);
+			templateLoaded = true;
+			
+			//Setzen des Fenstertitels
+			currentTemplateName = ucEditor.Tag.ToString().Split('|')[0] ?? "";
+			this.Text = frmTitel + " " + ucEditor.Tag.ToString().Split('|')[1] ?? "";
+		}
+
 		#endregion Editortemplates
 		//	####
 		
