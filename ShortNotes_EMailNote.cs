@@ -17,6 +17,13 @@ namespace CSVSuchTool
 	/// </summary>
 	public partial class cptShortNotes_EMailNote : UserControl
 	{
+		public static bool canSendMail = true;
+		
+//		public bool canSendMail {
+//			get { return _canSendMail; }
+//			//set { _canSendMail = value; }
+//		}
+		
 		public cptShortNotes_EMailNote()
 		{
 			//
@@ -36,7 +43,15 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void cptShortNotes_EMailNote_Load(object sender, EventArgs e)
 		{
-			throw new NotImplementedException();
+			this.Dock = DockStyle.Fill;
+			labTimeDate.Text = string.Format("{0}", DateTime.Now.ToShortDateString());
+			
+			tbIncidentNo.Text = string.Format("{0:yyyyMMdd}-0000", DateTime.Today);
+		}
+		
+		public void cptShortNotes_EMailNote_Reset()
+		{
+			
 		}
 	}
 }
