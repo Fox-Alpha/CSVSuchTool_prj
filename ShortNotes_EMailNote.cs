@@ -44,14 +44,56 @@ namespace CSVSuchTool
 		void cptShortNotes_EMailNote_Load(object sender, EventArgs e)
 		{
 			this.Dock = DockStyle.Fill;
-			labTimeDate.Text = string.Format("{0}", DateTime.Now.ToShortDateString());
+			labTimeDate.Text = string.Format("{0}", DateTime.Now.ToString());
 			
 			tbIncidentNo.Text = string.Format("{0:yyyyMMdd}-0000", DateTime.Today);
 		}
 		
 		public void cptShortNotes_EMailNote_Reset()
 		{
+			labTimeDate.Text = string.Format("{0}", DateTime.Now.ToString());
 			
+			tbIncidentNo.Text = string.Format("{0:yyyyMMdd}-0000", DateTime.Today);
+			
+			cbIncidentNo.Checked = false;
+			
+			rbMann.Checked = false;
+			rbFrau.Checked = false;
+			
+			cbJobNo.Checked = false;
+			cbDwSysNo.Checked = false;
+			
+			tbAnrufer.Text = "";
+			tbDwSysNo.Text = "";
+			tbJobNo.Text = "";
+			tbTelefonNo.Text = "";
+			tbFirma.Text = "";
 		}
+		
+		//
+		//	Anrede auswählen
+		//
+		void rbMann_CheckedChanged(object sender, EventArgs e)
+		{
+			rbFrau.Checked = !rbMann.Checked;
+		}
+		void rbFrau_CheckedChanged(object sender, EventArgs e)
+		{
+			rbMann.Checked = !rbFrau.Checked;
+		}
+		
+		/// <summary>
+		/// Aktivieren der Incident Nummer Eingabe
+		/// Automatich senden an IT-SD in CC, wenn Empfänger.
+		/// Ansonsten SD als Empfänger setzen
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		void cbIncidentNo_CheckedChanged(object sender, EventArgs e)
+		{
+			cbToServiceDesk.Checked = cbIncidentNo.Checked;
+			tbIncidentNo.Enabled = cbIncidentNo.Checked;
+		}
+		//	####
 	}
 }

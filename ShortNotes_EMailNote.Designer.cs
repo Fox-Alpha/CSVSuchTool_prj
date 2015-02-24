@@ -42,15 +42,14 @@ namespace CSVSuchTool
 			this.cbIncidentNo = new System.Windows.Forms.CheckBox();
 			this.tbJobNo = new System.Windows.Forms.TextBox();
 			this.tbDwSysNo = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
 			this.tbAnrufer = new System.Windows.Forms.TextBox();
 			this.label2 = new System.Windows.Forms.Label();
-			this.textBox5 = new System.Windows.Forms.TextBox();
+			this.tbTelefonNo = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.tbFirma = new System.Windows.Forms.TextBox();
 			this.rbMann = new System.Windows.Forms.RadioButton();
 			this.rbFrau = new System.Windows.Forms.RadioButton();
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
+			this.cbToServiceDesk = new System.Windows.Forms.CheckBox();
 			this.labTimeDate = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
@@ -61,8 +60,8 @@ namespace CSVSuchTool
 			| System.Windows.Forms.AnchorStyles.Right)));
 			this.richTextBox1.Location = new System.Drawing.Point(0, 143);
 			this.richTextBox1.Name = "richTextBox1";
-			this.richTextBox1.Size = new System.Drawing.Size(302, 102);
-			this.richTextBox1.TabIndex = 8;
+			this.richTextBox1.Size = new System.Drawing.Size(388, 102);
+			this.richTextBox1.TabIndex = 9;
 			this.richTextBox1.Text = "";
 			// 
 			// cbDwSysNo
@@ -72,7 +71,7 @@ namespace CSVSuchTool
 			this.cbDwSysNo.Location = new System.Drawing.Point(3, 98);
 			this.cbDwSysNo.Name = "cbDwSysNo";
 			this.cbDwSysNo.Size = new System.Drawing.Size(60, 17);
-			this.cbDwSysNo.TabIndex = 4;
+			this.cbDwSysNo.TabIndex = 11;
 			this.cbDwSysNo.Text = "DwSys:";
 			this.cbDwSysNo.UseVisualStyleBackColor = true;
 			// 
@@ -83,7 +82,7 @@ namespace CSVSuchTool
 			this.cbJobNo.Location = new System.Drawing.Point(3, 68);
 			this.cbJobNo.Name = "cbJobNo";
 			this.cbJobNo.Size = new System.Drawing.Size(58, 17);
-			this.cbJobNo.TabIndex = 2;
+			this.cbJobNo.TabIndex = 10;
 			this.cbJobNo.Text = "JobNr: ";
 			this.cbJobNo.UseVisualStyleBackColor = true;
 			// 
@@ -91,11 +90,11 @@ namespace CSVSuchTool
 			// 
 			this.tbIncidentNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.tbIncidentNo.Enabled = false;
-			this.tbIncidentNo.Location = new System.Drawing.Point(191, 95);
+			this.tbIncidentNo.Location = new System.Drawing.Point(277, 95);
 			this.tbIncidentNo.MaxLength = 14;
 			this.tbIncidentNo.Name = "tbIncidentNo";
 			this.tbIncidentNo.Size = new System.Drawing.Size(111, 20);
-			this.tbIncidentNo.TabIndex = 7;
+			this.tbIncidentNo.TabIndex = 8;
 			this.tbIncidentNo.Text = "#JJJJMMTT-NNNN";
 			// 
 			// cbIncidentNo
@@ -103,62 +102,53 @@ namespace CSVSuchTool
 			this.cbIncidentNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.cbIncidentNo.AutoSize = true;
 			this.cbIncidentNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.cbIncidentNo.Location = new System.Drawing.Point(191, 72);
+			this.cbIncidentNo.Location = new System.Drawing.Point(277, 72);
 			this.cbIncidentNo.Name = "cbIncidentNo";
 			this.cbIncidentNo.Size = new System.Drawing.Size(104, 17);
-			this.cbIncidentNo.TabIndex = 6;
+			this.cbIncidentNo.TabIndex = 7;
 			this.cbIncidentNo.Text = "Incident Nummer";
 			this.cbIncidentNo.UseVisualStyleBackColor = true;
+			this.cbIncidentNo.CheckedChanged += new System.EventHandler(this.cbIncidentNo_CheckedChanged);
 			// 
 			// tbJobNo
 			// 
-			this.tbJobNo.Location = new System.Drawing.Point(67, 68);
+			this.tbJobNo.Location = new System.Drawing.Point(87, 67);
 			this.tbJobNo.MaxLength = 9;
 			this.tbJobNo.Name = "tbJobNo";
 			this.tbJobNo.Size = new System.Drawing.Size(104, 20);
-			this.tbJobNo.TabIndex = 3;
+			this.tbJobNo.TabIndex = 5;
 			// 
 			// tbDwSysNo
 			// 
-			this.tbDwSysNo.Location = new System.Drawing.Point(67, 95);
+			this.tbDwSysNo.Location = new System.Drawing.Point(87, 97);
 			this.tbDwSysNo.Name = "tbDwSysNo";
 			this.tbDwSysNo.Size = new System.Drawing.Size(104, 20);
-			this.tbDwSysNo.TabIndex = 5;
-			// 
-			// label1
-			// 
-			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(192, 52);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(59, 13);
-			this.label1.TabIndex = 7;
-			this.label1.Text = "Herr / Frau";
+			this.tbDwSysNo.TabIndex = 6;
 			// 
 			// tbAnrufer
 			// 
-			this.tbAnrufer.Location = new System.Drawing.Point(3, 16);
+			this.tbAnrufer.Location = new System.Drawing.Point(87, 16);
 			this.tbAnrufer.Name = "tbAnrufer";
-			this.tbAnrufer.Size = new System.Drawing.Size(168, 20);
-			this.tbAnrufer.TabIndex = 0;
+			this.tbAnrufer.Size = new System.Drawing.Size(132, 20);
+			this.tbAnrufer.TabIndex = 2;
 			// 
 			// label2
 			// 
 			this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(191, 6);
+			this.label2.Location = new System.Drawing.Point(247, 13);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(60, 13);
 			this.label2.TabIndex = 9;
 			this.label2.Text = "TelefonNr.:";
 			// 
-			// textBox5
+			// tbTelefonNo
 			// 
-			this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox5.Location = new System.Drawing.Point(191, 29);
-			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(111, 20);
-			this.textBox5.TabIndex = 1;
+			this.tbTelefonNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.tbTelefonNo.Location = new System.Drawing.Point(247, 29);
+			this.tbTelefonNo.Name = "tbTelefonNo";
+			this.tbTelefonNo.Size = new System.Drawing.Size(141, 20);
+			this.tbTelefonNo.TabIndex = 4;
 			// 
 			// label3
 			// 
@@ -169,46 +159,48 @@ namespace CSVSuchTool
 			this.label3.TabIndex = 10;
 			this.label3.Text = "Firma:";
 			// 
-			// textBox1
+			// tbFirma
 			// 
-			this.textBox1.Location = new System.Drawing.Point(67, 42);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(104, 20);
-			this.textBox1.TabIndex = 11;
+			this.tbFirma.Location = new System.Drawing.Point(87, 42);
+			this.tbFirma.Name = "tbFirma";
+			this.tbFirma.Size = new System.Drawing.Size(132, 20);
+			this.tbFirma.TabIndex = 3;
 			// 
 			// rbMann
 			// 
+			this.rbMann.Appearance = System.Windows.Forms.Appearance.Button;
 			this.rbMann.AutoSize = true;
-			this.rbMann.Location = new System.Drawing.Point(16, 0);
+			this.rbMann.Location = new System.Drawing.Point(0, 13);
 			this.rbMann.Name = "rbMann";
-			this.rbMann.Size = new System.Drawing.Size(45, 17);
-			this.rbMann.TabIndex = 12;
-			this.rbMann.TabStop = true;
+			this.rbMann.Size = new System.Drawing.Size(37, 23);
+			this.rbMann.TabIndex = 0;
 			this.rbMann.Text = "Herr";
 			this.rbMann.UseVisualStyleBackColor = true;
+			this.rbMann.CheckedChanged += new System.EventHandler(this.rbMann_CheckedChanged);
 			// 
 			// rbFrau
 			// 
+			this.rbFrau.Appearance = System.Windows.Forms.Appearance.Button;
 			this.rbFrau.AutoSize = true;
-			this.rbFrau.Location = new System.Drawing.Point(87, 0);
+			this.rbFrau.Location = new System.Drawing.Point(43, 13);
 			this.rbFrau.Name = "rbFrau";
-			this.rbFrau.Size = new System.Drawing.Size(46, 17);
-			this.rbFrau.TabIndex = 13;
-			this.rbFrau.TabStop = true;
+			this.rbFrau.Size = new System.Drawing.Size(38, 23);
+			this.rbFrau.TabIndex = 1;
 			this.rbFrau.Text = "Frau";
 			this.rbFrau.UseVisualStyleBackColor = true;
+			this.rbFrau.CheckedChanged += new System.EventHandler(this.rbFrau_CheckedChanged);
 			// 
-			// checkBox1
+			// cbToServiceDesk
 			// 
-			this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.checkBox1.Location = new System.Drawing.Point(191, 120);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(101, 17);
-			this.checkBox1.TabIndex = 14;
-			this.checkBox1.Text = "An ServiceDesk";
-			this.checkBox1.UseVisualStyleBackColor = true;
+			this.cbToServiceDesk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.cbToServiceDesk.AutoSize = true;
+			this.cbToServiceDesk.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.cbToServiceDesk.Location = new System.Drawing.Point(277, 120);
+			this.cbToServiceDesk.Name = "cbToServiceDesk";
+			this.cbToServiceDesk.Size = new System.Drawing.Size(101, 17);
+			this.cbToServiceDesk.TabIndex = 12;
+			this.cbToServiceDesk.Text = "An ServiceDesk";
+			this.cbToServiceDesk.UseVisualStyleBackColor = true;
 			// 
 			// labTimeDate
 			// 
@@ -224,15 +216,14 @@ namespace CSVSuchTool
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.labTimeDate);
-			this.Controls.Add(this.checkBox1);
+			this.Controls.Add(this.cbToServiceDesk);
 			this.Controls.Add(this.rbFrau);
 			this.Controls.Add(this.rbMann);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.tbFirma);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.textBox5);
+			this.Controls.Add(this.tbTelefonNo);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.tbAnrufer);
-			this.Controls.Add(this.label1);
 			this.Controls.Add(this.tbDwSysNo);
 			this.Controls.Add(this.tbJobNo);
 			this.Controls.Add(this.cbIncidentNo);
@@ -242,26 +233,25 @@ namespace CSVSuchTool
 			this.Controls.Add(this.richTextBox1);
 			this.MinimumSize = new System.Drawing.Size(305, 225);
 			this.Name = "cptShortNotes_EMailNote";
-			this.Size = new System.Drawing.Size(305, 249);
+			this.Size = new System.Drawing.Size(391, 249);
 			this.Tag = "cptShortNotes_EMailNote|Telefon Notizen";
 			this.Load += new System.EventHandler(this.cptShortNotes_EMailNote_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}
-		private System.Windows.Forms.CheckBox checkBox1;
+		private System.Windows.Forms.CheckBox cbToServiceDesk;
 		private System.Windows.Forms.Label labTimeDate;
 		private System.Windows.Forms.RadioButton rbMann;
 		private System.Windows.Forms.RadioButton rbFrau;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox tbFirma;
 		private System.Windows.Forms.CheckBox cbIncidentNo;
 		private System.Windows.Forms.TextBox tbJobNo;
 		private System.Windows.Forms.TextBox tbDwSysNo;
-		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TextBox tbAnrufer;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox textBox5;
+		private System.Windows.Forms.TextBox tbTelefonNo;
 		private System.Windows.Forms.CheckBox cbDwSysNo;
 		private System.Windows.Forms.CheckBox cbJobNo;
 		private System.Windows.Forms.TextBox tbIncidentNo;
