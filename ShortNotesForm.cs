@@ -127,7 +127,9 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void neuToolStripButton_Click(object sender, EventArgs e)
 		{
-			throw new NotImplementedException();
+			//Zurücksetzen der Templatekomponente
+			if (ucEditor != null && (!ucEditor.IsDisposed || !ucEditor.Disposing))
+				ucEditor.ResetText();
 		}
 		
 		/// <summary>
