@@ -303,6 +303,7 @@ namespace CSVSuchTool
 			this.Icon = global::CSVSuchTool.Resource.DBSoft;
 			this.Name = "ShortNotesForm";
 			this.Text = "Kurznotizen";
+			this.Shown += new System.EventHandler(this.ShortNotesForm_Shown);
 			this.statusStripShortNotes.ResumeLayout(false);
 			this.statusStripShortNotes.PerformLayout();
 			this.tsContainer.TopToolStripPanel.ResumeLayout(false);

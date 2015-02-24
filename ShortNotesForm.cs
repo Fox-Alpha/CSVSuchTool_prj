@@ -20,6 +20,7 @@ namespace CSVSuchTool
 		//	####
 		#region Properties
 
+		static string frmTitel = "Kurznotizen";
 		string _currentTemplateName;
 		
 		public string currentTemplateName {
@@ -62,7 +63,13 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void ShortNotesForm_Shown(object sender, EventArgs e)
 		{
-			if (ucEditor == null) 
+			if (ucEditor != null && (!ucEditor.IsDisposed || !ucEditor.Disposing)) {
+				tsContainer.ContentPanel.Controls.Remove(ucEditor);
+				ucEditor.Dispose();
+				templateLoaded = false;
+			}
+
+			if (ucEditor == null || ucEditor.IsDisposed)
 			{
 				ucEditor = new cptShortNote_SimpleText();
 				tsContainer.ContentPanel.Controls.Add(ucEditor);
@@ -70,13 +77,10 @@ namespace CSVSuchTool
 				if (ucEditor.Tag.ToString() != string.Empty) 
 				{
 					currentTemplateName = ucEditor.Tag.ToString().Split('|')[0] ?? "";
-					this.Text += ucEditor.Tag.ToString().Split('|')[1] ?? "";
+					this.Text = frmTitel + " " + ucEditor.Tag.ToString().Split('|')[1] ?? "";
 				
-					templateLoaded = true;
 				}
-				
-				this.ResumeLayout(false);
-				this.PerformLayout();
+				templateLoaded = true;
 			}
 		}
 		
@@ -104,6 +108,10 @@ namespace CSVSuchTool
 			ucEditor = new cptShortNote_SimpleText();
 			tsContainer.ContentPanel.Controls.Add(ucEditor);
 			templateLoaded = true;
+			
+			//Setzen des Fenstertitels
+			currentTemplateName = ucEditor.Tag.ToString().Split('|')[0] ?? "";
+			this.Text = frmTitel + " " + ucEditor.Tag.ToString().Split('|')[1] ?? "";
 		}
 	
 		#endregion Editortemplates
