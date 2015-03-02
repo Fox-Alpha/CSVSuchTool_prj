@@ -46,7 +46,7 @@ namespace CSVSuchTool
 			this.neuToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.öffnenToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.speichernToolStripButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+			this.emailToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
 			this.ausschneidenToolStripButton = new System.Windows.Forms.ToolStripButton();
 			this.kopierenToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -125,7 +125,7 @@ namespace CSVSuchTool
 			this.neuToolStripButton,
 			this.öffnenToolStripButton,
 			this.speichernToolStripButton,
-			this.toolStripButton6,
+			this.emailToolStripButton,
 			this.toolStripSeparator,
 			this.ausschneidenToolStripButton,
 			this.kopierenToolStripButton,
@@ -177,16 +177,16 @@ namespace CSVSuchTool
 			this.speichernToolStripButton.Text = "&Speichern";
 			this.speichernToolStripButton.Click += new System.EventHandler(this.speichernToolStripButton_Click);
 			// 
-			// toolStripButton6
+			// emailToolStripButton
 			// 
-			this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.toolStripButton6.Enabled = false;
-			this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-			this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButton6.Name = "toolStripButton6";
-			this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-			this.toolStripButton6.Text = "toolStripButton6";
-			this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
+			this.emailToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.emailToolStripButton.Enabled = false;
+			this.emailToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("emailToolStripButton.Image")));
+			this.emailToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.emailToolStripButton.Name = "emailToolStripButton";
+			this.emailToolStripButton.Size = new System.Drawing.Size(23, 22);
+			this.emailToolStripButton.Text = "toolStripButton6";
+			this.emailToolStripButton.Click += new System.EventHandler(this.toolStripButton6_Click);
 			// 
 			// toolStripSeparator
 			// 
@@ -309,7 +309,7 @@ namespace CSVSuchTool
 			// textEditorToolStripMenuItem
 			// 
 			this.textEditorToolStripMenuItem.Name = "textEditorToolStripMenuItem";
-			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
 			this.textEditorToolStripMenuItem.Text = "Text Editor";
 			this.textEditorToolStripMenuItem.ToolTipText = "Ein einfacher Text Editor";
 			this.textEditorToolStripMenuItem.Click += new System.EventHandler(this.textEditorToolStripMenuItem_Click);
@@ -317,7 +317,7 @@ namespace CSVSuchTool
 			// telefNotizToolStripMenuItem
 			// 
 			this.telefNotizToolStripMenuItem.Name = "telefNotizToolStripMenuItem";
-			this.telefNotizToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.telefNotizToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
 			this.telefNotizToolStripMenuItem.Text = "Telef. Notiz";
 			this.telefNotizToolStripMenuItem.ToolTipText = "Einfaches Formular für Telefon Nitizen";
 			this.telefNotizToolStripMenuItem.Click += new System.EventHandler(this.telefNotizToolStripMenuItem_Click);
@@ -351,7 +351,7 @@ namespace CSVSuchTool
 		private System.Windows.Forms.ToolTip toolTipShortNotes;
 		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
 		private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-		private System.Windows.Forms.ToolStripButton toolStripButton6;
+		private System.Windows.Forms.ToolStripButton emailToolStripButton;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 		private System.Windows.Forms.ToolStripButton tsShortNotesClose;
 		private System.Windows.Forms.StatusStrip statusStripShortNotes;
