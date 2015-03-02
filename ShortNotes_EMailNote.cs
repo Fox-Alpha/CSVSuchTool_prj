@@ -19,12 +19,13 @@ namespace CSVSuchTool
 	/// </summary>
 	public partial class cptShortNotes_EMailNote : UserControl
 	{
-		public static bool canSendMail = true;
+//		public static bool canSendMail = true;
+		private bool _canSendMail;
 		
-//		public bool canSendMail {
-//			get { return _canSendMail; }
-//			//set { _canSendMail = value; }
-//		}
+		public bool canSendMail {
+			get { return _canSendMail; }
+			set { _canSendMail = value; }
+		}
 		
 		string _recipient;
 		

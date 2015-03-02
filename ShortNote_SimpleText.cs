@@ -20,12 +20,16 @@ namespace CSVSuchTool
 		//	####
 		#region Properties
 		
-		public static bool canSendMail = true;
+		protected bool _canSendMail;
 		
-//		public bool canSendMail {
-//			get { return _canSendMail; }
-//			set { _canSendMail = value; }
-//		}
+		[EditorBrowsable(EditorBrowsableState.Always)] 
+		[Browsable(true)]
+		[Description("Legt fest ob aus dem Control eien Mail generiert werden kann")] 
+		[Category("Appearance")] 
+		public bool canSendMail {
+			get { return _canSendMail; }
+			set { _canSendMail = value; }
+		}
 		
 		#endregion Properties
 		//	####
