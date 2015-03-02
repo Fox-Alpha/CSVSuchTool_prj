@@ -81,6 +81,10 @@ namespace CSVSuchTool
 				
 				}
 				templateLoaded = true;
+//				ucEditor.
+				
+				
+//				emailToolStripButton.Enabled = ucEditor.canSendMail;
 			}
 		}
 		
