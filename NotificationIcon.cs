@@ -127,10 +127,10 @@ namespace CSVSuchTool
 			bool isFirstInstance;
 			
 			mf = null;
-			mf = new MainForm();
+//			mf = new MainForm();
 			
 			sdf = null;
-			sdf = new ShowDataForm();
+//			sdf = new ShowDataForm();
 
 			
 			//	Anhand einer eindeutig benannten Mutex, feststellen ob bereits eine Instanz der Anwendung läuft
@@ -199,13 +199,13 @@ namespace CSVSuchTool
 		{
 			//Ergebnisfenster der Anwendung anzeigen
 			ToolStripMenuItem mI = sender as ToolStripMenuItem;
+			NotifyIcon nI = null;
 
-			if (mI != null && sdf != null) 
+			if (mI != null && sdf != null)
 			{
 				if(sdf.CanFocus)
 				{
-					sdf.Show();
-					sdf.Focus();
+					sdf.Activate();
 				}
 			}
 		}
@@ -214,41 +214,51 @@ namespace CSVSuchTool
 		{
 			NotifyIcon nI = null;
 			
-			//Datenfenster anzeigen wenn möglich sonst Hauptfenster der Anwendung anzeigen
-			if (sdf != null && !sdf.IsDisposed && !sdf.Disposing) {
-				if ((nI = sender as NotifyIcon) != null  && sdf != null)
+			//Datenfenster anzeigen, wenn möglich
+			if (sdf != null && (nI = sender as NotifyIcon) != null) {
+				if (!sdf.IsDisposed && !sdf.Disposing)
 				{
-//					sdf.ShowInTaskbar = true;
-					
 					if(sdf.CanFocus){
-						sdf.Show();
-						sdf.Focus();
-						sdf.BringToFront();
+						sdf.Activate();
 					}
+					else
+					{
+						sdf.Show();
+						sdf.Activate();
+					}
+					return;
 				}
 			}
-			else if (mf.IsDisposed || mf == null) {
+
+			if (mf == null) {
 				mf = new MainForm();
-				
-				if ((nI = sender as NotifyIcon) != null  && mf != null)
+			}
+			else if(mf.IsDisposed || mf.Disposing)
+			{
+				mf = new MainForm();
+			}
+						
+			// sonst Hauptfenster der Anwendung anzeigen			
+			if ((nI = sender as NotifyIcon) != null  && mf != null)
+			{
+				if(!mf.CanFocus)
 				{
-					mf.ShowInTaskbar = true;
 					mf.Show();
 				}
-				else 
-				{
-					mf.Hide();
-					mf.ShowInTaskbar = false;
-				}
+				else
+					mf.Activate();
+				
+				mf.ShowInTaskbar = true;
 			}
-			
+			else 
+			{
+				mf.Hide();
+				mf.ShowInTaskbar = false;
+			}
 		}
 		
 		private void menuTextBoxEnter(object sender, EventArgs e)
 		{
-			if (sender is TextBox) {
-				((TextBox)sender).SelectAll();
-			}
 		}
 		
 		private void menuTextBoxKeyUp(object sender, KeyEventArgs e)
@@ -260,7 +270,9 @@ namespace CSVSuchTool
 				if ((miTB = sender as ToolStripTextBox) != null) {				
 					//ToolsFenster für Such Ergebnisse
 					#region ToolWindow
-					if (sdf.IsDisposed || sdf == null) {
+					if(sdf == null)
+						sdf = new ShowDataForm();
+					else if (sdf.IsDisposed || sdf.Disposing) {
 						sdf = new ShowDataForm();
 					}
 					
@@ -305,7 +317,7 @@ namespace CSVSuchTool
 				//####
 				mI = null;
 				mI = cms.Items.Find("trayMenuOpenResult", true);
-				if (mI[0] as ToolStripMenuItem != null)
+				if (mI[0] as ToolStripMenuItem != null && sdf != null)
 				{
 					((ToolStripMenuItem)mI[0]).Enabled = sdf.CanFocus;
 				}
