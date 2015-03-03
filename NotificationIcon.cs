@@ -44,7 +44,11 @@ namespace CSVSuchTool
 
 			notificationMenu.Name = "iconContextMenu";
 			notifyIcon.ContextMenuStrip = notificationMenu;
+#if DEBUG
+			notifyIcon.Text = "CSV |DBG|- Suchtool für die toolTray Symbol";
+#else
 			notifyIcon.Text = "CSV - Suchtool für die toolTray Symbol";
+#endif
 			
 			notificationMenu.Items.AddRange(InitializeMenu());
 			notificationMenu.Opening += menuPopup;
@@ -114,6 +118,12 @@ namespace CSVSuchTool
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			
+#if DEBUG
+	string mutexName = "CSV - SUCHTOOL | DEBUG";
+#else
+	string mutexName = "CSV - SUCHTOOL | RELEASE";
+#endif			
+			
 			bool isFirstInstance;
 			
 			mf = null;
@@ -125,7 +135,7 @@ namespace CSVSuchTool
 			
 			//	Anhand einer eindeutig benannten Mutex, feststellen ob bereits eine Instanz der Anwendung läuft
 			//	TODO: Optionale Parameter zum Aufrufen der Anwendung erstellen
-			using (Mutex mtx = new Mutex(true, "AC_Telefonbuch", out isFirstInstance)) {
+			using (Mutex mtx = new Mutex(true, mutexName, out isFirstInstance)) {
 				if (isFirstInstance) {
 					NotificationIcon notificationIcon = new NotificationIcon();
 					notificationIcon.notifyIcon.Visible = true;
@@ -202,27 +212,36 @@ namespace CSVSuchTool
 
 		private void IconDoubleClick(object sender, EventArgs e)
 		{
-			//Hauptfenster der Anwendung anzeigen
-			if (mf.IsDisposed || mf == null) {
-				mf = new MainForm();
-			}
-			
 			NotifyIcon nI = null;
-			if ((nI = sender as NotifyIcon) != null) {
 			
-				if ((nI.ContextMenuStrip.Items[1] as ToolStripMenuItem != null) && mf != null) {
-					if (!mf.CanFocus) {
-						mf.ShowInTaskbar = true;
-						mf.Show();
-						nI.ContextMenuStrip.Items[1].Tag = true;
-					} else {
-						mf.Hide();
-						mf.ShowInTaskbar = false;
-						nI.ContextMenuStrip.Items[1].Tag = false;
+			//Datenfenster anzeigen wenn möglich sonst Hauptfenster der Anwendung anzeigen
+			if (sdf != null && !sdf.IsDisposed && !sdf.Disposing) {
+				if ((nI = sender as NotifyIcon) != null  && sdf != null)
+				{
+//					sdf.ShowInTaskbar = true;
+					
+					if(sdf.CanFocus){
+						sdf.Show();
+						sdf.Focus();
+						sdf.BringToFront();
 					}
-					nI.ContextMenuStrip.Items[1].Text = (bool)nI.ContextMenuStrip.Items[1].Tag == true ? "Ausblenden" : "Anzeigen";
-				}				
+				}
 			}
+			else if (mf.IsDisposed || mf == null) {
+				mf = new MainForm();
+				
+				if ((nI = sender as NotifyIcon) != null  && mf != null)
+				{
+					mf.ShowInTaskbar = true;
+					mf.Show();
+				}
+				else 
+				{
+					mf.Hide();
+					mf.ShowInTaskbar = false;
+				}
+			}
+			
 		}
 		
 		private void menuTextBoxEnter(object sender, EventArgs e)
