@@ -121,7 +121,7 @@
   <data name="mail_view" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        7gAACu4BrzForAAAACt0RVh0Q3JlYXRpb24gVGltZQBNaSAyMCBOb3YgMjAwMiAyMjowMzoxNSArMDEw
+        7AAACuwB0M+rJQAAACt0RVh0Q3JlYXRpb24gVGltZQBNaSAyMCBOb3YgMjAwMiAyMjowMzoxNSArMDEw
         MOvLw+oAAAAHdElNRQfTCgYUGB3Nl3xwAAARK0lEQVRoQ81ZCXSUVZYmroz2uGCjttLTHlvbc2Ycpx3H
         btvRM+24wLTKdPeoCC6IKLsCDSoIyBYgELJUtspGQir7SgJhyU5CQhKyU1XZk6rsa1UqSVU2knzz3aqU
         ApI0M93a3nO+89df9eq977v3vvve//5Z37E5XIUfvrm6dj7i5KTZ4eSkTXNyqurYv/9i3c6d50M//TTq
@@ -26280,6 +26280,37 @@
         19f9/52d1NVERIs/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYWSwJAQIVGgoK0i6KiyKyjo8is
         hIS2i0NDiEYaGlACAAAAAAAAAAAAAAAAAAAAAPAPAADgBwAAwAMAAIABAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAIABAADAAwAA4AcAAPAPAAA=
+</value>
+  </data>
+  <data name="notizen" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAAWdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjA76PVpAAAD
+        aklEQVR4Xu3RMYIcRxADQf7/00cnYYGtpVrCjLEZJqos4NePXuUAL3OAlznAyxzgZQ7wMgd42Z8H+KX/
+        G80WB3gIzRYHeAjNFgd4CM0WB3gIzZa/GoBU/wbdBWlxgBW6C9LiACt0F6TFAVboLkiLA6zQXZAWB1ih
+        uyAtDrBCd0FaHGCF7oK0OMAK3QVpcYAVugvScjkAh+9GFwc8BWlxgHt0ccBTkBYHuEcXBzwFaXGAe3Rx
+        wFOQFge4RxcHPAVpuRxAH9FdkBYHWKG7IC0OsEJ3QVocYIXugrQ4wArdBWlxgBW6C9LiACt0F6TFAVbo
+        LkiLA6zQXZCWywE4fDe6OOApSIsD3KOLA56CtDjAPbo44ClIiwPco4sDnoK0OMA9ujjgKUjL5QD6iO6C
+        tDjACt0FaXGAFboL0uIAK3QXpMUBVuguSIsDrNBdkBYHWKG7IC0OsEJ3QVocYIXugrRcDsDhu9HFAU9B
+        WhzgHl0c8BSkxQHu0cUBT0FaHOAeXRzwFKTFAe7RxQFPQVouB9BHdBekxQFW6C5IiwOs0F2QFgdYobsg
+        LQ6wQndBWhxghe6CtDjACt0FaXGAFboL0uIAK3QXpMUBVuguSMvlABy+G10c8BSkxQHu0cUBT0FaHOAe
+        XRzwFKTFAe7RxQFPQVoc4B5dHPAUpOVyAH1Ed0FaHGCF7oK0OMAK3QVpcYAVugvS4gArdBekxQFW6C5I
+        iwOs0F2QFgdYobsgLQ6wQndBWhxghe6CtDjACt0FaXGAFboL0uIAK3QXpOV+AG7fihbO+AvS4gCXaOGM
+        vyAtDnCJFs74C9LiAJdo4Yy/IC0OcIkWzvgL0nI/gP4Z3QVpcYAVugvS4gArdBekxQFW6C5IiwOs0F2Q
+        FgdYobsgLQ6wQndBWhxghe6CtDjACt0FaXGAFboL0uIAK3QXpOVyAA7fjS4OeArS4gD36OKApyAtDnCP
+        Lg54CtLiAPfo4oCnIC0OcI8uDngK0nI5gD6iuyAtDrBCd0FaHGCF7oK0OMAK3QVpcYAVugvS4gArdBek
+        xQFW6C5IiwOs0F2QFgdYobsgLQ6wQndBWhxghe6CtDjACt0FaXGAFboL0uIAK3QXpOWvBtB/R7PFAR5C
+        s8UBHkKzxQEeQrPFAR5Cs+V40DMc4GUO8DIHeJkDvOrn5zf/Cl4MfCcS5wAAAABJRU5ErkJggg==
+</value>
+    <comment>Notizen Editor Öffnen</comment>
+  </data>
+  <data name="DBSoft_dbg" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk32AAAAAAAAAHYAAAAoAAAAEAAAABAAAAABAAQAAAAAAAAAAADEDgAAxA4AABAAAAAQAAAAAAAA/wAA
+        gP8AgAD/AICA/4AAAP+AAID/gIAA/4CAgP/AwMD/AAD//wD/AP8A/////wAA//8A/////wD//////8zM
+        zMzMzMzMyIiIiIiIiIzImZmZmZmZjMiZmZmZmZmMyJmZmZmZmYzIkACZmQCZjMiQdwmQdwmMyJB3CZAA
+        mYzIkHcJkHeZjMiQdwmQdwmMyJAAmZkAmYzImZmZmZmZjMiZmZmZmZmMyJmZmZmZmYzIiIiIiIiIjMzM
+        zMzMzMzM
 </value>
   </data>
 </root>

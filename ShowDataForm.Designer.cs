@@ -38,6 +38,8 @@ namespace CSVSuchTool
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowDataForm));
 			this.tsNavigation = new System.Windows.Forms.ToolStrip();
+			this.tsButtShortNotes = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
 			this.tsButtFirstSet = new System.Windows.Forms.ToolStripButton();
 			this.tsButtPrevSet = new System.Windows.Forms.ToolStripButton();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -64,6 +66,8 @@ namespace CSVSuchTool
 			// tsNavigation
 			// 
 			this.tsNavigation.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.tsButtShortNotes,
+			this.toolStripSeparator4,
 			this.tsButtFirstSet,
 			this.tsButtPrevSet,
 			this.toolStripSeparator1,
@@ -78,6 +82,21 @@ namespace CSVSuchTool
 			this.tsNavigation.Size = new System.Drawing.Size(264, 25);
 			this.tsNavigation.TabIndex = 3;
 			this.tsNavigation.Text = "toolStrip1";
+			// 
+			// tsButtShortNotes
+			// 
+			this.tsButtShortNotes.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.tsButtShortNotes.Image = global::CSVSuchTool.Resource.notizen;
+			this.tsButtShortNotes.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.tsButtShortNotes.Name = "tsButtShortNotes";
+			this.tsButtShortNotes.Size = new System.Drawing.Size(23, 22);
+			this.tsButtShortNotes.ToolTipText = "Editor für Kurznotizen öffnen";
+			this.tsButtShortNotes.Click += new System.EventHandler(this.tsButtShortNotes_Click);
+			// 
+			// toolStripSeparator4
+			// 
+			this.toolStripSeparator4.Name = "toolStripSeparator4";
+			this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
 			// 
 			// tsButtFirstSet
 			// 
@@ -190,7 +209,7 @@ namespace CSVSuchTool
 			this.toolStripMenuItem4,
 			this.toolStripMenuItem5});
 			this.ctxMailOptions.Name = "ctxMailOptions";
-			this.ctxMailOptions.Size = new System.Drawing.Size(202, 136);
+			this.ctxMailOptions.Size = new System.Drawing.Size(202, 114);
 			// 
 			// toolStripMenuItem1
 			// 
@@ -248,6 +267,7 @@ namespace CSVSuchTool
 			this.MinimumSize = new System.Drawing.Size(250, 200);
 			this.Name = "ShowDataForm";
 			this.ShowInTaskbar = false;
+			this.Activated += new System.EventHandler(this.ShowDataForm_Activated);
 			this.tsNavigation.ResumeLayout(false);
 			this.tsNavigation.PerformLayout();
 			this.toolStrip1.ResumeLayout(false);
@@ -257,6 +277,8 @@ namespace CSVSuchTool
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.ToolStripButton tsButtShortNotes;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;

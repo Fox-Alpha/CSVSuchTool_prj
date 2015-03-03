@@ -83,6 +83,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShortNotes_EMailNote.cs" />
+    <Compile Include="ShortNotes_EMailNote.Designer.cs">
+      <DependentUpon>ShortNotes_EMailNote.cs</DependentUpon>
+    </Compile>
     <Compile Include="DummyForm.cs" />
     <Compile Include="DummyForm.Designer.cs">
       <DependentUpon>DummyForm.cs</DependentUpon>
@@ -106,12 +110,23 @@
       <DependentUpon>Resource.resx</DependentUpon>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Include="ShortNotesForm.cs" />
+    <Compile Include="ShortNotesForm.Designer.cs">
+      <DependentUpon>ShortNotesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShortNote_SimpleText.cs" />
+    <Compile Include="ShortNote_SimpleText.Designer.cs">
+      <DependentUpon>ShortNote_SimpleText.cs</DependentUpon>
+    </Compile>
     <Compile Include="ShowDataForm.cs" />
     <Compile Include="ShowDataForm.Designer.cs">
       <DependentUpon>ShowDataForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ShortNotes_EMailNote.resx">
+      <DependentUpon>ShortNotes_EMailNote.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DummyForm.resx">
       <DependentUpon>DummyForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +142,12 @@
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortNotesForm.resx">
+      <DependentUpon>ShortNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortNote_SimpleText.resx">
+      <DependentUpon>ShortNote_SimpleText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ShowDataForm.resx">
       <DependentUpon>ShowDataForm.cs</DependentUpon>
@@ -154,13 +175,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Text\Nice2Have.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Include="Text\Readme1st.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Text\Snippet.txt" />
-    <None Include="Text\AUTHORS" />
+    <None Include="Text\AUTHORS">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data" />

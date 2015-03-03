@@ -12,6 +12,22 @@ Bearbeiten
 - Schnell Editieren der angezeigten Ergebnisse
 
 
+ShortNotesEditor
+----------------
+- Anlegen von Notizen
+-- Laden von (Text-)Vorlagen
+- Speichern von Notizen
+-- Eindeutig der verwendeten CSV Datei und den betreffenden Datensatz zuzuordnen
+--- Mehrere Notizen zu einem Datensatz
+--- Navigieren zwischen den einzelnen Notizen eines Datensatzes
+- Öffnen von Notizen zu weiteren Datensätzen
+- Notiz an EMail versenden
+- Übergabe des gesamten Datensatzes an den Editor
+-- Auswahl der zu übernehmenden Daten bei Datensatzübergabe
+-- Template zum anlegen eines neuen Datensatzes erstellen
+
+
+
 Kleines Ergebnisfenster
 -----------------------
 - Kopieren und Editieren Buttons neben dem Eintrag hinzufügen
@@ -30,6 +46,7 @@ DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
 DONE: - Fix, Höhe des Label für EMail Adresse anpassen
 - Speichern der gefundenen Datensätze nicht als List<String> sondern als Dictionary<string><string> (Key=Value)
 -- Einfachere Erstellung der Labels
+- Datenauflistung in einem Container, damit Steuer und Suchleiste auch bei Scrollbalken sichtbar bleiben.
 
 
 Hauptansicht
