@@ -1,4 +1,12 @@
-﻿24.02.2015
+﻿03.03.2015
+==========
+Chg: Doppelklick verhalten des TrayIcons angepasst
+- Doppelklick öffnet Hauptfenster
+- Doppelklick öffnet Ergebnisfenster, wenn vorhanden
+Chg: Debug und Release Versionen können gleichzeitig genutzt werden
+Fix: Betreffzeile, wenn kein CC verwendet werden soll
+
+24.02.2015
 ==========
 Chg: CC Adressen an Auswahl im Kontextmenü angepasst
 
