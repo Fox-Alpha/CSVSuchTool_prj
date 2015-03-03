@@ -123,8 +123,8 @@ namespace CSVSuchTool
 			// [3] EMail an Empfänger mit Info zu einem Incident
 			mailCC = new List<string>() 
 				{
-				"",
-				"",
+				" ",
+				" ",
 				mailITSD,
 				mailIncident
 				};
@@ -438,7 +438,7 @@ namespace CSVSuchTool
 					}
 					
 					//Ersetzen von Leerzeichen in HTML Komforme %20
-					string tmp = string.Format("mailto:{0}?cc={1}&subject={2}&body={3}",recipient, mailCC[iMailIndex] ?? "''", mailSubjects[iMailIndex] ?? "''", mailBodys[iMailIndex] ?? "''");
+					string tmp = string.Format("mailto:{0}?cc={1}&subject={2}&body={3}",recipient, mailCC[iMailIndex] ?? " ", mailSubjects[iMailIndex] ?? " ", mailBodys[iMailIndex] ?? " ");
 					tmp = Regex.Replace(tmp, " ", "%20");
 					
 					Process.Start(tmp);
