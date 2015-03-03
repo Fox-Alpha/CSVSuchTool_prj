@@ -167,7 +167,7 @@ namespace CSVSuchTool
 			this.tsButtClose.Image = ((System.Drawing.Image)(resources.GetObject("tsButtClose.Image")));
 			this.tsButtClose.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsButtClose.Name = "tsButtClose";
-			this.tsButtClose.Size = new System.Drawing.Size(23, 20);
+			this.tsButtClose.Size = new System.Drawing.Size(23, 22);
 			this.tsButtClose.Text = "Fenster Schließen";
 			this.tsButtClose.Click += new System.EventHandler(this.closeDataForm_Click);
 			// 
@@ -267,6 +267,7 @@ namespace CSVSuchTool
 			this.MinimumSize = new System.Drawing.Size(250, 200);
 			this.Name = "ShowDataForm";
 			this.ShowInTaskbar = false;
+			this.Activated += new System.EventHandler(this.ShowDataForm_Activated);
 			this.tsNavigation.ResumeLayout(false);
 			this.tsNavigation.PerformLayout();
 			this.toolStrip1.ResumeLayout(false);

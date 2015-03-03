@@ -583,6 +583,10 @@ namespace CSVSuchTool
 				shfNoteEditor.Dispose();
 			}
 		}
+		void ShowDataForm_Activated(object sender, EventArgs e)
+		{
+			Debug.WriteLine("Form aktiv", "ShowDataForm_Activated()");
+		}
 		
 		#endregion Toolstrip Funktionen und Events
 		//	####
