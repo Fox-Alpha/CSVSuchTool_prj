@@ -211,7 +211,7 @@ namespace CSVSuchTool
 			    //		Umlagern in DisplayResult()
 			    //
 			    labCaptionList = new Label[iFieldCount];
-			    labPos = new Point(15, 30);
+			    labPos = new Point(15, 10);
 				for (int i = 0; i < iFieldCount; i++)
 	            {
 					labCaptionList[i] = new Label();
@@ -267,7 +267,7 @@ namespace CSVSuchTool
 			//	Arrays für Labels der Ergebnisanzeige
 		    labDataCaption = new Label[iFieldCount];
 		    //	Startposition der Labels
-		    labPos = new Point(this.Width-15, 30);
+		    labPos = new Point(this.Width-15, 10);
 		    
 		    //Maximale Breite eines Labels um die Position zum rechten Rand zu ermitteln
 		    //TODO: Umstellen auf Label Erstellung aus einem Dictonary
@@ -378,8 +378,8 @@ namespace CSVSuchTool
 			
 			//	####
 			
-    		this.Controls.AddRange(labCaptionList);
-    		this.Controls.AddRange(labDataCaption);
+    		panDataPanel.Controls.AddRange(labCaptionList);
+    		panDataPanel.Controls.AddRange(labDataCaption);
 		}
 		#endregion Funktionen
 		//	####
