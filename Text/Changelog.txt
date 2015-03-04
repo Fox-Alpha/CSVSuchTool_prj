@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+04.03.2015
+==========
+Chg: Chg: Anzeige der CSV Daten in einem Container. Damit bei vielen Daten die Toolbars am oberen und unteren Rand sichtbar bleiben.
+
+
 03.03.2015
 ==========
 Chg: Doppelklick verhalten des TrayIcons angepasst
@@ -18,7 +22,7 @@ Upd: Button für Kurznotizen mit Formaufruf verknüpft
 Add: Laden des Simple Templates als Standard wenn noch kein template ausgewählt wurde.
 Add: Menu im ToolStrip für Template Auswahl erstellt
 
->>>>>>> feature/Feature-ShortNotes
+
 18.02.2015
 ==========
 Add: Funktion zum kopieren der eMail Adresse in die zwischenablage per Kontextmenü hinzugefügt
