@@ -138,7 +138,7 @@ namespace CSVSuchTool
 			mailBodys = new List<string>() 
 				{
 				"Kein Text",
-				"Herr/Frau xy hat im IT-SD angerufen und bittet um Rückruf%0A%0dDwSys: %0A%0dJobNr.: %0A%0dKunde: %0A%0DThema: %0A%0DTel: %0A%0DAnmerkung: ",
+				"Herr/Frau xy hat im IT-SD angerufen%0A%0dBitte um Rückruf: JA/NEIN%0A%0dDwSys: %0A%0dJobNr.: %0A%0dKunde: %0A%0DThema: %0A%0DTel: %0A%0DAnmerkung: ",
 				"Kein Text",
 				"Kein Text"
 				};
