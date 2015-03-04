@@ -170,7 +170,10 @@ namespace CSVSuchTool
 		private void menuOpenClick(object sender, EventArgs e)
 		{
 			//Hauptfenster der Anwendung anzeigen
-			if (mf.IsDisposed || mf == null) {
+			if (mf == null) {
+				mf = new MainForm();
+			}
+			if (!mf.IsDisposed && !mf.Disposing) {
 				mf = new MainForm();
 			}
 			
