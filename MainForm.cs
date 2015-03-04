@@ -126,7 +126,8 @@ namespace CSVSuchTool
 			if (efSourceFile.ShowInputDialog(ref strTmp) == DialogResult.OK)
 			{
 				strFileName = strTmp;
-				labSourceFile.Text = strFileName;
+				labSourceFile.Text = Path.GetFileName( strFileName);
+				toolTip.SetToolTip(labSourceFile, Path.GetDirectoryName(strFileName));
 				Properties.Application.Default.sourceFile = strFileName;
 				Properties.Application.Default.Save();
 				

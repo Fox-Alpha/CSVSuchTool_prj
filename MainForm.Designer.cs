@@ -36,6 +36,7 @@ namespace CSVSuchTool
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.label3 = new System.Windows.Forms.Label();
@@ -51,6 +52,8 @@ namespace CSVSuchTool
 			this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
 			this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
 			this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+			this.imlSortOrder = new System.Windows.Forms.ImageList(this.components);
+			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.SuspendLayout();
@@ -165,6 +168,7 @@ namespace CSVSuchTool
 			this.listView1.Name = "listView1";
 			this.listView1.ShowItemToolTips = true;
 			this.listView1.Size = new System.Drawing.Size(504, 407);
+			this.listView1.SmallImageList = this.imlSortOrder;
 			this.listView1.Sorting = System.Windows.Forms.SortOrder.Ascending;
 			this.listView1.TabIndex = 0;
 			this.listView1.UseCompatibleStateImageBehavior = false;
@@ -191,6 +195,23 @@ namespace CSVSuchTool
 			this.columnHeader4.Text = "E-Mail Adresse";
 			this.columnHeader4.Width = 194;
 			// 
+			// imlSortOrder
+			// 
+			this.imlSortOrder.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imlSortOrder.ImageStream")));
+			this.imlSortOrder.TransparentColor = System.Drawing.Color.Transparent;
+			this.imlSortOrder.Images.SetKeyName(0, "SortDesc");
+			this.imlSortOrder.Images.SetKeyName(1, "SortAscend");
+			this.imlSortOrder.Images.SetKeyName(2, "Suche");
+			this.imlSortOrder.Images.SetKeyName(3, "Notiz");
+			this.imlSortOrder.Images.SetKeyName(4, "Notiz2");
+			this.imlSortOrder.Images.SetKeyName(5, "FullGreen");
+			this.imlSortOrder.Images.SetKeyName(6, "FullRed");
+			this.imlSortOrder.Images.SetKeyName(7, "FullYellow");
+			// 
+			// toolTip
+			// 
+			this.toolTip.IsBalloon = true;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,6 +231,8 @@ namespace CSVSuchTool
 			this.ResumeLayout(false);
 
 		}
+		private System.Windows.Forms.ToolTip toolTip;
+		private System.Windows.Forms.ImageList imlSortOrder;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.Label labSourceFile;
