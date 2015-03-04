@@ -58,6 +58,7 @@ namespace CSVSuchTool
 			this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+			this.panDataPanel = new System.Windows.Forms.Panel();
 			this.tsNavigation.SuspendLayout();
 			this.toolStrip1.SuspendLayout();
 			this.ctxMailOptions.SuspendLayout();
@@ -250,6 +251,16 @@ namespace CSVSuchTool
 			this.toolStripMenuItem5.Tag = "99";
 			this.toolStripMenuItem5.Text = "Adresse kopieren";
 			// 
+			// panDataPanel
+			// 
+			this.panDataPanel.AutoScroll = true;
+			this.panDataPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.panDataPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.panDataPanel.Location = new System.Drawing.Point(0, 25);
+			this.panDataPanel.Name = "panDataPanel";
+			this.panDataPanel.Size = new System.Drawing.Size(264, 148);
+			this.panDataPanel.TabIndex = 6;
+			// 
 			// ShowDataForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,6 +269,7 @@ namespace CSVSuchTool
 			this.AutoScrollMargin = new System.Drawing.Size(5, 0);
 			this.ClientSize = new System.Drawing.Size(264, 198);
 			this.ControlBox = false;
+			this.Controls.Add(this.panDataPanel);
 			this.Controls.Add(this.toolStrip1);
 			this.Controls.Add(this.tsNavigation);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -277,6 +289,7 @@ namespace CSVSuchTool
 			this.PerformLayout();
 
 		}
+		private System.Windows.Forms.Panel panDataPanel;
 		private System.Windows.Forms.ToolStripButton tsButtShortNotes;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;

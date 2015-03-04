@@ -46,7 +46,7 @@ DONE: - Öffnen der grossen Anzeige aus dem Dialog heraus
 DONE: - Fix, Höhe des Label für EMail Adresse anpassen
 - Speichern der gefundenen Datensätze nicht als List<String> sondern als Dictionary<string><string> (Key=Value)
 -- Einfachere Erstellung der Labels
-- Datenauflistung in einem Container, damit Steuer und Suchleiste auch bei Scrollbalken sichtbar bleiben.
+DONE: - Datenauflistung in einem Container, damit Steuer und Suchleiste auch bei Scrollbalken sichtbar bleiben.
 
 
 Hauptansicht
