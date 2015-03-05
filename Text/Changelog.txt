@@ -1,3 +1,10 @@
+05.03.2015
+==========
+Fix: Eine Gruppe für Spalten ohne Inhalt automatisch anlegen
+Fix: Öffnen des Hauptfensters per Kontextmenü. Status der Form wurde falsch abgefragt
+Add: Symbolische Darstellung der Sortierfolge in den Spalten
+
+
 04.03.2015
 ==========
 Chg: Chg: Anzeige der CSV Daten in einem Container. Damit bei vielen Daten die Toolbars am oberen und unteren Rand sichtbar bleiben.
