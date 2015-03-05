@@ -275,7 +275,7 @@ namespace CSVSuchTool
 	        // Sort the groups and add them to myListView.
 	        Array.Sort(groupsArray, new ListViewGroupSorter(listView1.Sorting));
 	        listView1.Groups.AddRange(groupsArray);
-	
+			
 	        // Iterate through the items in myListView, assigning each 
 	        // one to the appropriate group.
 	        foreach (ListViewItem item in listView1.Items)
@@ -293,6 +293,10 @@ namespace CSVSuchTool
 		
 		            // Assign the item to the matching group.
 		            item.Group = (ListViewGroup)groups[subItemText];
+	            }
+	            else
+	            {
+	            	item.Group = (ListViewGroup)groups["Leer"];
 	            }
 	        }
 	    }
@@ -325,6 +329,14 @@ namespace CSVSuchTool
 		            if (!groups.Contains(subItemText))
 		            {
 		                groups.Add( subItemText, new ListViewGroup(subItemText, 
+		                    HorizontalAlignment.Left) );
+		            }
+	            }
+	            else	//	Eine Gruppe für Leere Einträge erzeugen
+	            {
+		            if (!groups.Contains("Leer"))
+		            {
+		                groups.Add( "Leer", new ListViewGroup("Leer", 
 		                    HorizontalAlignment.Left) );
 		            }
 	            }
