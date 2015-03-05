@@ -224,6 +224,7 @@ namespace CSVSuchTool
 	                // Create a hash table containing all the groups 
 	                // needed for a single column.
 	                groupTables[column] = CreateGroupsTable(column);
+	                listView1.Columns[column].ImageKey = "FullGreen";
 	            }
 	
 	            // Start with the groups created for the Title column.
@@ -238,24 +239,44 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void ListView1ColumnClick(object sender, System.Windows.Forms.ColumnClickEventArgs e)
 		{
+			//	Zurücksetzen der Icons für die SortOrder
+			foreach (ColumnHeader col in listView1.Columns) {
+				col.ImageKey = "FullGreen";
+			}
+			
+//			listView1.Invalidate(
+//				new Region(
+//					new Rectangle(listView1.Location.X, listView1.Location.Y, listView1.Width, listView1.Height)
+//						)
+//				);
+//			listView1.Update();
 	        // Set the sort order to ascending when changing
 	        // column groups; otherwise, reverse the sort order.
 	        if ( listView1.Sorting == SortOrder.Descending || 
 	            ( isRunningXPOrLater && (e.Column != groupColumn) ) )
 	        {
 	            listView1.Sorting = SortOrder.Ascending;
+//	            listView1.Columns[e.Column].ImageIndex = 1;
+	            listView1.Columns[e.Column].ImageKey = "SortAscend";
 	        }
 	        else 
 	        {
 	            listView1.Sorting = SortOrder.Descending;
+//				listView1.Columns[e.Column].ImageIndex = 0;
+	            listView1.Columns[e.Column].ImageKey = "SortDesc";
+
 	        }
-	        groupColumn = e.Column;
 	
 	        // Set the groups to those created for the clicked column.
 	        if (isRunningXPOrLater)
 	        {
 	            SetGroups(e.Column);
 	        }
+//	        if ((e.Column != groupColumn)) {
+//	        	listView1.Columns[groupColumn].ImageKey = "FullGreen";
+//	        }
+	        
+	        groupColumn = e.Column;
 		}
 		
 	    // Sets myListView to the groups created for the specified column.
