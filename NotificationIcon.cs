@@ -173,7 +173,7 @@ namespace CSVSuchTool
 			if (mf == null) {
 				mf = new MainForm();
 			}
-			if (!mf.IsDisposed && !mf.Disposing) {
+			if (mf.IsDisposed || mf.Disposing) {
 				mf = new MainForm();
 			}
 			
