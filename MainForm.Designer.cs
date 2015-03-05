@@ -154,7 +154,6 @@ namespace CSVSuchTool
 			// 
 			// listView1
 			// 
-			this.listView1.AllowColumnReorder = true;
 			this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
 			this.columnHeader1,
 			this.columnHeader2,
