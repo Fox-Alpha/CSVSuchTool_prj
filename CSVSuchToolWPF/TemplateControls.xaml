@@ -2,5 +2,22 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:CSVSuchToolWPF" 
                     xmlns:Views="clr-namespace:CSVSuchToolWPF.Views">
+
+    <DataTemplate x:Key="SearchListResultItemTemplate">
+        <Border x:Name="TagBorder" Background="#FFC7C7C7" CornerRadius="8" Margin="0,0,3,3">
+            <StackPanel Orientation="Horizontal" Margin="2">
+                <TextBlock Foreground="Black" x:Name="TagText" Text="{Binding .}" FontSize="10" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate x:Key="SearchListResultDetailTemplate">
+        <Border x:Name="TagBorder" Background="#FFC7C7C7" CornerRadius="8" Margin="0,0,3,3">
+            <StackPanel Orientation="Horizontal" Margin="2">
+                <TextBlock Foreground="Black" x:Name="TagText" Text="{Binding .}" FontSize="10" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </DataTemplate>
     
+
 </ResourceDictionary>
