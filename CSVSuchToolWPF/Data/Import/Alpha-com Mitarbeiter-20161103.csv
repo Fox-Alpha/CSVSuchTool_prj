@@ -1,0 +1,474 @@
+﻿contactid;UserTitle;UserFirstName;UserLastName;UserFullName;UserEmail;UserCompany;UserPhone;UserFax;UserMobile;UserComment;UserStatus
+1;Frau;Andrea;Adamsky;Adamsky, Andrea;andrea.adamsky@alpha-com.de;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+2;Herr;Clement;Akomea;Akomea, Clement;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;NULL
+3;Frau;Aidin;Assari;Assari, Aidin;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+4;Herr;Atanas;Atanasov;Atanasov, Atanas;atanas.atanasov@alpha-com.de;NULL;+49-89-452298-0;+49-89-452298-22;NULL;NULL;NULL
+5;Frau;Fatma;Aydin;Aydin, Fatma;NULL;ALPHA COM Stuttgart;NULL;NULL;NULL;NULL;NULL
+6;Frau;Viola;Baucks;Baucks, Viola;viola.baucks@alpha-com.de;NULL;+49-89-452298-21;+49-89-452298-22;NULL;NULL;NULL
+7;Frau;Viola;Baucks;Baucks, Viola;NULL;ALPHA COM München;+49-89-452298-0;+49-89-452298-22;NULL;NULL;NULL
+8;Frau;Monika;Bayer;Bayer, Monika;monika.bayer@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;NULL
+9;Herr;Gerd;Bayer;Bayer, Gerd;gerd.bayer@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;+49-173-2482197;NULL;NULL
+10;Frau;Iris;Beck;Beck, Iris;NULL;ALPHA COM Stuttgart;NULL;NULL;NULL;NULL;NULL
+11;Frau;Erika;Berthold;Berthold, Erika;erika.berthold@alpha-com.de;NULL;+49-351-47767-20;+49-351-47767-99;+49-160-6161241;NULL;NULL
+12;Frau;Brigitte;Betzl;Betzl, Brigitte;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;NULL
+13;Herr;Nils;Blicke;Blicke, Nils;blicke2@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-118;+49-40-51302-111;NULL;NULL;NULL
+14;Herr;SMTP User;BNotK;BNotK, SMTP User;smtp-ac-application@bnotk.alpha-com.de;ALPHA  COM Deutschland GmbH;NULL;NULL;NULL;Benachrichtigung von Anwendungen, wie noreply@ in HH, nur eben in BNotK;NULL
+15;Herr;Marco;Bobsien;Bobsien, Marco;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+16;Herr;Andreas;Bollenbacher;Bollenbacher, Andreas;NULL;ALPHA COM Köln;NULL;NULL;NULL;NULL;NULL
+17;Herr;Fritz;Böschen;Böschen, Fritz;fritz.boeschen@alpha-com.de;NULL;+49-421-49988-31;+49-421-49988-99;+49-160-6161218;NULL;NULL
+18;Herr;Jörg;Bothmann;Bothmann, Jörg;joerg.bothmann@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-310;+49-40-51302-111;+49-160-6161200;NULL;NULL
+19;Frau;Daniela;Braun;Braun, Daniela;daniela.braun2@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-32;+49-208-85907-89;NULL;NULL;NULL
+20;Frau;Susanne;Buchwald-Erben;Buchwald-Erben, Susanne;susanne.buchwald@alpha-com.de;NULL;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+21;Frau;Birgit;Carstens;Carstens, Birgit;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+22;Herr;Olaf;Casimir;Casimir, Olaf;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+23;Frau;Hülya;Ceran;Ceran, Hülya;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;NULL
+24;Frau;Vera;Chadraba;Chadraba, Vera;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;NULL
+25;Frau;Nicole;Cilimba;Cilimba, Nicole;nicole.cilimba@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+26;Herr;Rainer;Cord;Cord, Rainer;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+27;Frau;Marzieh;Dadashi;Dadashi, Marzieh;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+28;Frau;Melanie;Daemmig;Daemmig, Melanie;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+29;Herr;Kurt;Dahlbeck;Dahlbeck, Kurt;NULL;ALPHA COM Oberhausen;NULL;NULL;NULL;NULL;NULL
+30;Frau;Linda;Daszinnies;Daszinnies, Linda;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+31;NULL;Zehnije;Destanovska;Destanovska, Zehnije;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+32;Herr;Robert;Dickmeis;Dickmeis, Robert;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;NULL
+33;Herr;Adrian;Diehl;Diehl, Adrian;NULL;ALPHA COM Frankfurt;NULL;NULL;NULL;NULL;NULL
+34;Frau;Andrea;Diel;Diel, Andrea;andrea.diel@alpha-com.de;ALPHA COM Köln-Gothaer;+49-221-3083-3452;+49-221-3083-3459;NULL;NULL;NULL
+35;NULL;Corinna;Diesselmeyer;Diesselmeyer, Corinna;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+36;Herr;Andreas;Diete;Diete, Andreas;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+37;Herr;Daniel;Düring;Düring, Daniel;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+38;Frau;Ahlam;El Aallali;El Aallali, Ahlam;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+39;Frau;Marilyn;El Sayed;El Sayed, Marilyn;NULL;ALPHA COM Dresden;+49-351-47767-10;+49-351-47767-99;NULL;NULL;NULL
+40;Frau;Gisela;Förster;Förster, Gisela;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+41;Herr;Stefan;Freitag;Freitag, Stefan;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+42;Herr;Thomas;Fröhlich;Fröhlich, Thomas;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+43;Frau;Sarah;Fuchs;Fuchs, Sarah;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+44;Frau;Brigitte;Gladbach;Gladbach, Brigitte;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+45;Herr;Ralf;Göppelhuber;Göppelhuber, Ralf;NULL;ALPHA COM Hamburg-DSC;NULL;NULL;NULL;NULL;NULL
+46;Frau;Heidi;Grunwaldt;Grunwaldt, Heidi;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+47;Frau;Annett;Haase;Haase, Annett;annett.haase@alpha-com.de;NULL;+49-351-47767-46;+49-351-47767-99;NULL;NULL;NULL
+48;Frau;Heidi;Haase;Haase, Heidi;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+49;Herr;Denes;Haase;Haase, Denes;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+50;Frau;Denes;Haase;Haase, Denes;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+51;Frau;Sonja;Haene;Haene, Sonja;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+52;Herr;Karim;Haijoubi;Haijoubi, Karim;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+53;Herr;Hans Jürgen;Halten;Halten, Hans Jürgen;hans-juergen.halten@alpha-com.de;NULL;+49-231-7267085;+49-231-7267087;NULL;NULL;NULL
+54;Herr;Henning;Hamer;Hamer, Henning;henning.hamer2@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-117;+49-40-51302-111;NULL;NULL;NULL
+55;Frau;Sandra;Harenz;Harenz, Sandra;sandra.harenz@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;NULL
+56;Frau;Ute;Haßforther;Haßforther, Ute;ute.hassforther@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-114;+49-40-51302-111;NULL;NULL;NULL
+57;Frau;Uschi;Heitkamp;Heitkamp, Uschi;uschi.heitkamp@alpha-com.de;ALPHA COM Bremen;+49-421-49988-11;+49-421-49988-99;NULL;NULL;NULL
+58;NULL;Kai;Hellwig;Hellwig, Kai;NULL;ALPHA COM Hamburg;+49-40-51302-141;+49-40-51302-111;NULL;NULL;NULL
+59;Frau;Nicole;Herberg;Herberg, Nicole;NULL;ALPHA COM Dresden;+49-351-47767-0;NULL;NULL;NULL;NULL
+60;Frau;Ramona;Herrmann;Herrmann, Ramona;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;NULL
+61;Frau;Jolanta;Hexamer;Hexamer, Jolanta;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+62;Frau;Rebekka;Hinze;Hinze, Rebekka;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+63;Herr;Amphanthong;Hirschler;Hirschler, Amphanthong;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+64;Frau;Lenka;Hlinkova;Hlinkova, Lenka;lenka.hlinkova@alpha-com.de;NULL;+49-89-452298-15;+49-89-452298-22;NULL;NULL;NULL
+65;Frau;Jeannine;Hruska;Hruska, Jeannine;jeannine.hruska@alpha-com.de;NULL;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+66;Frau;Katja;Hühn;Hühn, Katja;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+67;Herr;Tobias;Hüncher;Hüncher, Tobias;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+68;Frau;Ilse;Irkowsky;Irkowsky, Ilse;ilse.irkowsky@alpha-com.de;NULL;+49-89-452298-0;+49-89-452298-22;NULL;NULL;NULL
+69;Frau;Sie-Mei;Ismail;Ismail, Sie-Mei;sie-mei.ismail@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+70;Herr;Olaf;Jepsen;Jepsen, Olaf;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;NULL
+71;Herr;Dustin;Jürgens;Jürgens, Dustin;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+72;Frau;Veronika;Kalinenkov;Kalinenkov, Veronika;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+73;NULL;Dragana;Kamenica;Kamenica, Dragana;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+74;Frau;Kalina;Kamenova;Kamenova, Kalina;kalina.kamenova@alpha-com.de;NULL;+49-89-452298-0;+49-89-452298-22;NULL;NULL;NULL
+75;Frau;Milada;Karmand;Karmand, Milada;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;NULL
+76;Frau;Heike;Katarci;Katarci, Heike;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+77;Herr;Chris;Klaassen;Klaassen, Chris;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+78;Herr;Wilhelm;Klawitter;Klawitter, Wilhelm;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+79;Frau;Kerstin;Klein;Klein, Kerstin;kerstin.klein@alpha-com.de;ALPHA COM Bremen;+49-421-49988-33;+49-421-49988-99;NULL;NULL;NULL
+80;Frau;Jovitta;Kliuskinskine;Kliuskinskine, Jovitta;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+81;Frau;Andrea;Knopp;Knopp, Andrea;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+82;Herr;Rainer;Kohlstruck;Kohlstruck, Rainer;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+83;Frau;Daniela;Kohrs;Kohrs, Daniela;daniela.kohrs@alpha-com.de;NULL;+49-30-489575-0;+49-30-489575-22;NULL;NULL;NULL
+84;Frau;Heike;Könnecke;Könnecke, Heike;Heike.Koennecke@alpha-com.de;ALPHA COM Bremen;+49-421-49988-11;NULL;NULL;NULL;NULL
+85;Frau;Sylwia;Korzenietz;Korzenietz, Sylwia;sylwia.korzenietz@alpha-com.de;NULL;+49-89-452298-0;+49-89-452298-22;NULL;NULL;NULL
+86;Frau;Katharina;Kowalski;Kowalski, Katharina;katharina.kowalski@alpha-com.de;NULL;+49-421-49988-0;+49-421-49988-99;NULL;NULL;NULL
+87;Frau;Bettina;Kraus;Kraus, Bettina;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+88;Herr;Siegfried;Kruber;Kruber, Siegfried;siegfried.kruber@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-129;+49-40-51302-111;NULL;NULL;NULL
+89;Frau;Kerstin;Krüger;Krüger, Kerstin;kerstin.krueger@alpha-com.de;NULL;+49-351-47767-10;+49-351-47767-99;NULL;NULL;NULL
+90;Frau;Manuela;Krüger;Krüger, Manuela;manuela.krueger@alpha-com.de;ALPHA COM Berlin;+49-30-489575-12;+49-30-489575-22;NULL;NULL;NULL
+91;Herr;Stefan;Kühtreiber;Kühtreiber, Stefan;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+92;Herr;Gerd;Kunath;Kunath, Gerd;gerd.kunath@alpha-com.de;NULL;+49-351-47767-41;+49-351-47767-99;NULL;NULL;NULL
+93;Herr;Herbert;Kuske;Kuske, Herbert;herbert.kuske@alpha-com.de;ALPHA COM Berlin;+49-30-489575-18;+49-30-489575-22;+49-173-2482137;NULL;NULL
+94;Frau;Martina;Landscheidt;Landscheidt, Martina;martina.landscheidt@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;NULL
+95;Herr;Pierre;Leitzen;Leitzen, Pierre;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+96;Frau;Monika;Leudolph;Leudolph, Monika;monika.leudolph@alpha-com.de;NULL;+49-351-47767-40;+49-351-47767-99;NULL;NULL;NULL
+97;Herr;Frank;Lichte;Lichte, Frank;frank.lichte@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-171;+49-40-51302-111;NULL;NULL;NULL
+98;Herr;Christian;Litzki;Litzki, Christian;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+99;Herr;Lukas;Madeiski;Madeiski, Lukas;lukas.madeiski@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+100;Herr;René;Mailänder;Mailänder, René;rene.mailaender@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-178;+49-40-51302-111;NULL;NULL;NULL
+101;Herr;Ralf;Manthei;Manthei, Ralf;ralf.manthei@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;NULL
+102;Herr;Maximilian;Matausic;Matausic, Maximilian;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+103;Herr;Marc;Mathwig;Mathwig, Marc;marc.mathwig@alpha-com.de;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+104;Frau;Vikoria;Merczel;Merczel, Vikoria;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+105;Herr;Mats Niklas;Mißfeldt;Mißfeldt, Mats Niklas;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+106;Herr;Mats;Mißfeldt;Mißfeldt, Mats;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+107;Herr;Mats;Mißfeldt;Mißfeldt, Mats;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+108;Frau;Agnes;Molnar;Molnar, Agnes;NULL;ALPHA COM Frankfurt;NULL;NULL;NULL;NULL;NULL
+109;Herr;Hans-Werner;Müller;Müller, Hans-Werner;hans-werner.mueller@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-136;+49-40-51302-133;NULL;NULL;NULL
+110;Frau;Nikoletta;Nagyházi;Nagyházi, Nikoletta;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;NULL
+111;Frau;Gertrud;Nährig;Nährig, Gertrud;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+112;Frau;Andrea;Nennstiel;Nennstiel, Andrea;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+113;Herr;Karim;Oudrhiri;Oudrhiri, Karim;NULL;ALPHA COM Hamburg-DSC;NULL;NULL;NULL;NULL;NULL
+114;Herr;Thomas;Overzier;Overzier, Thomas;thomas.overzier@alpha-com.de;ALPHA COM Köln-Gothaer;;+49-221-54669-89;NULL;NULL;NULL
+115;NULL;Stephan;Pahl;Pahl, Stephan;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;NULL
+116;NULL;Kevin;Pahnke;Pahnke, Kevin;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+117;Frau;Kübra;Pamukoglu;Pamukoglu, Kübra;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+118;Herr;Michael;Pataliy;Pataliy, Michael;NULL;ALPHA COM Frankfurt;NULL;NULL;NULL;NULL;NULL
+119;Frau;Dalia;Puniskyte;Puniskyte, Dalia;NULL;ALPHA COM Frankfurt;NULL;NULL;NULL;NULL;NULL
+120;Herr;Siegfried;Putfarcken;Putfarcken, Siegfried;putfarcken2@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-183;NULL;NULL;NULL;NULL
+121;Frau;Aleksandra;Putilina;Putilina, Aleksandra;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+122;Herr;Andre;Rathje;Rathje, Andre;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+123;Frau;Irena;Rau;Rau, Irena;irena.rau@alpha-com.de;NULL;+49-421-49988-0;+49-421-49988-99;NULL;NULL;NULL
+124;Frau;Martina;Raubold;Raubold, Martina;martina.raubold@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+125;Frau;Karen;Reiche;Reiche, Karen;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+126;Frau;Martina;Reiter;Reiter, Martina;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+127;Frau;Annett;Richtsteig;Richtsteig, Annett;annett.richtsteig@alpha-com.de;ALPHA COM Dresden;+49-351-47767-42;+49-351-47767-99;NULL;NULL;NULL
+128;Frau;Marion;Rieger;Rieger, Marion;Marion.Rieger@alpha-com.de;NULL;+49-89-452298-0;+49-89-452298-22;NULL;NULL;NULL
+129;Frau;Roswitha;Rodrian;Rodrian, Roswitha;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+130;Frau;Claudia;Roehl;Roehl, Claudia;NULL;ALPHA COM Oberhausen;NULL;NULL;NULL;NULL;NULL
+131;Herr;Andreas;Ronig;Ronig, Andreas;andreas.ronig@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;NULL
+132;Frau;Veronika;Sachse;Sachse, Veronika;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+133;Herr;Jamil;Salim;Salim, Jamil;jamil.salim@alpha-com.de;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;NULL
+134;Frau;Traute;Schiesewitz;Schiesewitz, Traute;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+135;Frau;Nina;Schinkel;Schinkel, Nina;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+136;Frau;Gabriela;Schneider;Schneider, Gabriela;NULL;ALPHA COM Dresden;+49-351-47767-10;+49-351-47767-99;NULL;NULL;NULL
+137;Frau;Corina;Scholz;Scholz, Corina;corinna.scholz@alpha-com.de;ALPHA  COM Deutschland GmbH;+49 / 40 / 53 16 92 37;NULL;NULL;NULL;NULL
+138;Frau;Angélique;Schulze;Schulze, Angélique;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;NULL
+139;Frau;Ulrike;Schüttauf;Schüttauf, Ulrike;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;NULL
+140;Frau;Denise;Schütze;Schütze, Denise;NULL;ALPHA COM Dresden;+49-351-47767-10;+49-351-47767-99;NULL;NULL;NULL
+141;Herr;Dennes;Schwalke;Schwalke, Dennes;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+142;Herr;Klaus;Schwarz;Schwarz, Klaus;klaus.schwarz@alpha-com.de;ALPHA COM Bremen;+49-421-49988-60;+49-421-49988-99;NULL;NULL;NULL
+143;Herr;Christoph;Schwarzer;Schwarzer, Christoph;christoph.schwarzer@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-117;NULL;NULL;NULL;NULL
+144;Herr;Martin;Sehland;Sehland, Martin;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+145;Herr;Noel Prathapan;Sellathurai;Sellathurai, Noel Prathapan;NULL;ALPHA COM Stuttgart;+49-711-44144-91;NULL;NULL;NULL;NULL
+146;Frau;Svitlana;Shakh;Shakh, Svitlana;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+147;Herr;Peter;Sieburg;Sieburg, Peter;peter.sieburg@alpha-com.de;NULL;+49-231-7267085;+49-231-7267087;NULL;NULL;NULL
+148;Frau;Carolin;Sinnemann;Sinnemann, Carolin;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+149;Frau;Vikoriya;Sokha;Sokha, Vikoriya;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+150;Herr;Florian;Spridzans;Spridzans, Florian;florian.spridzans00@alpha-com.de;ALPHA COM Köln;+49-221-54669-63;+49-221-54669-88;+49-173-2482142;NULL;NULL
+151;Herr;Julian;Stark;Stark, Julian;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+152;Frau;Manuela;Stelter;Stelter, Manuela;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;NULL
+153;Frau;Peggy;Syska;Syska, Peggy;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+154;Herr;Klaus;Tamme;Tamme, Klaus;klaus.tamme2@alpha-com.de;NULL;+49-351-47767-43;+49-351-47767-99;NULL;NULL;NULL
+155;Frau;Stefanie;Tonne;Tonne, Stefanie;NULL;ALPHA COM Hamburg-DSC;NULL;NULL;NULL;NULL;NULL
+156;Frau;Esra;Uysal;Uysal, Esra;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;NULL
+157;Herr;Nicolaus-David;Vassilliere;Vassilliere, Nicolaus-David;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;NULL
+158;NULL;Anna Sabrina;Vocale;Vocale, Anna Sabrina;NULL;ALPHA COM Hamburg;+49-40-51302-141;+49-40-51302-111;NULL;NULL;NULL
+159;NULL;Florian;Voigt;Voigt, Florian;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+160;Frau;Sandra;von Geisau;von Geisau, Sandra;sandra.vongeisau@alpha-com.de;NULL;+49-351-47767-10;+49-351-47767-99;NULL;NULL;NULL
+161;Frau;Ina;Vorbusch;Vorbusch, Ina;ina.vorbusch@alpha-com.de;NULL;+49-421-49988-41;+49-421-49988-99;NULL;NULL;NULL
+162;NULL;Dominick;Wach;Wach, Dominick;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;NULL
+163;Herr;Benjamin;Wallrabe;Wallrabe, Benjamin;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;NULL
+164;NULL;David;Wanke;Wanke, David;NULL;ALPHA COM Hamburg;+49-40-51302-141;+49-40-51302-111;NULL;NULL;NULL
+165;Frau;Jutta;Warda;Warda, Jutta;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;NULL
+166;Herr;Jan;Weinhold;Weinhold, Jan;jan.weinhold@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-501;+49-40-51302-111;NULL;NULL;NULL
+167;Herr;Andrea;Wencel;Wencel, Andrea;andrea.wencel@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;NULL
+168;Frau;Lisa;Werner;Werner, Lisa;lisa.werner@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;NULL
+169;Frau;Gabriele;Winter;Winter, Gabriele;gabriele.winter@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-48;+49-208-85907-89;NULL;NULL;NULL
+170;Frau;Evelina;Witek;Witek, Evelina;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+171;Herr;Eric;Witt;Witt, Eric;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;NULL
+172;Frau;Leslie;Wittmann;Wittmann, Leslie;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;NULL
+173;Frau;Yvonne;Wolff;Wolff, Yvonne;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;NULL
+174;Herr;Mario;Worm;Worm, Mario;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+175;Herr;Hasan;Yilmaz;Yilmaz, Hasan;hasan.yilmaz@alpha-com.de;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;NULL
+176;Frau;Nigina;Zahedi;Zahedi, Nigina;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;NULL
+177;Herr;Axel;Zimmermann;Zimmermann, Axel;NULL;ALPHA COM Dortmund;NULL;NULL;NULL;NULL;NULL
+178;Frau;Iris;Zschiesche;Zschiesche, Iris;iris.zschiesche@alpha-com.de;NULL;+49-351-47767-31;+49-351-47767-99;NULL;NULL;NULL
+179;Frau;Heidi;Zücker;Zücker, Heidi;heidi.zuecker@alpha-com.de;NULL;+49-351-47767-10;+49-351-47767-99;NULL;NULL;NULL
+180;Frau;Lisa;Zweydinger;Zweydinger, Lisa;lisa.zweydinger@alpha-com.de;NULL;+49-231-7267085;+49-231-7267087;NULL;NULL;NULL
+181;Frau;Danuta;Zydeck;Zydeck, Danuta;NULL;ALPHA COM Bremen;+49-421-49988-41;+49-421-49988-99;NULL;NULL;NULL
+182;NULL;;;, ;rufbereitschaft@alpha-com.de;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;PersonStatusEmployed
+183;Frau;Anja;Abelbeck;Abelbeck, Anja;anja.abelbeck@alpha-com.de;ALPHA COM Bremen;+49-421-49988-11;NULL;NULL;NULL;PersonStatusEmployed
+184;Herr;Moussa;Adoyi;Adoyi, Moussa;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+185;NULL;Nazli;Ahani;Ahani, Nazli;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+186;Herr;Lucas;Albrecht;Albrecht, Lucas;NULL;ALPHA COM Hamburg;-179;NULL;NULL;NULL;PersonStatusEmployed
+187;Herr;Lucas;Albrecht;Albrecht, Lucas;lucas.albrecht@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-179;NULL;NULL;NULL;PersonStatusEmployed
+188;Herr;Alpha-com.de;Alpha-com.de;Alpha-com.de, Alpha-com.de;noreply@Alpha-com.de;ALPHA COM Deutschland GmbH;NULL;NULL;NULL;NULL;PersonStatusEmployed
+189;Herr;Andreas;Altnöder;Altnöder, Andreas;andreas.altnoeder@alpha-com.de;ALPHA COM München;+49-89-452298-17;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+190;NULL;Kamil;Ambros;Ambros, Kamil;Kamil.Ambros@alpha-com.de;ALPHA COM Köln;NULL;NULL;NULL;NULL;PersonStatusEmployed
+191;Frau;Gisela;Appel;Appel, Gisela;gisela.appel@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;PersonStatusEmployed
+192;Frau;Karin;Appel;Appel, Karin;Karin.Appel@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+193;NULL;Sunay;Aras;Aras, Sunay;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+194;Frau;Joshila;Arenja;Arenja, Joshila;NULL;ALPHA COM Hamburg;+49-40-51302-0;NULL;NULL;NULL;PersonStatusEmployed
+195;NULL;Raul;Artiles;Artiles, Raul;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+196;NULL;Abinoam;Barabosa-Dobrinkat;Barabosa-Dobrinkat, Abinoam;NULL;ALPHA COM Stuttgart;NULL;NULL;NULL;NULL;PersonStatusEmployed
+197;Frau;Johanna;Baukrowitz;Baukrowitz, Johanna;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+198;Frau;Sabrina;Bechstein;Bechstein, Sabrina;sabrina.bechstein@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;PersonStatusEmployed
+199;Frau;Miroslawa;Bednarek;Bednarek, Miroslawa;miroslawa.bednarek@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-117;NULL;NULL;NULL;PersonStatusEmployed
+200;Frau;Eva;Benova;Benova, Eva;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+201;Herr;Bernd Johannes;Berendes;Berendes, Bernd Johannes;BerndJohannes.Berendes@alpha-com.de;ALPHA COM Köln-Gothaer;022130833452;NULL;NULL;NULL;PersonStatusEmployed
+202;Frau;Adelheid;Berger;Berger, Adelheid;NULL;ALPHA COM Bremen;+49-421-49988-41;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+203;Herr;Christian;Berger;Berger, Christian;christian.berger@alpha-com.de;ALPHA COM München;+49-89-452298-0;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+204;Herr;Christian;Bergmann;Bergmann, Christian;christian.bergmann@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-325;+49-40-51302-399;+49-160-6161211;NULL;PersonStatusEmployed
+205;NULL;Evgenij;Beysorin;Beysorin, Evgenij;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;PersonStatusEmployed
+206;Herr;Uwe;Biskaborn;Biskaborn, Uwe;uwe.biskaborn@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-172;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+207;Herr;Bodo;Bismark;Bismark, Bodo;bodo.bismark@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+208;Frau;Carmen;Block;Block, Carmen;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+209;Herr;Marco;Bohmhammel;Bohmhammel, Marco;marco.bohmhammel@alpha-com.de;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+210;Herr;Werner;Bollhorn;Bollhorn, Werner;werner.bollhorn@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-175;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+211;Frau;Petra;Borchert;Borchert, Petra;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+212;Frau;Simone;Brudel;Brudel, Simone;simone.brudel@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+213;Herr;Dirk;Buck;Buck, Dirk;dirk.buck@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-501;+49-40-51302-133;NULL;NULL;PersonStatusEmployed
+214;Herr;Edgar;Bunag;Bunag, Edgar;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+215;Frau;Martina;Burisch;Burisch, Martina;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+216;Frau;Marie Jenelyn;Caitan;Caitan, Marie Jenelyn;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+217;Herr;Mustafa;Cebi;Cebi, Mustafa;mustafa.cebi@alpha-com.de;ALPHA COM Köln;+49-221-54669-65;+49-221-54669-89;+49-173-9878398;NULL;PersonStatusEmployed
+218;Frau;Vera;Chadraba;Chadraba, Vera;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+219;Frau;Zaneta;Chmielewski;Chmielewski, Zaneta;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+220;Frau;Cornelia;Clasen;Clasen, Cornelia;cornelia.clasen@alpha-com.de;ALPHA  COM Deutschland GmbH;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+221;Frau;Cornelia;Clasen;Clasen, Cornelia;cornelia.clasen@alpha-com.de;ALPHA COM Hamburg-DSC;+49-40-51302-127;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+222;Frau;Cornelia;Conzatti-Köster;Conzatti-Köster, Cornelia;NULL;ALPHA COM Stuttgart;NULL;NULL;NULL;NULL;PersonStatusEmployed
+223;Herr;Christian;Dahlbeck;Dahlbeck, Christian;christian.dahlbeck@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-58;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+224;Frau;Manuela;Dellert;Dellert, Manuela;NULL;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+225;Herr;Gökhan;Demirbilek;Demirbilek, Gökhan;goekhan.demirbilek@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+226;NULL;Ellen;Dick;Dick, Ellen;Ellen.Dick@alpha-com.de;ALPHA COM Bremen;+49-421-49988-42;NULL;NULL;NULL;PersonStatusEmployed
+227;Herr;Thomas;Diedrich;Diedrich, Thomas;thomas.diedrich@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-105;+49-40-51302-111;+49-173-2110351;NULL;PersonStatusEmployed
+228;Frau;Petra;Dischlatis;Dischlatis, Petra;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+229;Frau;Barbara;Dose;Dose, Barbara;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+230;NULL;Christian;Dumele;Dumele, Christian;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+231;Frau;Dorte;Dunkelmann;Dunkelmann, Dorte;dorte.dunkelmann@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-352;+49-40-51302-399;NULL;NULL;PersonStatusEmployed
+232;Frau;Yvonne;Düring;Düring, Yvonne;yvonne.duering@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-130;+49-40-51302-333;NULL;NULL;PersonStatusEmployed
+233;Frau;Petra;Eggers;Eggers, Petra;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;PersonStatusEmployed
+234;Herr;Mohamed;Elhachimi;Elhachimi, Mohamed;NULL;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+235;Frau;Romy;Emadi;Emadi, Romy;NULL;ALPHA COM Hamburg;+49-40-51302-147;NULL;NULL;NULL;PersonStatusEmployed
+236;Herr;Kay;Falkenstein;Falkenstein, Kay;kay.falkenstein@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+237;Frau;Britta;Falkenstein;Falkenstein, Britta;britta.falkenstein@alpha-com.de;ALPHA COM Berlin;+49-30-489575-11;+49-30-489575-22;+49-160-6161221;NULL;PersonStatusEmployed
+238;Herr;Guido;Felten;Felten, Guido;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;PersonStatusEmployed
+239;Frau;Karoline;Ferschen;Ferschen, Karoline;NULL;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+240;Herr;David;Feuerstein;Feuerstein, David;david.feuerstein@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-174;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+241;Herr;Peter;Fischer;Fischer, Peter;peter.fischer@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-321;+49-40-51302-399;NULL;NULL;PersonStatusEmployed
+242;Frau;Birgit;Franke;Franke, Birgit;birgit.franke@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+243;Frau;Heidi;Freese;Freese, Heidi;heidi.freese@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-326;+49-40-51302-399;NULL;NULL;PersonStatusEmployed
+244;Frau;Nadeshda;Frescher;Frescher, Nadeshda;Nadeshda.Frescher@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+245;Frau;Regina;Frese;Frese, Regina;NULL;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+246;Herr;Thomas;Fuchs;Fuchs, Thomas;thomas.fuchs@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-135;+49-40-51302-333;+49-160-6161202;NULL;PersonStatusEmployed
+247;Herr;Andreas;Fuchs;Fuchs, Andreas;andreas.fuchs@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-123;+49-40-51302-111;+49-160-6161202;NULL;PersonStatusEmployed
+248;Frau;Maria;Galant;Galant, Maria;Maria.Galant@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+249;Herr;Andreas;Gappert;Gappert, Andreas;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+250;Frau;Margarita;Gercik;Gercik, Margarita;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+251;Frau;Brigitte;Gladbach;Gladbach, Brigitte;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;PersonStatusEmployed
+252;Frau;Monika;Göbel;Göbel, Monika;monika.goebel@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-114;NULL;NULL;NULL;PersonStatusEmployed
+253;Herr;Demet;Goektas;Goektas, Demet;Demet.Goektas@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+254;Herr;Jörg;Gottschalk;Gottschalk, Jörg;joerg.gottschalk@alpha-com.de;ALPHA COM Berlin;+49-30-489575-14;+49-30-489575-22;+49-173-2373204;NULL;PersonStatusEmployed
+255;Frau;Marion;Grimm;Grimm, Marion;marion.grimm@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-227;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+256;Herr;Torsten;Grothaus;Grothaus, Torsten;torsten.grothaus@alpha-com.de;ALPHA COM Dortmund;+49-231-99760112;+49-231 997 601 11;+49-160-6161229;NULL;PersonStatusEmployed
+257;Frau;Tanja;Gruthoff;Gruthoff, Tanja;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+258;Frau;Elzbieta;Gryszko;Gryszko, Elzbieta;NULL;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+259;Herr;Albert;Gschlössl;Gschlössl, Albert;albert.gschloessl@alpha-com.de;ALPHA COM Köln;+49-221-54669-66;+49-221-54669-89;+49-160-6161233;NULL;PersonStatusEmployed
+260;Frau;Anja;Guadagnino;Guadagnino, Anja;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+261;Herr;Thomas;Gumprich;Gumprich, Thomas;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+262;Frau;Marlies;Haak;Haak, Marlies;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+263;Frau;Heidrun;Haase;Haase, Heidrun;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+264;Frau;Gerda;Habig;Habig, Gerda;gerda.habig@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-12;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+265;Frau;Marjan;Hajian-Aust;Hajian-Aust, Marjan;marjan.hajian-aust@alpha-com.de;ALPHA COM München;+49-89-452298-13;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+266;Herr;Uwe;Hasenbein;Hasenbein, Uwe;uwe.hasenbein@alpha-com.de;ALPHA COM Köln;+49-221-54669-61;+49-221-54669-89;+49-160-6161228;NULL;PersonStatusEmployed
+267;Frau;Georgeta;Hatzegan;Hatzegan, Georgeta;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+268;Herr;Martin;Hebecker;Hebecker, Martin;martin.hebecker@alpha-com.de;ALPHA COM Bremen;+49-421-49988-32;+49-421-49988-99;+49-160-6161219;NULL;PersonStatusEmployed
+269;Frau;Elisabeth;Hebel;Hebel, Elisabeth;elisabeth.hebel@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-144;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+270;Frau;Rosi;Hecht;Hecht, Rosi;rosi.hecht@alpha-com.de;ALPHA COM Bremen;+49-421-49988-43;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+271;Herr;Arthur;Heimann;Heimann, Arthur;arthur.heimann@alpha-com.de;ALPHA COM München;+49-89-452298-12;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+272;Frau;Carola;Heinatz;Heinatz, Carola;carola.heinatz@alpha-com.de;ALPHA COM Berlin;+49-30-489575-15;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+273;Frau;Silvia;Heinrichs;Heinrichs, Silvia;silvia.heinrichs@alpha-com.de;ALPHA COM Köln;+49-221-54669-62;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+274;Herr;Marc Oliver;Heinze;Heinze, Marc Oliver;MarcOliver.Heinze@alpha-com.de;ALPHA COM Bremen;+49-421-49988-20;+49-421-49988-99;+49-160-6161-236;NULL;PersonStatusEmployed
+275;Herr;Thomas;Hellmig;Hellmig, Thomas;thomas.hellmig@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-320;+49-40-51302-399;+49-160-6161210;NULL;PersonStatusEmployed
+276;Herr;Hans Peter;Herberth;Herberth, Hans Peter;NULL;ALPHA COM München;+49-89-452298-0;NULL;NULL;NULL;PersonStatusEmployed
+277;Herr;JM;HH-VW-JM-013;HH-VW-JM-013, JM;HH-VW-JM-013@alpha-com.de;ALPHA COM Deutschand GmbH;NULL;NULL;NULL;NULL;PersonStatusEmployed
+278;Frau;Claudia;Hinrichs;Hinrichs, Claudia;claudia.hinrichs@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+279;Frau;Olga;Hirsekorn;Hirsekorn, Olga;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+280;NULL;Lenka Heinrich;Hlinkova;Hlinkova, Lenka Heinrich;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+281;Frau;Bettina;Hoffmann;Hoffmann, Bettina;bettina.hoffmann@alpha-com.de;ALPHA COM Köln-Gothaer;NULL;NULL;NULL;NULL;PersonStatusEmployed
+282;Frau;Marion;Holborn;Holborn, Marion;marion.holborn@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+283;Herr;Daniel;Holub;Holub, Daniel;daniel.holub@alpha-com.de;ALPHA COM Frankfurt;+49 (69) 90 47 51-14;+49-69-904751-14;NULL;NULL;PersonStatusEmployed
+284;Frau;Birgit;Hoop;Hoop, Birgit;birgit.hoop@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;+49-160-6161210;NULL;PersonStatusEmployed
+285;Frau;Christiana;Hübinger;Hübinger, Christiana;christiana.huebinger@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-103;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+286;Frau;Christiane;Hudezek;Hudezek, Christiane;christiane.hudezek@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+287;Herr;Uwe;Huhn;Huhn, Uwe;uwe.huhn@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-112;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+288;Frau;Britta;Hulger;Hulger, Britta;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+289;Frau;Lilian;Hussin;Hussin, Lilian;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+290;NULL;Iveta;Iljinceva;Iljinceva, Iveta;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+291;Frau;Cresenico;Imbat;Imbat, Cresenico;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+292;Frau;Swetlana;Immel;Immel, Swetlana;swetlana.immel@alpha-com.de;ALPHA COM Bremen;+49-421-49988-41;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+293;Herr;Surendulam;Jadambaa;Jadambaa, Surendulam;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+294;Frau;Dagmar;Jahn;Jahn, Dagmar;dagmar.jahn@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+295;Frau;Jamila;Jamali;Jamali, Jamila;jamila.jamali@alpha-com.de;ALPHA COM München;+49-89-12184436;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+296;Frau;Heike;Janzen;Janzen, Heike;heike.janzen@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;PersonStatusEmployed
+297;Herr;Mirko;Juskowiak;Juskowiak, Mirko;mirko.juskowiak@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+298;Herr;Alexander;Kamel;Kamel, Alexander;Alexander.Kamel@alpha-com.de;ALPHA COM Dortmund;+49-231-99760114;NULL;NULL;NULL;PersonStatusEmployed
+299;Frau;Jessika;Kappauf;Kappauf, Jessika;jessika.kappauf@alpha-com.de;ALPHA COM Berlin;+49-30-489575-16;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+300;Frau;Mirjana;Katic;Katic, Mirjana;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+301;Frau;Ann-Kathrin;Kerkhoff;Kerkhoff, Ann-Kathrin;ann-kathrin.kerkhoff@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+302;Herr;Wolfram;Kindel;Kindel, Wolfram;wolfram.kindel@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-102;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+303;NULL;Barbara;Kirchheim;Kirchheim, Barbara;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+304;Herr;Reinhard;Kirsch;Kirsch, Reinhard;NULL;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+305;Herr;Dieter;Klein;Klein, Dieter;dieter.klein@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-45;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+306;Frau;Jovita;Kliukinskiene;Kliukinskiene, Jovita;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+307;Frau;Sandra;Klomberg;Klomberg, Sandra;NULL;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+308;Frau;Kristina;Knezevic;Knezevic, Kristina;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+309;Frau;Maria;Kolodziej;Kolodziej, Maria;NULL;ALPHA COM Dortmund;+49-231-7267016;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+310;Frau;Stephanie;König-Kutscha;König-Kutscha, Stephanie;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+311;Herr;Bodo;Köpsel;Köpsel, Bodo;bodo.koepsel@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-139;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+312;Frau;Barbara;Kotuszewski;Kotuszewski, Barbara;barbara.kotuszewski@alpha-com.de;ALPHA COM Bremen;+49-421-49988-42;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+313;Herr;Thorsten;Kröger;Kröger, Thorsten;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+314;Frau;Valentina;Kromm;Kromm, Valentina;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+315;Herr;Norbert;Krüger;Krüger, Norbert;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+316;Frau;Carola;Kura;Kura, Carola;NULL;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+317;Herr;Lothar;Kurk;Kurk, Lothar;lothar.kurk@alpha-com.de;ALPHA COM Bremen;+49-421-49988-66;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+318;Frau;Manuela;Kußmann;Kußmann, Manuela;manuela.kussmann@alpha-com.de;ALPHA COM Berlin;+49-30-489575-13;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+319;Frau;Cindy;La;La, Cindy;cindy.la@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-147;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+320;Herr;Rolf;Labitzke;Labitzke, Rolf;rolf.labitzke@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-170;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+321;Frau;Jennifer;Lahn;Lahn, Jennifer;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+322;Herr;Frank;Lange;Lange, Frank;frank.lange@alpha-com.de;ALPHA COM Bremen;+49-421-49988-64;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+323;Herr;Oliver;Latz;Latz, Oliver;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+324;Herr;Karl Heinz;Lechtenbörger;Lechtenbörger, Karl Heinz;KarlHeinz.Lechtenboerger@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;+49-160-6161232;NULL;PersonStatusEmployed
+325;Frau;Christina;Lehmann;Lehmann, Christina;christina.lehmann@alpha-com.de;ALPHA COM Bremen;+49-421-49988-42;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+326;Frau;Larissa;Lehmann;Lehmann, Larissa;larissa.lehmann@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+327;Herr;Andreas;Lill;Lill, Andreas;Andreas.Lill@alpha-com.de;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+328;Herr;Jürgen;Linde;Linde, Jürgen;juergen.linde@alpha-com.de;ALPHA COM Köln;+49-221-54669-64;+49-221-54669-88;+49-173-2482140;NULL;PersonStatusEmployed
+329;Frau;Margit;Listner;Listner, Margit;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;PersonStatusEmployed
+330;Frau;Renate;Loewe;Loewe, Renate;renate.loewe@alpha-com.de;ALPHA COM Bremen;+49-421-49988-42;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+331;Frau;Irmtraut;Mahler;Mahler, Irmtraut;irmtraut.mahler@alpha-com.de;ALPHA COM Bremen;+49-421-49988-42;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+332;Frau;Marion;Mahlert;Mahlert, Marion;marion.mahlert@alpha-com.de;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+333;Herr;Martin;Mahnke;Mahnke, Martin;martin.mahnke@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-51;+49-208-85907-89;+49-160-6161230;NULL;PersonStatusEmployed
+334;Herr;Heinz-Jürgen;Mandl;Mandl, Heinz-Jürgen;heinz-juergen.mandl@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-10;+49-69-904751-22;+49-160-6161227;NULL;PersonStatusEmployed
+335;Frau;Ruby;Mensah;Mensah, Ruby;Ruby.Mensah@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-159;NULL;NULL;DE2;PersonStatusEmployed
+336;Frau;Kerstin;Meyer;Meyer, Kerstin;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+337;Frau;Stephanie;Michaelis;Michaelis, Stephanie;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+338;Frau;Martina;Moll;Moll, Martina;martina.moll@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-48;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+339;Frau;Heidi;Möller;Möller, Heidi;heidi.moeller@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-333;NULL;NULL;PersonStatusEmployed
+340;Herr;Oliver;Möller;Möller, Oliver;oliver.moeller@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-159;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+341;Frau;Silvia;Monerian;Monerian, Silvia;silvia.monerian@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+342;NULL;Thomas;Müller;Müller, Thomas;thomas.mueller@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+343;Frau;Irene;Müller;Müller, Irene;irene.mueller@alpha-com.de;ALPHA COM Bremen;+49-421-49988-41;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+344;Frau;Lydia;Müller;Müller, Lydia;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+345;Frau;Britta;Müller;Müller, Britta;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+346;Frau;Brigitte;Müller;Müller, Brigitte;brigitte.mueller@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-0;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+347;Herr;Martin;Münzel;Münzel, Martin;martin.muenzel@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-177;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+348;Herr;Andreas;Naujoks;Naujoks, Andreas;andreas.naujoks@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-115;+49-40-51302-111;+49-160-6161215;NULL;PersonStatusEmployed
+349;Herr;Volker;Neumann;Neumann, Volker;volker.neumann@alpha-com.de;ALPHA COM Köln;+49-221-54669-60;+49-221-54669-88;+49-160-6161226;NULL;PersonStatusEmployed
+350;Frau;Britta;Nitruch;Nitruch, Britta;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+351;Herr;NULL;NoReply;NoReply, ;noreply@alpha-com.de;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;PersonStatusEmployed
+352;Frau;Christine;Nowak;Nowak, Christine;christine.nowak@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-119;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+353;Frau;Cornelia;Nowara;Nowara, Cornelia;cornelia.nowara@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-327;+49-40-51302-399;NULL;NULL;PersonStatusEmployed
+354;Frau;Viola;Oguz;Oguz, Viola;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+355;Herr;Oliver;Otto;Otto, Oliver;oliver.otto@alpha-com.de;ALPHA COM Bremen;+49-421-49988-30;+49-421-49988-99;+49-160-6161217;NULL;PersonStatusEmployed
+356;Frau;Angelika;Ottstadt;Ottstadt, Angelika;angelika.ottstadt@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+357;Herr;Thomas;Overzier;Overzier, Thomas;ackinfo@alpha-com.de;ALPHA COM Deutschland GmbH Niederlassung Köln;NULL;NULL;NULL;Operating Produktion;PersonStatusEmployed
+358;NULL;Thomas;Overzier;Overzier, Thomas;Thomas.Overzier@alpha-com.de;ALPHA COM Köln;NULL;NULL;NULL;NULL;PersonStatusEmployed
+359;Frau;Sabine;Paetz;Paetz, Sabine;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+360;Herr;Christian;Pankewitz;Pankewitz, Christian;Christian.Pankewitz@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;NULL;NULL;NULL;PersonStatusEmployed
+361;Frau;Elisabeth;Parian-Eilers;Parian-Eilers, Elisabeth;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+362;Herr;Piotr;Paszkowski;Paszkowski, Piotr;piotr.paszkowski@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;PersonStatusEmployed
+363;Herr;Christian;Pekrul;Pekrul, Christian;christian.pekrul@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+364;Herr;John-Lennart;Peschke;Peschke, John-Lennart;john-lennart.peschke@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+365;Frau;Susan;Plambeck;Plambeck, Susan;susan.plambeck@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-114;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+366;Frau;Eva;Plankert;Plankert, Eva;Eva.Plankert@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-36;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+367;Frau;Silke;Platzk;Platzk, Silke;silke.platzk@alpha-com.de;ALPHA COM Köln-Gothaer;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+368;NULL;Sigrid;Plückelmann;Plückelmann, Sigrid;NULL;ALPHA COM Oberhausen;NULL;NULL;NULL;NULL;PersonStatusEmployed
+369;Frau;Birgit;Pralle;Pralle, Birgit;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+370;Frau;Yvonne;Pritzkoleit;Pritzkoleit, Yvonne;yvonne.pritzkoleit@alpha-com.de;ALPHA COM Berlin;+49-30-489575-16;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+371;Herr;Sebastian;Püttelkow;Püttelkow, Sebastian;sebastian.puettelkow@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+372;NULL;Lifang;Radzimanowski;Radzimanowski, Lifang;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+373;Frau;Beate;Rafinski;Rafinski, Beate;beate.rafinski@alpha-com.de;ALPHA COM Bremen;+49-421-49988-62;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+374;Frau;Anja;Rall;Rall, Anja;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+375;Frau;Sandy;Rasiman;Rasiman, Sandy;sandy.rasiman@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+376;Frau;Tanja;Raubold;Raubold, Tanja;tanja.raubold@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+377;Frau;Patrizia;Raubold;Raubold, Patrizia;Patrizia.Raubold@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+378;NULL;Suzanne;Reddig;Reddig, Suzanne;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+379;Herr;Burkhard;Reick;Reick, Burkhard;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+380;Frau;Barbara;Reusch;Reusch, Barbara;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+381;Frau;Diana;Rezigui;Rezigui, Diana;diana.rezigui@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+382;Herr;Markus;Rhein;Rhein, Markus;NULL;ALPHA COM Frankfurt;NULL;NULL;NULL;NULL;PersonStatusEmployed
+383;Herr;Ralf;Richter;Richter, Ralf;ralf.richter@alpha-com.de;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+384;Frau;Iris;Rieger;Rieger, Iris;iris.rieger@alpha-com.de;ALPHA COM München;+49-89-452298-14;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+385;NULL;Stefanie;Roch;Roch, Stefanie;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+386;Frau;Christina;Rodriguez;Rodriguez, Christina;christina.rodriguez@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+387;Frau;Yvonne;Rogge;Rogge, Yvonne;yvonne.rogge@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+388;Herr;Thomas;Rosenboom;Rosenboom, Thomas;thomas.rosenboom@alpha-com.de;ALPHA COM München;+49-89-452298-18;NULL;NULL;NULL;PersonStatusEmployed
+389;NULL;Patricia;Rosenstock;Rosenstock, Patricia;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+390;Frau;Teresa;Rubinska;Rubinska, Teresa;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+391;Herr;Daniel Gustavo;Rugerio;Rugerio, Daniel Gustavo;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+392;Frau;Claudia;Rychelski;Rychelski, Claudia;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+393;Herr;Martin;Sachse;Sachse, Martin;martin.sachse@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-68;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+394;Frau;Beke;Sangenstedt;Sangenstedt, Beke;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+395;Herr;Michael;Schakols;Schakols, Michael;michael.schakols@alpha-com.de;ALPHA COM Berlin;+49-30-489575-10;+49-30-489575-22;+49-160-6161222;NULL;PersonStatusEmployed
+396;Frau;Tatjana;Schander;Schander, Tatjana;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;PersonStatusEmployed
+397;Frau;Magarete;Schätzinger;Schätzinger, Magarete;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+398;Frau;Martina;Scheibel;Scheibel, Martina;Martina.Scheibel@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+399;Frau;Heike;Scheithauer;Scheithauer, Heike;heike.scheithauer@alpha-com.de;ALPHA COM Bremen;+49-421-49988-15;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+400;Herr;Hartmut;Schlappa;Schlappa, Hartmut;NULL;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+401;Herr;Jürgen;Schlosser;Schlosser, Jürgen;juergen.schlosser@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-11;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+402;Frau;Criselda;Schmidt;Schmidt, Criselda;NULL;ALPHA COM Hamburg;+49-40-51302-127;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+403;Frau;Claudia;Schmidt;Schmidt, Claudia;claudia.schmidt@alpha-com.de;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+404;Frau;Gundra;Schneider;Schneider, Gundra;gundra.schneider@alpha-com.de;ALPHA COM München;+49-89-452298-0;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+405;Frau;Susanne;Scholl;Scholl, Susanne;NULL;ALPHA COM Oberhausen;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+406;Frau;Kathrin;Schreiber;Schreiber, Kathrin;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+407;Frau;Jeannette;Schroeder;Schroeder, Jeannette;NULL;ALPHA COM Oberhausen;NULL;NULL;NULL;NULL;PersonStatusEmployed
+408;Herr;Thomas;Schwarten;Schwarten, Thomas;thomas.schwarten@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-180;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+409;Frau;Annemarie;Schwarz;Schwarz, Annemarie;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+410;Herr;Oliver;Schwindt;Schwindt, Oliver;oliver.schwindt@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-328;+49-40-51302-399;+49-177-5211367;NULL;PersonStatusEmployed
+411;Herr;Gian-Franco;Scimia;Scimia, Gian-Franco;Gian-Franco.Scimia@alpha-com.de;NULL;+49-711-44144-91;+49-711-44144-92;NULL;NULL;PersonStatusEmployed
+412;Frau;Edvina;Seemann;Seemann, Edvina;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+413;Frau;Heike;Seiler;Seiler, Heike;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+414;Frau;Diana;Seizinger;Seizinger, Diana;diana.seizinger@alpha-com.de;NULL;+49-231-99760116;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+415;Frau;Suzana;Selimi;Selimi, Suzana;Suzana.Selimi@alpha-com.de;ALPHA COM München;+49-89-452298-0;+49-89-452298-22;NULL;NULL;PersonStatusEmployed
+416;NULL;Beate;Seyban;Seyban, Beate;Beate.Seyban@alpha-com.de;ALPHA COM Köln;NULL;NULL;NULL;NULL;PersonStatusEmployed
+417;Frau;Tanja;Sievers;Sievers, Tanja;tanja.sievers@alpha-com.de;ALPHA COM Bremen;+49-421-49988-40;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+418;NULL;Andrea;Smiri;Smiri, Andrea;NULL;ALPHA COM München;NULL;NULL;NULL;NULL;PersonStatusEmployed
+419;Herr;Dierk;Stange;Stange, Dierk;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;PersonStatusEmployed
+420;Herr;Dierk;Stange;Stange, Dierk;Dierk.Stange@alpha-com.de;ALPHA COM Hamburg;+49 40 51302-176;NULL;NULL;NULL;PersonStatusEmployed
+421;Frau;Simone;Steiner;Steiner, Simone;simone.steiner@alpha-com.de;ALPHA COM Hamburg-DSC;+49-40-51302-156;NULL;NULL;NULL;PersonStatusEmployed
+422;Frau;Andrea;Steinhoff;Steinhoff, Andrea;Andrea.Steinhoff@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;NULL;NULL;NULL;PersonStatusEmployed
+423;Frau;Cordula;Stolpe;Stolpe, Cordula;cordula.stolpe@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+424;Frau;Marina;Stukan;Stukan, Marina;Marina.Stukan@alpha-com.de;ALPHA COM Stuttgart;NULL;NULL;NULL;NULL;PersonStatusEmployed
+425;Frau;Barbara;Süle;Süle, Barbara;barbara.suele@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-124;+49-40-51302-148;+49-173-2482135;NULL;PersonStatusEmployed
+426;Frau;Katja;Sund;Sund, Katja;NULL;ALPHA COM Hamburg;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+427;NULL;Daniela;Süring;Süring, Daniela;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+428;Frau;Grazyna;Surzyn;Surzyn, Grazyna;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+429;Frau;Claudia;Temma;Temma, Claudia;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+430;Frau;Wiebke;Thiessen;Thiessen, Wiebke;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+431;Herr;Werner;Thimm;Thimm, Werner;werner.thimm@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-184;NULL;NULL;NULL;PersonStatusEmployed
+432;NULL;Ricarda;Tiedt;Tiedt, Ricarda;NULL;ALPHA COM Berlin;+49-30-489575-0;NULL;NULL;NULL;PersonStatusEmployed
+433;Frau;Regina;Tilgert;Tilgert, Regina;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;NULL;NULL;NULL;PersonStatusEmployed
+434;Herr;Jens;Tilhaus;Tilhaus, Jens;jens.tilhaus@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-323;+49-40-51302-399;+49-160-6161212;Notebook: HH-NW-VT-004;PersonStatusEmployed
+435;Herr;Sebastian;Titze;Titze, Sebastian;sebastian.titze@alpha-com.de;ALPHA COM Frankfurt;+49-69-904751-16;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+436;Frau;Sie-Mei;Tjoa;Tjoa, Sie-Mei;Sie-Mei.Tjoa@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-159;NULL;NULL;NULL;PersonStatusEmployed
+437;Herr;Timo;Tran;Tran, Timo;timo.tran@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-149;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+438;NULL;Alexander;Triebull;Triebull, Alexander;Alexander.Triebull@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-502;NULL;NULL;NULL;PersonStatusEmployed
+439;Frau;Silke;Trzensimiech;Trzensimiech, Silke;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+440;Frau;Katharina;Tscheratschew;Tscheratschew, Katharina;katharina.tscheratschew@alpha-com.de;ALPHA COM Berlin;+49-30-489575-19;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+441;NULL;Angela;van Appeldorn;van Appeldorn, Angela;NULL;ALPHA COM Köln;NULL;NULL;NULL;NULL;PersonStatusEmployed
+442;Frau;Manuela;Vermehren;Vermehren, Manuela;NULL;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+443;Herr;Andreas;Vogt;Vogt, Andreas;Andreas.Vogt@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-183;+49-40-51302-111;NULL;"IT-KB; HH-WS-IT-005";PersonStatusEmployed
+444;Frau;Galina;Vohrer;Vohrer, Galina;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+445;Frau;Ute;Volkmann;Volkmann, Ute;ute.volkmann@alpha-com.de;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+446;Frau;Maren;von Appen;von Appen, Maren;Maren.vonAppen@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-120;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+447;Frau;Inga;von Fintel;von Fintel, Inga;Inga.vonFintel@alpha-com.de;ALPHA COM Hamburg-DSC;+49-40-51302-157;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+448;Herr;Carsten;Voss;Voss, Carsten;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;PersonStatusEmployed
+449;Frau;Eva;Wagner;Wagner, Eva;eva.wagner@alpha-com.de;ALPHA COM Köln;+49-221-54669-74;+49-221-54669-89;+49-152-06990813;NULL;PersonStatusEmployed
+450;Frau;Tanja;Wagner;Wagner, Tanja;tanja.wagner@alpha-com.de;ALPHA COM Köln;+49-221-54669-0;+49-221-54669-89;NULL;NULL;PersonStatusEmployed
+451;Frau;Katharina;Weber;Weber, Katharina;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+452;NULL;Nico;Wegner;Wegner, Nico;NULL;ALPHA COM Hamburg;NULL;NULL;NULL;NULL;PersonStatusEmployed
+453;Herr;Nico;Wegner;Wegner, Nico;nico.wegner@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-182;+49-40-51302-111;+49-160-6161-200;NULL;PersonStatusEmployed
+454;Herr;Horst;Weidenhöfer;Weidenhöfer, Horst;horst.weidenhoefer@alpha-com.de;ALPHA COM Bremen;+49-421-49988-67;+49-421-49988-99;NULL;NULL;PersonStatusEmployed
+455;Herr;Daniel;Weinrich;Weinrich, Daniel;daniel.weinrich@alpha-com.de;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+456;Herr;Stefan;Weis;Weis, Stefan;NULL;ALPHA COM Frankfurt;+49-69-904751-0;+49-69-904751-22;NULL;NULL;PersonStatusEmployed
+457;Frau;Gabriele;Weisheit-Jahja;Weisheit-Jahja, Gabriele;NULL;ALPHA COM Hamburg;+49-40-51302-141;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+458;Herr;Martin;Weseloh;Weseloh, Martin;martin.weseloh@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-173;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+459;Herr;Martin;Weseloh;Weseloh, Martin;NULL;ALPHA COM Hamburg;-173;NULL;NULL;NULL;PersonStatusEmployed
+460;Frau;Natalya;Wicht;Wicht, Natalya;NULL;ALPHA COM Hamburg-DSC;NULL;NULL;NULL;NULL;PersonStatusEmployed
+461;NULL;Liudmila;Wiendieck;Wiendieck, Liudmila;NULL;ALPHA COM Berlin;NULL;NULL;NULL;NULL;PersonStatusEmployed
+462;Herr;Hartmut;Wildeboer;Wildeboer, Hartmut;hartmut.wildeboer@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-126;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+463;Frau;Anna;Wittbrodt;Wittbrodt, Anna;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+464;Herr;Albert;Woiner;Woiner, Albert;albert.woiner@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-116;+49-40-51302-111;+49-173-2482198;NULL;PersonStatusEmployed
+465;Herr;Robert;Wulff;Wulff, Robert;robert.wulff@alpha-com.de;ALPHA COM Deutschland GmbH;+49-40-51302-181;NULL;NULL;NULL;PersonStatusEmployed
+466;Herr;Robert;Wulff;Wulff, Robert;Robert.Wulff@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-181;NULL;NULL;NULL;PersonStatusEmployed
+467;NULL;Hasan;Yilmaz;Yilmaz, Hasan;NULL;ALPHA COM Köln;+49-221-54669-0;NULL;NULL;NULL;PersonStatusEmployed
+468;Herr;Mahyuddin;Yusuf;Yusuf, Mahyuddin;NULL;ALPHA COM Hamburg;+49-40-51302-0;+49-40-51302-111;NULL;NULL;PersonStatusEmployed
+469;Frau;Gina;Zanoletti;Zanoletti, Gina;gina.zanoletti@alpha-com.de;ALPHA COM Oberhausen;+49-208-85907-52;+49-208-85907-89;NULL;NULL;PersonStatusEmployed
+470;Frau;Monika;Zeisberg;Zeisberg, Monika;monika.zeisberg@alpha-com.de;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+471;Frau;Ilona;Ziller;Ziller, Ilona;NULL;ALPHA COM Berlin;+49-30-489575-0;+49-30-489575-22;NULL;NULL;PersonStatusEmployed
+472;Frau;Roswitha;Zorn;Zorn, Roswitha;NULL;ALPHA COM Dortmund;+49-231-7267085;+49-231-7267087;NULL;NULL;PersonStatusEmployed
+473;Frau;Kerstin;Zosel;Zosel, Kerstin;kerstin.zosel@alpha-com.de;ALPHA COM Hamburg;NULL;NULL;+49 176 / 211 116 61;NULL;PersonStatusEmployed
