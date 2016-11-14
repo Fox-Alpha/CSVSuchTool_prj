@@ -18,6 +18,7 @@ namespace CSVSuchToolWPF
         protected override void ConfigureIoC(IStyletIoCBuilder builder)
         {
             // Bind your own types. Concrete types are automatically self-bound.
+            builder.Bind<Models.SettingsModel> ().ToSelf ().InSingletonScope ();
         }
 
         protected override void Configure()
@@ -25,6 +26,11 @@ namespace CSVSuchToolWPF
             // This is called after Stylet has created the IoC container, so this.Container exists, but before the
             // Root ViewModel is launched.
             // Configure your services, etc, in here
+            var settings = Container.Get<Models.SettingsModel> ();
+            if(!settings.LoadSettings ())
+            {
+                settings.SaveSettings ();
+            }
         }
 
         protected override void OnLaunch()
@@ -36,11 +42,14 @@ namespace CSVSuchToolWPF
         protected override void OnExit(ExitEventArgs e)
         {
             // Called on Application.Exit
+            var settings = Container.Get<Models.SettingsModel> ();
+            settings.SaveSettings ();
         }
 
         protected override void OnUnhandledException(DispatcherUnhandledExceptionEventArgs e)
         {
             // Called on Application.DispatcherUnhandledException
+            Container.Get<IWindowManager> ().ShowMessageBox ($"An unhandled Exception occurred:\n{e.Exception.ToString ()}");
         }
     }
 }

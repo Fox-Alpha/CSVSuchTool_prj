@@ -10,7 +10,7 @@ using Stylet;
 namespace CSVSuchToolWPF.Models
 {
     [JsonObject (MemberSerialization.OptIn, Title = "settings")]
-    class SettingsModel : PropertyChangedBase
+    public class SettingsModel : PropertyChangedBase
     {
         [JsonProperty ("lastsearchlist")]
         public string LastServerList { get; set; }
@@ -35,10 +35,16 @@ namespace CSVSuchToolWPF.Models
             File.WriteAllText (SettingsPath, JsonConvert.SerializeObject (this, Formatting.Indented), Encoding.UTF8);
         }
 
-        public void LoadSettings ()
+        public bool LoadSettings ()
         {
             if (File.Exists (SettingsPath))
+            {
                 JsonConvert.PopulateObject (File.ReadAllText (SettingsPath, Encoding.UTF8), this);
+                return true;
+            }
+            else
+                return false;
+                
         }
 
         public string SettingsDirectory

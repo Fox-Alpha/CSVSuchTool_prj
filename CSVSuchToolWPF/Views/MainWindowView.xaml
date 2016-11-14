@@ -10,7 +10,7 @@
     xmlns:vms="clr-namespace:CSVSuchToolWPF.ViewModels"
     xmlns:models="clr-namespace:CSVSuchToolWPF.Models"
     mc:Ignorable="d" 
-        Title="{Binding Settings.LastServerList, StringFormat=CSV Such Tool - \{0\}}"
+        Title="{Binding Settings.LastSearchList, StringFormat=CSV Such Tool - \{0\}}"
         MinWidth="350" 
         MinHeight="200" 
         Height="{Binding Settings.WindowHeight, Mode=TwoWay}" 
@@ -21,7 +21,7 @@
     d:DataContext="{d:DesignInstance vms:MainWindowViewModel, IsDesignTimeCreatable=True}" 
         UseLayoutRounding="True" 
         SnapsToDevicePixels="True" 
-        Foreground="{DynamicResource ButtonForeground}" 
+        Foreground="{DynamicResource ButtonForeground}"
         Background="{DynamicResource WindowBackgroundBrush}" 
         TextOptions.TextHintingMode="Animated">
     <Grid Height="Auto">
