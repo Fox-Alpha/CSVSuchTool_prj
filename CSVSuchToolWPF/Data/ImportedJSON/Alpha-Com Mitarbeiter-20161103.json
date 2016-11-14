@@ -1,0 +1,85 @@
+/*contactid;UserTitle;UserFirstName;UserLastName;UserFullName;UserEmail;UserCompany;UserPhone;UserFax;UserMobile;UserComment;UserStatus
+213;Herr;Dirk;Buck;Buck, Dirk;dirk.buck@alpha-com.de;ALPHA COM Hamburg;+49-40-51302-501;+49-40-51302-133;NULL;NULL;PersonStatusEmployed*/
+
+{
+	"Setting" {
+		"File": "Data\\Import\\Alpha-com Mitarbeiter-20161103.csv",
+		"Fields" :
+			[
+				"contactid",
+				"UserTitle",
+				"UserFirstName",
+				"UserLastName",
+				"UserFullName",
+				"UserEmail",
+				"UserCompany",
+				"UserPhone",
+				"UserFax",
+				"UserMobile",
+				"UserComment",
+				"UserStatus"
+			],
+		"MapFields" :
+			[
+				"contactid" :"Kontakt ID",
+				"UserTitle" :"Anrede",
+				"UserFirstName" :"Vorname",
+				"UserLastName" :"Nachname",
+				"UserFullName" :"Vollständiger Name",
+				"UserEmail" :"EMail Adresse",
+				"UserCompany" :"Organisation",
+				"UserPhone" :"Telefon Nr.",
+				"UserFax" :"Fax Nr.",
+				"UserMobile" :"Mobil Nr.",
+				"UserComment" :"Kommentar",
+				"UserStatus" :"Status"
+			],
+		"SearchInFields" :
+			[
+				"UserFirstName",
+				"UserLastName",
+				"UserFullName",
+				"UserEmail",
+				"UserCompany"
+			],
+		"DisplayFields" :
+			[
+				"UserTitle",
+				"UserFullName",
+				"UserEmail",
+				"UserCompany",
+				"UserPhone"
+			]
+		},
+	"Data" :
+		[
+			{
+				"contactid" :"213",
+				"UserTitle" :"Herr",
+				"UserFirstName" :"Dirk",
+				"UserLastName" :"Buck",
+				"UserFullName" :"Buck, Dirk",
+				"UserEmail" :"dirk.buck@alpha-com.de",
+				"UserCompany" :"ALPHA COM Hamburg",
+				"UserPhone" :"+49-40-51302-501",
+				"UserFax" :,"+49-40-51302-133"
+				"UserMobile" :"",
+				"UserComment" :"",
+				"UserStatus" :"PersonStatusEmployed"
+			},
+			{
+				"contactid" :"438",
+				"UserTitle" :"Herr",
+				"UserFirstName" :"Alexander",
+				"UserLastName" :"Triebull",
+				"UserFullName" :"Triebull, Alexander",
+				"UserEmail" :"Alexander.Triebull@alpha-com.de",
+				"UserCompany" :"ALPHA COM Hamburg",
+				"UserPhone" :"+49-40-51302-501",
+				"UserFax" :,"+49-40-51302-133"
+				"UserMobile" :"",
+				"UserComment" :"",
+				"UserStatus" :"PersonStatusEmployed"
+			}
+		]
+}
