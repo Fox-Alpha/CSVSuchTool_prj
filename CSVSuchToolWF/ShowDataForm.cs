@@ -93,16 +93,18 @@ namespace CSVSuchTool
 		ShortNotesForm shfNoteEditor = null;
 		
 		Point labPos;
-		
-		#endregion properties
-		//	####
-		
-		//	####
-		#region Formular Funktionen
-		/// <summary>
-		/// Hauptfunktion der Form
-		/// </summary>
-		public ShowDataForm()
+
+        ImageList imgList;
+
+        #endregion properties
+        //	####
+
+        //	####
+        #region Formular Funktionen
+        /// <summary>
+        /// Hauptfunktion der Form
+        /// </summary>
+        public ShowDataForm()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -148,15 +150,29 @@ namespace CSVSuchTool
 			foreach (ToolStripMenuItem ctx in ctxMailOptions.Items) {
 				ctx.Click += linkLabelEMailTo_Click;
 			}
-		}
 
-		/// <summary>
-		/// schliessen der Form
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		void closeDataForm_Click(object sender, EventArgs e)
+            //Image Liste für Email Symbol erstellen, Symbol aus Resource nutzen. Symbolgröße anpassen
+            
+            imgList = new ImageList ();
+
+            var bmpMail = new Bitmap (Resource.mail_view);
+            imgList.Images.Add (bmpMail);
+            var bmpPhone = new Bitmap (Resource.Phone_2_0_7);
+            imgList.Images.Add (bmpPhone);
+            imgList.ImageSize = new Size (16, 16);
+            //#####
+
+        }
+
+        /// <summary>
+        /// schliessen der Form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        void closeDataForm_Click(object sender, EventArgs e)
 		{
+            imgList.Images.Clear ();
+            imgList.Dispose ();
 			Close();
 		}
 		
@@ -313,28 +329,42 @@ namespace CSVSuchTool
 					
 					if(!(labDataCaption[i] is LinkLabel))
 					{
-						//Image Liste für Email Symbol erstellen, Symbol aus Resource nutzen. Symbolgröße anpassen
-						ImageList imgList;
-						imgList = new ImageList();
+						////Image Liste für Email Symbol erstellen, Symbol aus Resource nutzen. Symbolgröße anpassen
+						//ImageList imgList;
+						//imgList = new ImageList();
 
-						var bmpMail = new Bitmap(Resource.mail_view);
-						imgList.Images.Add(bmpMail);
-						imgList.ImageSize = new Size(16, 16);
-						//#####
+						//var bmpMail = new Bitmap(Resource.mail_view);
+						//imgList.Images.Add(bmpMail);
+						//imgList.ImageSize = new Size(16, 16);
+						////#####
 						
 					  	Controls.RemoveByKey("labData_"+i);
-						labDataCaption[i] = new LinkLabel();
-						labDataCaption[i].Name = "labData_" + i;
-						Controls.Add(labDataCaption[i]);
-				    	labDataCaption[i].Click += linkLabelEMailTo_Click;
-				    	labDataCaption[i].ContextMenuStrip = ctxMailOptions;
-				    	labDataCaption[i].ImageList = imgList;
-				    	labDataCaption[i].ImageIndex = 0;
-						labDataCaption[i].TextAlign = ContentAlignment.MiddleRight; 
-						labDataCaption[i].FlatStyle = FlatStyle.Flat;
-				    	labDataCaption[i].AutoEllipsis = true;
-						labDataCaption[i].ImageAlign = ContentAlignment.MiddleLeft;
-						labDataCaption[i].Height = 18;
+                        labDataCaption [i] = new LinkLabel () {
+                            Name = "labData_" + i,
+                            ImageList = imgList,
+                            ImageIndex = 0,
+                            TextAlign = ContentAlignment.MiddleRight,
+                            FlatStyle = FlatStyle.Flat,
+                            AutoEllipsis = true,
+                            ImageAlign = ContentAlignment.MiddleLeft,
+                            Height = 18,
+                            ContextMenuStrip = ctxMailOptions
+                        };
+                        labDataCaption [i].Click += linkLabelEMailTo_Click;
+                        Controls.Add (labDataCaption [i]);
+
+
+                        //labDataCaption[i].Name = "labData_" + i;
+                        //Controls.Add (labDataCaption [i]);
+                        //labDataCaption [i].Click += linkLabelEMailTo_Click;
+				    	//labDataCaption[i].ContextMenuStrip = ctxMailOptions;
+				    	//labDataCaption[i].ImageList = imgList;
+				    	//labDataCaption[i].ImageIndex = 0;
+						//labDataCaption[i].TextAlign = ContentAlignment.MiddleRight; 
+						//labDataCaption[i].FlatStyle = FlatStyle.Flat;
+				  //  	labDataCaption[i].AutoEllipsis = true;
+						//labDataCaption[i].ImageAlign = ContentAlignment.MiddleLeft;
+						//labDataCaption[i].Height = 18;
 					}
 				}
 				//
@@ -380,6 +410,8 @@ namespace CSVSuchTool
 			
     		panDataPanel.Controls.AddRange(labCaptionList);
     		panDataPanel.Controls.AddRange(labDataCaption);
+
+            panDataPanel.Invalidate (true);
 		}
 		#endregion Funktionen
 		//	####
