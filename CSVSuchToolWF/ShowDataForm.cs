@@ -405,10 +405,12 @@ namespace CSVSuchTool
 			tsButtPrevSet.Enabled = currDataSet > 0;
 			tsButtNextSet.Enabled = maxDataSet >= currDataSet+1;
 			tsButtLastSet.Enabled = maxDataSet > currDataSet;
-			
-			//	####
-			
-    		panDataPanel.Controls.AddRange(labCaptionList);
+
+            //	####
+
+            panDataPanel.Controls.Clear ();
+
+            panDataPanel.Controls.AddRange(labCaptionList);
     		panDataPanel.Controls.AddRange(labDataCaption);
 
             panDataPanel.Invalidate (true);
