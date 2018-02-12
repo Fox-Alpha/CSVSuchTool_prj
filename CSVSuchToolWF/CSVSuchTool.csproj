@@ -121,6 +121,7 @@
     <Compile Include="Resource.Designer.cs">
       <DependentUpon>Resource.resx</DependentUpon>
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="ShortNotesForm.cs">
       <SubType>Form</SubType>
@@ -204,6 +205,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Images\Phone_1_0_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Phone_2_0_7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Phone_3_0_0.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

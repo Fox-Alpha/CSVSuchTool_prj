@@ -121,7 +121,7 @@
   <data name="mail_view" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        7AAACuwB0M+rJQAAACt0RVh0Q3JlYXRpb24gVGltZQBNaSAyMCBOb3YgMjAwMiAyMjowMzoxNSArMDEw
+        6wAACusBgosNWgAAACt0RVh0Q3JlYXRpb24gVGltZQBNaSAyMCBOb3YgMjAwMiAyMjowMzoxNSArMDEw
         MOvLw+oAAAAHdElNRQfTCgYUGB3Nl3xwAAARK0lEQVRoQ81ZCXSUVZYmroz2uGCjttLTHlvbc2Ycpx3H
         btvRM+24wLTKdPeoCC6IKLsCDSoIyBYgELJUtspGQir7SgJhyU5CQhKyU1XZk6rsa1UqSVU2knzz3aqU
         ApI0M93a3nO+89df9eq977v3vvve//5Z37E5XIUfvrm6dj7i5KTZ4eSkTXNyqurYv/9i3c6d50M//TTq
@@ -26285,7 +26285,7 @@
   <data name="notizen" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAAWdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjA76PVpAAAD
+        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAAWdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjA76PVpAAAD
         aklEQVR4Xu3RMYIcRxADQf7/00cnYYGtpVrCjLEZJqos4NePXuUAL3OAlznAyxzgZQ7wMgd42Z8H+KX/
         G80WB3gIzRYHeAjNFgd4CM0WB3gIzZa/GoBU/wbdBWlxgBW6C9LiACt0F6TFAVboLkiLA6zQXZAWB1ih
         uyAtDrBCd0FaHGCF7oK0OMAK3QVpcYAVugvScjkAh+9GFwc8BWlxgHt0ccBTkBYHuEcXBzwFaXGAe3Rx
@@ -26312,5 +26312,15 @@
         mYzIkHcJkHeZjMiQdwmQdwmMyJAAmZkAmYzImZmZmZmZjMiZmZmZmZmMyJmZmZmZmYzIiIiIiIiIjMzM
         zMzMzMzM
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Phone_1_0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Images\Phone_1_0_1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phone_2_0_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Images\Phone_2_0_7.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phone_3_0_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Images\Phone_3_0_0.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
