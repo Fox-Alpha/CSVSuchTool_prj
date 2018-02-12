@@ -406,11 +406,13 @@ namespace CSVSuchTool
 		/// <param name="e"></param>
 		void MainForm_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			CSVSuchTool.Properties.Application.Default.SearchFormPosition = Location;
+            CSVSuchTool.Properties.Application.Default.sourceFile = strFileName;
+            CSVSuchTool.Properties.Application.Default.SearchFormPosition = Location;
 			CSVSuchTool.Properties.Application.Default.SearchFormSize = Size;
 			CSVSuchTool.Properties.Application.Default.Save();
 		}
-		void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+
+        void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
 		{
 /*
  * 			//Debug.WriteLine(sender.GetType().ToString(), "contextMenuStrip1_Opening()");
