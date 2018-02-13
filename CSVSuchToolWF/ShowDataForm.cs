@@ -151,8 +151,13 @@ namespace CSVSuchTool
 				ctx.Click += linkLabelEMailTo_Click;
 			}
 
+            foreach (ToolStripMenuItem ctx in ctxPhoneOptions.Items)
+            {
+                ctx.Click += linkLabelPhone_Click;
+            }
+
             //Image Liste für Email Symbol erstellen, Symbol aus Resource nutzen. Symbolgröße anpassen
-            
+
             imgList = new ImageList ();
 
             var bmpMail = new Bitmap (Resource.mail_view);
@@ -163,6 +168,7 @@ namespace CSVSuchTool
             //#####
 
         }
+
 
         /// <summary>
         /// schliessen der Form
@@ -291,92 +297,37 @@ namespace CSVSuchTool
 		    Control[] labControls = null;
 			for (int i = 0; i < iFieldCount; i++)
             {
-				List<string> lData = dataList.Count > 0 ? dataList[Index] : null;	
+                List<string> lData = dataList.Count > 0 ? dataList [Index] : null;
 
-				if ((labControls = Controls.Find("labData_"+i, true)).Length > 0) {
-					if (labControls[0] is Label) {
-						labDataCaption[i] = labControls[0] as Label ?? new Label();
-					} 
-					else if(labControls[0] is LinkLabel)
-					{
-						labDataCaption[i] = labControls[0] as LinkLabel ?? new LinkLabel();
-					}
-				}
-				
-				if(labDataCaption[i] == null)
-				{				
-					labDataCaption[i] = new Label();
-					labDataCaption[i].AutoSize = true;
-				}
-				
-				labDataCaption[i].Name = "labData_" + i;
-				
-				//
-				//	####
-				//
-				//	Prüfen ob der Text eine gültige eMail Adresse enthält (inkl. Umlaute)
-				//
-				if (Regex.IsMatch(lData.ToArray()[i], @"^[a-zäöüßA-ZÄÖÜ0-9_-]{1,}[a-zA-Z0-9_\-\.]*[a-zäöüßA-ZÄÖÜ0-9_-]{1,}@[a-zäöüA-ZÄÖÜ0-9_\-\.]{2,}\.[a-zäöü]{2,4}$")) {
-					string[] pattern = {"ä","ö","ü","ß"};
-					string[] replace = {"ae","oe","ue","ss"};
-					
-					//	Hier werden die Umlaute ausgetauscht
-					if (Regex.IsMatch(lData.ToArray()[i], @"[äöüßÄÖÜ]{1,}")) {
-						for (int r = 0; r < 4; r++) {
-							lData[i] = Regex.Replace(lData.ToArray()[i], pattern[r], replace[r]);
-						}
-					}
-					
-					if(!(labDataCaption[i] is LinkLabel))
-					{
-						////Image Liste für Email Symbol erstellen, Symbol aus Resource nutzen. Symbolgröße anpassen
-						//ImageList imgList;
-						//imgList = new ImageList();
+                if ((labControls = Controls.Find ("labData_" + i, true)).Length > 0)
+                {
+                    if (labControls [0] is Label)
+                    {
+                        labDataCaption [i] = labControls [0] as Label ?? new Label ();
+                    }
+                    else if (labControls [0] is LinkLabel)
+                    {
+                        labDataCaption [i] = labControls [0] as LinkLabel ?? new LinkLabel ();
+                    }
+                }
 
-						//var bmpMail = new Bitmap(Resource.mail_view);
-						//imgList.Images.Add(bmpMail);
-						//imgList.ImageSize = new Size(16, 16);
-						////#####
-						
-					  	Controls.RemoveByKey("labData_"+i);
-                        labDataCaption [i] = new LinkLabel () {
-                            Name = "labData_" + i,
-                            ImageList = imgList,
-                            ImageIndex = 0,
-                            TextAlign = ContentAlignment.MiddleRight,
-                            FlatStyle = FlatStyle.Flat,
-                            AutoEllipsis = true,
-                            ImageAlign = ContentAlignment.MiddleLeft,
-                            Height = 18,
-                            ContextMenuStrip = ctxMailOptions
-                        };
-                        labDataCaption [i].Click += linkLabelEMailTo_Click;
-                        Controls.Add (labDataCaption [i]);
+                if (labDataCaption [i] == null)
+                {
+                    labDataCaption [i] = new Label ();
+                    labDataCaption [i].AutoSize = true;
+                }
 
+                labDataCaption [i].Name = "labData_" + i;
 
-                        //labDataCaption[i].Name = "labData_" + i;
-                        //Controls.Add (labDataCaption [i]);
-                        //labDataCaption [i].Click += linkLabelEMailTo_Click;
-				    	//labDataCaption[i].ContextMenuStrip = ctxMailOptions;
-				    	//labDataCaption[i].ImageList = imgList;
-				    	//labDataCaption[i].ImageIndex = 0;
-						//labDataCaption[i].TextAlign = ContentAlignment.MiddleRight; 
-						//labDataCaption[i].FlatStyle = FlatStyle.Flat;
-				  //  	labDataCaption[i].AutoEllipsis = true;
-						//labDataCaption[i].ImageAlign = ContentAlignment.MiddleLeft;
-						//labDataCaption[i].Height = 18;
-					}
-				}
-				//
-				//	#### Ende eMail Prüfung ####
-				//
-				
-				labDataCaption[i].Text = lData != null ? lData.ToArray()[i] : "Keine Daten gefunden";
-				
-				iMaxWidth = iMaxWidth > labDataCaption[i].PreferredWidth ? iMaxWidth : labDataCaption[i].PreferredWidth;
+                if(!CheckIsMailAdress (i, lData))
+                    CheckIsPhoneNumber(i, lData);
+
+                labDataCaption [i].Text = lData != null ? lData.ToArray () [i] : "Keine Daten gefunden";
+
+                iMaxWidth = iMaxWidth > labDataCaption [i].PreferredWidth ? iMaxWidth : labDataCaption [i].PreferredWidth;
             }
-			
-			iMaxWidth = iMaxWidth+15 > Width/2 ? Width/2 : iMaxWidth;
+
+            iMaxWidth = iMaxWidth+15 > Width/2 ? Width/2 : iMaxWidth;
 			
 			int c = 0;
 			//
@@ -415,22 +366,122 @@ namespace CSVSuchTool
 
             panDataPanel.Invalidate (true);
 		}
-		#endregion Funktionen
-		//	####
-		
-		//	####
-		#region Steuerlement Ereignisse
 
-		/// <summary>
-		/// Links- und Rechtclick auf ein eMaillabel
-		/// rechts, zeigt ein Kontextmenü mit vorgaben
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		void linkLabelEMailTo_Click(object sender, EventArgs e)
+        private bool CheckIsMailAdress (int i, List<string> lData)
+        {
+            //
+            //	####
+            //
+            //	Prüfen ob der Text eine gültige eMail Adresse enthält (inkl. Umlaute)
+            //
+            if (Regex.IsMatch (lData.ToArray () [i], @"^[a-zäöüßA-ZÄÖÜ0-9_-]{1,}[a-zA-Z0-9_\-\.]*[a-zäöüßA-ZÄÖÜ0-9_-]{1,}@[a-zäöüA-ZÄÖÜ0-9_\-\.]{2,}\.[a-zäöü]{2,4}$"))
+            {
+                string [] pattern = { "ä", "ö", "ü", "ß" };
+                string [] replace = { "ae", "oe", "ue", "ss" };
+
+                //	Hier werden die Umlaute ausgetauscht
+                if (Regex.IsMatch (lData.ToArray () [i], @"[äöüßÄÖÜ]{1,}"))
+                {
+                    for (int r = 0; r < 4; r++)
+                    {
+                        lData [i] = Regex.Replace (lData.ToArray () [i], pattern [r], replace [r]);
+                    }
+                }
+
+                if (!(labDataCaption [i] is LinkLabel))
+                {
+                    ////#####
+                    Controls.RemoveByKey ("labData_" + i);
+                    labDataCaption [i] = new LinkLabel ()
+                    {
+                        Name = "labData_" + i,
+                        ImageList = imgList,
+                        ImageIndex = 0,
+                        TextAlign = ContentAlignment.MiddleRight,
+                        FlatStyle = FlatStyle.Flat,
+                        AutoEllipsis = true,
+                        ImageAlign = ContentAlignment.MiddleLeft,
+                        Height = 18,
+                        ContextMenuStrip = ctxMailOptions
+                    };
+                    labDataCaption [i].Click += linkLabelEMailTo_Click;
+                    Controls.Add (labDataCaption [i]);
+                }
+                return true;
+            }
+            return false;
+            //
+            //	#### Ende eMail Prüfung ####
+            //
+        }
+
+        private void CheckIsPhoneNumber (int i, List<string> lData)
+        {
+            //
+            //	####
+            //
+            //	Prüfen ob der Text eine gültige eMail Adresse enthält (inkl. Umlaute)
+            //  1. Ersetze +49... mit 0
+            //  lData [i] = Regex.Replace (lData.ToArray () [i], "+49", "0");
+            //  lData [i] = Regex.Replace (lData.ToArray () [i], "[^\\d]", "");
+            //  2. Entferne alle Whitespaces
+            //  3. Entferne alle nicht nummerischen Zeichen
+            //
+            if (Regex.IsMatch (lData.ToArray () [i], @"^(\+[0-9]{2,3})"))
+            {
+                //string [] pattern = { "ä", "ö", "ü", "ß" };
+                //string [] replace = { "ae", "oe", "ue", "ss" };
+
+                ////	Hier werden die Umlaute ausgetauscht
+                //if (Regex.IsMatch (lData.ToArray () [i], @"[äöüßÄÖÜ]{1,}"))
+                //{
+                //    for (int r = 0; r < 4; r++)
+                //    {
+                //        lData [i] = Regex.Replace (lData.ToArray () [i], pattern [r], replace [r]);
+                //    }
+                //}
+
+                if (!(labDataCaption [i] is LinkLabel))
+                {
+                    ////#####
+                    Controls.RemoveByKey ("labData_" + i);
+                    labDataCaption [i] = new LinkLabel ()
+                    {
+                        Name = "labData_" + i,
+                        ImageList = imgList,
+                        ImageIndex = 1,
+                        TextAlign = ContentAlignment.MiddleRight,
+                        FlatStyle = FlatStyle.Flat,
+                        AutoEllipsis = true,
+                        ImageAlign = ContentAlignment.MiddleLeft,
+                        Height = 18,
+                        ContextMenuStrip = ctxPhoneOptions
+                    };
+                    labDataCaption [i].Click += linkLabelPhone_Click;
+                    Controls.Add (labDataCaption [i]);
+                }
+            }
+            //
+            //	#### Ende eMail Prüfung ####
+            //
+        }
+
+        #endregion Funktionen
+        //	####
+
+        //	####
+        #region Steuerlement Ereignisse
+
+        /// <summary>
+        /// Links- und Rechtclick auf ein eMaillabel
+        /// rechts, zeigt ein Kontextmenü mit vorgaben
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        void linkLabelEMailTo_Click (object sender, EventArgs e)
 		{
-			object tsmi;
-			object parent = null;
+            object tsmi;
+            object parent = null;
 			string recipient = "";
 			int iMailIndex = -1;
 			
@@ -479,18 +530,64 @@ namespace CSVSuchTool
 				}
 			}
 		}
-		
-		#endregion Steuerlement Ereignisse
-		//	####
-		
-		//	####
-		#region Datensatzanzeige steuern
-		/// <summary>
-		/// Zum ersten gefundenen Datensatz springen
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
-		void tsButtFirstSet_Click(object sender, EventArgs e)
+
+        /// <summary>
+        /// Links- und Rechtclick auf ein eMaillabel
+        /// rechts, zeigt ein Kontextmenü mit vorgaben
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void linkLabelPhone_Click (object sender, EventArgs e)
+        {
+            object tsmi;
+            object parent = null;
+            string phone = "";
+            int iMailIndex = -1;
+
+            if ((tsmi = sender as LinkLabel) != null)
+			{
+				parent = ((LinkLabel)sender);
+				phone = ((LinkLabel)parent).Text;
+                //iMailIndex = 0; 
+                Process.Start ($"callto:{phone}");
+            }
+
+            if ((tsmi = sender as ToolStripMenuItem) != null)
+            {
+                //Merken des Menüindex, um die Zuweisung zum Vorbelegen der EMail zu generieren
+                iMailIndex = Convert.ToInt32 (((ToolStripMenuItem) tsmi).Tag);
+
+                //Ermitteln des übergeordeten LinkLabel, um den Empfänger zu bekommen
+                parent = ((ToolStripMenuItem) tsmi).GetCurrentParent ();
+                parent = ((ContextMenuStrip) parent).SourceControl ?? parent;
+
+                phone = ((LinkLabel) parent).Text ?? string.Empty;
+
+                if (iMailIndex == 99)
+                {
+                    Clipboard.SetText (phone ?? string.Empty);
+                    return;
+                }
+                else if(iMailIndex >-1 && iMailIndex != 99)
+                {
+                    if(phone  != string.Empty)
+                        Process.Start ($"callto:{phone}");
+                }
+            }
+        }
+
+
+        #endregion Steuerlement Ereignisse
+        //	####
+
+        //	####
+        #region Datensatzanzeige steuern
+        /// <summary>
+        /// Zum ersten gefundenen Datensatz springen
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        void tsButtFirstSet_Click (object sender, EventArgs e)
 		{
 			displayResult(0);
 		}
@@ -621,8 +718,8 @@ namespace CSVSuchTool
 		{
 			Debug.WriteLine("Form aktiv", "ShowDataForm_Activated()");
 		}
-		
-		#endregion Toolstrip Funktionen und Events
-		//	####
-	}
+
+        #endregion Toolstrip Funktionen und Events
+        //	####
+    }
 }
