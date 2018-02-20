@@ -67,9 +67,11 @@ namespace CSVSuchTool
 					((ToolStripTextBox)tsi).Text = "Schnellsuche";
 					((ToolStripTextBox)tsi).KeyUp += menuTextBoxKeyUp;
 					((ToolStripTextBox)tsi).Enter += menuTextBoxEnter;
-					
-					//break;
-				} else if (Equals(tsi.GetType(), new ToolStripMenuItem().GetType())) {
+                    ((ToolStripTextBox) tsi).GotFocus += menuTextBoxEnter;
+                    //((ToolStripTextBox) tsi).CanSelect = true;
+                    ((ToolStripTextBox) tsi).HideSelection = false;
+                    //break;
+                } else if (Equals(tsi.GetType(), new ToolStripMenuItem().GetType())) {
 					//
 					//	Anzeigen des Hauptfensters im Menü hervorheben
 					//
@@ -262,6 +264,12 @@ namespace CSVSuchTool
 		
 		private void menuTextBoxEnter(object sender, EventArgs e)
 		{
+            ToolStripTextBox tbx; 
+            if (sender is ToolStripTextBox)
+            {
+                tbx = sender as ToolStripTextBox;
+                tbx.SelectAll ();
+            }
 		}
 		
 		private void menuTextBoxKeyUp(object sender, KeyEventArgs e)
@@ -324,9 +332,27 @@ namespace CSVSuchTool
 				{
 					((ToolStripMenuItem)mI[0]).Enabled = sdf.CanFocus;
 				}
-				//####
-			}
-		}
+                //####
+
+
+                //####
+                //#	Focus auf Suchfeld legen
+                //####
+                mI = null;
+                mI = cms.Items.Find ("Suche", true);
+                if (Equals (mI[0].GetType (), new ToolStripTextBox ().GetType ()))
+                    //if (mI [0] as ToolStripTextBox != null && sdf != null)
+                {
+                    //mI [0].Select ();
+                    ((ToolStripTextBox) mI [0]).AcceptsTab = true;
+                    ((ToolStripTextBox) mI [0]).Control.Focus ();//.TextBox.SelectAll ();//..Focus();
+                    //((ToolStripTextBox) mI [0]).TextBox.Focus();
+                    //this.ActiveControl = ((ToolStripTextBox) mI [0]).Control
+                    //((ToolStripTextBox)  mI [0]).Text = "";
+                }
+                //####
+            }
+        }
 		
 		private void menuShowChangelogClick(object sender, EventArgs e)
 		{
